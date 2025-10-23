@@ -1,0 +1,54 @@
+{
+  "root": {
+    "pet": [
+      {
+        "forever_half_pos": 0,
+        "forever_key": 0,
+        "is_extra": 1,
+        "judge_type": 1,
+        "limit_lv": 5,
+        "miditem_id": 1727477,
+        "mintmark_id": 40927,
+        "new_se": 2589,
+        "pet_id": 3365,
+        "price": 298,
+        "product_id": 261983,
+        "time_id": 1001,
+        "time_sub_id": 19,
+        "turn": 0
+      },
+      {
+        "forever_half_pos": 0,
+        "forever_key": 0,
+        "is_extra": 1,
+        "judge_type": 1,
+        "limit_lv": 5,
+        "miditem_id": 1727478,
+        "mintmark_id": 40939,
+        "new_se": 2599,
+        "pet_id": 3379,
+        "price": 198,
+        "product_id": 261984,
+        "time_id": 1001,
+        "time_sub_id": 19,
+        "turn": 0
+      },
+      {
+        "forever_half_pos": 0,
+        "forever_key": 0,
+        "is_extra": 1,
+        "judge_type": 1,
+        "limit_lv": 5,
+        "miditem_id": 1727479,
+        "mintmark_id": 41770,
+        "new_se": 5535,
+        "pet_id": 4009,
+        "price": 198,
+        "product_id": 261985,
+        "time_id": 1001,
+        "time_sub_id": 19,
+        "turn": 0
+      }
+    ]
+  }
+}
