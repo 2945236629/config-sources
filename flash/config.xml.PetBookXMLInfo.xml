@@ -213,11 +213,11 @@ Desc:    刻印信息  tips的获得途径文字
 
 <Hotspot><!-- 本周热点 -->
 <item intro="全新精灵上线，快来看看吧！">
-      <place type= "0" ID="4822" ImageID= "4822" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
-	  <place type= "0" ID="4823" ImageID= "4823" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
-	  <place type= "0" ID="4824" ImageID= "4824" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
-	  <!-- <place type= "0" ID="4809" ImageID= "4809" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
-	  <!-- <place type= "0" ID="4803" ImageID= "4803" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
+      <place type= "0" ID="4825" ImageID= "4825" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
+	  <place type= "0" ID="4826" ImageID= "4826" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
+	  <place type= "0" ID="4827" ImageID= "4827" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
+	  <place type= "0" ID="4828" ImageID= "4828" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
+	  <place type= "0" ID="4829" ImageID= "4829" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
 	  <!-- <place type= "0" ID="4806" ImageID= "4806" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
 	  <!-- <place type= "0" ID="4804" ImageID= "4804" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
 	  <!-- <place type= "0" ID="4805" ImageID= "4805" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
@@ -256,10 +256,10 @@ Desc:    刻印信息  tips的获得途径文字
 
 
 
-      <place type= "1" ID="743" monID="3697" ImageID= "1400743" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
-      <place type= "1" ID="763" monID="4823" ImageID= "1400763" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
-	  <place type= "1" ID="764" monID="3524" ImageID= "1400764" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
-	  <place type= "1" ID="765" monID="4454" ImageID= "1400765" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
+      <place type= "1" ID="766" monID="4825" ImageID= "1400766" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
+      <place type= "1" ID="767" monID="4828" ImageID= "1400767" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
+	  <place type= "1" ID="768" monID="4829" ImageID= "1400768" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
+	  <place type= "1" ID="769" monID="4822" ImageID= "1400769" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
       <!-- <place type= "1" ID="749" monID="4805" ImageID= "1400749" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/> -->
 	  <!-- <place type= "1" ID="750" monID="4069" ImageID= "1400750" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/> -->
 	  <!-- <place type= "1" ID="747" monID="4676" ImageID= "1400747" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/> -->
@@ -5123,8 +5123,10 @@ Desc:    刻印信息  tips的获得途径文字
 	<Monster ID="4822" DefName="星光·里奥斯" Type="火" Height="237" Weight="98" Features="火炎巨鹿·里奥斯的星光进化形态。面临危机时，里奥斯心中的意志与星球深处的能量产生共鸣，这位火山星的守护者再度迎来了新生。" Redirect="module" Go="app/FinalActivityPanel" Target="153201/326"/>
 	<Monster ID="4823" DefName="雪璞" Type="自然 冰" Height="162" Weight="47" Features="巅峰S8赛季【曜日】开启！日光将融化一切风雪，赤日凌空，希望永存！" Redirect="module" Go="app/FinalActivityPanel" Target="200000"/>
 	<Monster ID="4824" DefName="茸炘兔" Type="火 超能" Height="43" Weight="21" Features="茸炘兔常年生活在火山星地核区域。在毛茸茸的可爱外表下，有着极为成熟稳重的性格。" Redirect="module" Go="app/FinalActivityPanel" Target="400014"/>
-
-
-
+	<Monster ID="4825" DefName="卡布达" Type="电 战斗" Height="153" Weight="78" Features="卡布达是B系列最初制作的1号机器人，性格热血充满正义，而“卡布”是他的口头禅。" Redirect="module" Go="app/FinalActivityPanel" Target="113055"/>
+	<Monster ID="4826" DefName="鲨鱼辣椒" Type="神秘 战斗" Height="183" Weight="72" Features="鲨鱼辣椒是B系列中的9号机，他拥有强大的破坏力，性格狂妄自大、做事也不择手段。" Redirect="module" Go="app/FinalActivityPanel" Target="113055"/>
+	<Monster ID="4827" DefName="蜘蛛侦探" Type="地面 超能" Height="162" Weight="68" Features="蜘蛛侦探是B系列中的5号机，他非常喜欢金钱与财富，但真有了一大笔钱时，却会变得胆战心惊。" Redirect="module" Go="app/FinalActivityPanel" Target="113053"/>
+	<Monster ID="4828" DefName="蜻蜓队长" Type="电 次元" Height="未知" Weight="未知" Features="在“和平星争夺战”中出现的神秘裁判机器人，总是自说自话的开始主持各种比赛。" Redirect="module" Go="app/FinalActivityPanel" Target="113057"/>
+	<Monster ID="4829" DefName="卡布达超级形态" Type="电 战斗" Height="222" Weight="78" Features="开启了超级变换形态的卡布达，实力强大，十分的神气威武。友情是卡布达强大的力量来源。" Redirect="module" Go="app/FinalActivityPanel" Target="113054"/>
 
 </root>

@@ -3696,6 +3696,13 @@
     <MintMark ID="42593" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="5 2 0 2 4 9" MaxAttriValue="56 27 0 27 40 90" MonsterID="4800" Level="100" Max="99" Des="无极圣武专属全能刻印" EffectDes="攻击5/56,防御2/27,特防2/27,速度4/40,体力9/90"/>
 	<MintMark ID="42594" Type="3" Rare="2" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 4 2 3 8" MaxAttriValue="0 25 45 25 30 85" Level="100" Max="99" Des="星火烛燎" EffectDes="防御2/25,特攻4/45,特防2/25,速度3/30,体力8/85" MintmarkClass="61"/>
 
+    <!--42595-42602和平星预留-->
+    <MintMark ID="42603" Type="3" Rare="2" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 3 0 3 2 11" MaxAttriValue="40 30 0 30 25 115" Level="100" Max="99" Des="和平星-天蝎座β" EffectDes="攻击4/40,防御3/30,特防3/30,速度2/25,体力11/115" MintmarkClass="91"/>
+    <!--42604-42607和平星预留-->
+	<MintMark ID="42608" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="5 3 0 3 3 9" MaxAttriValue="50 30 0 30 30 90" MonsterID="4829" Level="100" Max="99" Des="卡布达超级形态专属全能刻印" EffectDes="攻击5/50,防御3/30,特防3/30,速度3/30,体力9/90"/>
+	
+
+
 
 	<!--刻印铸造碎片-->
 	<MintMark ID="50001" Type="4" SalePrice="10000" Quality="0" MintmarkLevel="0" BaseHoleNum="0" BaseAttriValue="0 0 0 0 0 0" MaxAttriValue="0 0 0 0 0 0" Level="100" MonsterID="" Max="99" Des="小碎片"/>
@@ -3797,6 +3804,7 @@
 	<MintmarkClass ID="88" ClassName="露希欧珍藏系列" />
 	<MintmarkClass ID="89" ClassName="露希欧之梦系列" />
 	<MintmarkClass ID="90" ClassName="自在由心系列" />
+	<MintmarkClass ID="91" ClassName="和平星系列" />
 
 
 

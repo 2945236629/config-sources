@@ -13,4 +13,7 @@
 	<item id="108" title="每周任务" describe="累计完成50次战斗" tasktype="108" value="50" time="2" timelimit="0" timestart="0" timeend="0" init="1" rewardinfo="0" userinfo="20628" exp="800" stat="2401050780" />
 	<item id="1001" title="每期任务" describe="通关4次星际迷航" tasktype="1001" value="4" time="4" time2="2025/10/17/0" timelimit="0" timestart="0" timeend="0" init="1" rewardinfo="0" userinfo="124541" exp="3000" stat="2401050781" />
 	<item id="1002" title="每期任务" describe="累计击败100只精灵" tasktype="1002" value="100" time="4" time2="2025/10/17/0" timelimit="0" timestart="0" timeend="0" init="1" rewardinfo="0" userinfo="124542" exp="3000" stat="2401050782" />
+	<item id="10001" title="每期任务" describe="在和平星斗技场寻绘星路中激活任意天赋1次" tasktype="10001" value="1" time="4" time2="2026/1/16/0" timelimit="1" timestart="1761271200" timeend="1763690400" init="1" rewardinfo="0" userinfo="124571" exp="2000" stat="0" />
+	<item id="10002" title="每期任务" describe="在和平星斗技场中击败1次BOSS" tasktype="10002" value="1" time="4" time2="2026/1/16/0" timelimit="1" timestart="1761271200" timeend="1763690400" init="1" rewardinfo="0" userinfo="124572" exp="3000" stat="0" />
+	<item id="10003" title="每期任务" describe="获得精灵蜘蛛侦探" tasktype="10003" value="1" time="4" time2="2026/1/16/0" timelimit="1" timestart="1761271200" timeend="1763690400" init="1" rewardinfo="0" userinfo="124573" exp="1500" stat="0" />
 </root>

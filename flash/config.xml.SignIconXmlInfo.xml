@@ -172,6 +172,7 @@ sort标记展示序列 1为自己给自己的效果 2为队友给自己的效果
 	<item id="135" dec="威怯" tips="威怯" className="*" sort="5" isShowNum="1" NumDes="剩余回合" Des="自身造成的非真实伤害额外减少60%"/>
 	<item id="136" dec="武诛" tips="武诛" className="*" sort="5" isShowNum="1" NumDes="剩余回合" Des="对手为无极圣武时所有技能先制-2；自身体力高于1/2时受到的攻击伤害额外提升50%，低于1/2时造成的攻击伤害额外减少50%"/>
 	<item id="137" dec="英雄之诫" tips="英雄之诫" className="*" sort="5" isShowNum="0" NumDes="" Des="所有能力值提升65点；自身专属特性中概率高于50%的效果概率提升至100%，不高于50%的效果减少至0%；自身概率最高的异常抗性必定触发"/>
+	<item id="138" dec="和平对抗" tips="和平对抗" className="*" sort="5" isShowNum="1" NumDes="剩余回合" Des="己方在场精灵免疫受到的异常状态，免疫成功时回合数-1，最多减少至1"/>
 
 
 

@@ -2548,6 +2548,22 @@ Year：该皮肤所属的年份（当前仅面向巅峰时装）
 		<SkinKind ID="1" Type="2" LifeTime="0"/>
 	</Skin>	
 
+    <Skin ID="766" MonID="4829" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs=""  Name="卡布达" Go="app/FinalActivityPanel" GoType="module">
+		<SkinKind ID="1" Type="2" LifeTime="0"/>
+	</Skin>	
+
+    <Skin ID="767" MonID="4828" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="归来·蜻蜓队长" Go="app/FinalActivityPanel" GoType="module">
+		<SkinKind ID="1" Type="2" LifeTime="0"/>
+	</Skin>	
+
+    <Skin ID="768" MonID="4829" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="18" Name="卡布达巨人" Go="app/FinalActivityPanel" GoType="module">
+		<SkinKind ID="1" Type="2" LifeTime="0"/>
+	</Skin>	
+
+    <Skin ID="769" MonID="4822" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs=""  Name="里奥斯" Go="app/FinalActivityPanel" GoType="module">
+		<SkinKind ID="1" Type="2" LifeTime="0"/>
+	</Skin>	
+
 
 
 </PetSkins>
