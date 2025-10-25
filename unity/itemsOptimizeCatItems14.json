@@ -4,6 +4,18 @@
       {
         "bean": 0,
         "hide": 1,
+        "id": 1400161,
+        "max": 9999,
+        "name": "星之能量",
+        "rarity": 1,
+        "sort": 31,
+        "cat_id": 14,
+        "purpose": 0,
+        "wd": 1
+      },
+      {
+        "bean": 0,
+        "hide": 1,
         "id": 1400160,
         "max": 999,
         "name": "幻境积分",

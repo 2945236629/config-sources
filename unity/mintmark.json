@@ -120568,6 +120568,76 @@
         "type": 3
       },
       {
+        "des": "和平星-天蝎座β",
+        "effect_des": "攻击4/40,防御3/30,特防3/30,速度2/25,体力11/115",
+        "arg": [],
+        "base_attri_value": [
+          4,
+          3,
+          0,
+          3,
+          2,
+          11
+        ],
+        "extra_attri_value": [],
+        "max_attri_value": [
+          40,
+          30,
+          0,
+          30,
+          25,
+          115
+        ],
+        "monster_id": [],
+        "move_id": [],
+        "grade": 5,
+        "id": 42603,
+        "level": 100,
+        "max": 99,
+        "mintmark_class": 91,
+        "quality": 5,
+        "rare": 2,
+        "rarity": 0,
+        "total_consume": 0,
+        "type": 3
+      },
+      {
+        "des": "卡布达超级形态专属全能刻印",
+        "effect_des": "攻击5/50,防御3/30,特防3/30,速度3/30,体力9/90",
+        "arg": [],
+        "base_attri_value": [
+          5,
+          3,
+          0,
+          3,
+          3,
+          9
+        ],
+        "extra_attri_value": [],
+        "max_attri_value": [
+          50,
+          30,
+          0,
+          30,
+          30,
+          90
+        ],
+        "monster_id": [
+          4829
+        ],
+        "move_id": [],
+        "grade": 5,
+        "id": 42608,
+        "level": 100,
+        "max": 99,
+        "mintmark_class": 0,
+        "quality": 5,
+        "rare": 1,
+        "rarity": 0,
+        "total_consume": 0,
+        "type": 3
+      },
+      {
         "des": "小碎片",
         "effect_des": "",
         "arg": [],
@@ -121030,6 +121100,10 @@
       {
         "class_name": "自在由心系列",
         "id": 90
+      },
+      {
+        "class_name": "和平星系列",
+        "id": 91
       }
     ]
   }

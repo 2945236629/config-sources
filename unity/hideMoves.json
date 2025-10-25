@@ -12650,6 +12650,36 @@
         "pet_id": 4823
       },
       {
+        "move_id": 38122,
+        "move_name1": "高能",
+        "move_name2": "电击棒",
+        "pet_id": 4825
+      },
+      {
+        "move_id": 38125,
+        "move_name1": "鲨鱼",
+        "move_name2": "斩舰刀",
+        "pet_id": 4826
+      },
+      {
+        "move_id": 38128,
+        "move_name1": "投掷",
+        "move_name2": "爪锚",
+        "pet_id": 4827
+      },
+      {
+        "move_id": 38131,
+        "move_name1": "绝不",
+        "move_name2": "意气用事",
+        "pet_id": 4828
+      },
+      {
+        "move_id": 38134,
+        "move_name1": "超压",
+        "move_name2": "雷击剑",
+        "pet_id": 4829
+      },
+      {
         "move_id": 31143,
         "move_name1": "神灵",
         "move_name2": "救世光",

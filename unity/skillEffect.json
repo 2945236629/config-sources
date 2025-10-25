@@ -32054,6 +32054,21 @@
       "tagBboss": 1,
       "tagC": "",
       "tagCboss": 1
+    },
+    {
+      "Bosseffective": 1,
+      "argsNum": 0,
+      "formattingAdjustment": "击败对手时：\r\n-->恢复自身全部体力\r\n-->己方和平对抗的回合数+1，己方每有1个B-ROBO对抗回合数+1",
+      "id": 2357,
+      "ifTextItalic": "击败对手时",
+      "info": "击败对手时，恢复自身全部体力且己方和平对抗的回合数+1，己方每有1个B-ROBO对抗回合数+1",
+      "isif": 1,
+      "tagA": "恢复",
+      "tagAboss": 1,
+      "tagB": "",
+      "tagBboss": 1,
+      "tagC": "",
+      "tagCboss": 1
     }
   ]
 }
