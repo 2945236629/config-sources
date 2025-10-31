@@ -13056,6 +13056,40 @@
         "id": 769,
         "mon_id": 4822,
         "type": 0
+      },
+      {
+        "go": "app/FinalActivityPanel",
+        "go_type": "module",
+        "name": "鲨鱼辣椒",
+        "skin_kind": [
+          {
+            "id": 1,
+            "life_time": 0,
+            "skin_type": 0,
+            "type": 2,
+            "year": 0
+          }
+        ],
+        "id": 770,
+        "mon_id": 4830,
+        "type": 0
+      },
+      {
+        "go": "app/FinalActivityPanel",
+        "go_type": "module",
+        "name": "鲨鱼巨人",
+        "skin_kind": [
+          {
+            "id": 1,
+            "life_time": 0,
+            "skin_type": 0,
+            "type": 2,
+            "year": 0
+          }
+        ],
+        "id": 771,
+        "mon_id": 4830,
+        "type": 18
       }
     ]
   }

@@ -4,6 +4,18 @@
       {
         "bean": 0,
         "hide": 0,
+        "id": 700841,
+        "max": 1,
+        "name": "飞翔机器人",
+        "sort": 19,
+        "cat_id": 7,
+        "hide_num": 0,
+        "purpose": 0,
+        "wd": 1
+      },
+      {
+        "bean": 0,
+        "hide": 0,
         "id": 700840,
         "max": 1,
         "name": "黄金契约",
