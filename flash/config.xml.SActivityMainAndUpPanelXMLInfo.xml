@@ -14,10 +14,10 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		PanelTips：主面板的动态加载文字
 		PanelStyle：面板的类型
 		SkillPanelName:技能跳转面板
-==========================================================================================================================		
+==========================================================================================================================
 	<Power> 为能力提升
 	    <Cehua> 由策划配 ， <Houtai> 由后台配!!!!!!!!
-//////////////////////////////////////////////////////////////////////////////////////////////////////		
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 		MonsterID：精灵ID
 		MintmarkID：刻印ID
 		SkillID：第五技能ID
@@ -42,7 +42,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		BossEndID：困难级bossID号（实际上用不到这个字段，给下一期的填写对照看）
 		TimesValue：能力提升boss已挑战次数，daily值，后台提供号段
 		StatLog：能力提升统计项【偏移量：1-3开始挑战，4-6战胜，7-9兑换三件套，10免费领取】
-==========================================================================================================================		
+==========================================================================================================================
 	<Tasks> 为关卡
 		Style：1线性，2平行，3道具/进度值
 		TaskValue：后台关卡记录值【style字段分别对应为：线性值，平行标记，道具/进度值】
@@ -66,8 +66,8 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 	<Mould> 为关卡模板
 		每个模板具体含义，请查询后台设计文档，这里不做描述
 	<NotPassMould>代表不参与通关的关卡
-//////////////////////////////////////////////////////////////////////////////////////////////////////		
-==========================================================================================================================		
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+==========================================================================================================================
 -->
 <Root>
 	<Drop Desc="能力提升通用掉落数量和概率">
@@ -80,11 +80,11 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		<Mould ID="1" ItemsCnt="0" MidItemsCnt="5" ArgsCnt="6" ForeverCnt="1" DailyCnt="1" BitBufCnt="0" Daily_BitBufCnt="0" GlobalCnt="0" PlayerInfoCnt="0" Desc=""/>
 		<Mould ID="2" ItemsCnt="1" MidItemsCnt="2" ArgsCnt="15" ForeverCnt="1" DailyCnt="1" BitBufCnt="0" Daily_BitBufCnt="0" GlobalCnt="0" PlayerInfoCnt="0" Desc=""/>
 	</PowerMouldType>
-	
+
 	<NotPassMouldType Desc="非通关模板参数数量定义">
 		<Mould ID="1" ItemsCnt="1" MidItemsCnt="2" ArgsCnt="3" ForeverCnt="1" DailyCnt="1" BitBufCnt="0" Daily_BitBufCnt="0" GlobalCnt="0" PlayerInfoCnt="0" Desc=""/>
 	</NotPassMouldType>
-	
+
 	<MouldType Desc="通关模板参数数量定义">
 		<Mould ID="1" ItemsCnt="0" MidItemsCnt="3" ArgsCnt="12" ForeverCnt="1" DailyCnt="1" BitBufCnt="0" Daily_BitBufCnt="0" GlobalCnt="0" PlayerInfoCnt="0" Desc=""/>
 		<Mould ID="2" ItemsCnt="0" MidItemsCnt="6" ArgsCnt="14" ForeverCnt="4" DailyCnt="2" BitBufCnt="0" Daily_BitBufCnt="0" GlobalCnt="0" PlayerInfoCnt="0" Desc="">
@@ -116,7 +116,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 				<Route ID="4" Value="2 4 8 13 17"/>
 				<Route ID="5" Value="2 5 8 14"/>
 				<Route ID="6" Value="3 7 8 12"/>
-				<Route ID="7" Value="3 4 8 15 16"/>				
+				<Route ID="7" Value="3 4 8 15 16"/>
 			</Routes>
 
 			<Routes ID="4">
@@ -126,7 +126,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 				<Route ID="4" Value="2 4 8 13 17"/>
 				<Route ID="5" Value="2 5 10 14"/>
 				<Route ID="6" Value="3 7 8 12"/>
-				<Route ID="7" Value="3 5 11 15 16"/>				
+				<Route ID="7" Value="3 5 11 15 16"/>
 			</Routes>
 
 
@@ -157,11 +157,11 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			<Iteminfo ID="3" BigTotal="1" SmallTotal="2" Count="3 8 10" Prob="30 45 20"/>
 			<Iteminfo ID="4" BigTotal="1" SmallTotal="2" Count="1 2 3" Prob="5 40 30" Desc="Big+Small" />
 			<Iteminfo ID="5" BigTotal="1" SmallTotal="2" Count="1 2 3" Prob="5 35 35"/>
-			<Iteminfo ID="6" BigTotal="1" SmallTotal="2" Count="2 3 3" Prob="5 45 20"/>	
+			<Iteminfo ID="6" BigTotal="1" SmallTotal="2" Count="2 3 3" Prob="5 45 20"/>
 
 			<Iteminfo ID="7" BigTotal="1" SmallTotal="2" Count="10 15 25" Prob="5 40 30" Desc="Big+Small" />
 			<Iteminfo ID="8" BigTotal="1" SmallTotal="2" Count="10 15 25" Prob="5 35 35"/>
-			<Iteminfo ID="9" BigTotal="1" SmallTotal="2" Count="10 15 25" Prob="5 45 20"/>	
+			<Iteminfo ID="9" BigTotal="1" SmallTotal="2" Count="10 15 25" Prob="5 45 20"/>
 
 
 
@@ -245,11 +245,11 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			<Mould>
 				<Cehua TaskId="3" MouldId="0" Args="YuZuiSorceressS3Panel "/>
 			</Mould>
-			<!-- 
+			<!--
 			<Mould>
 				<Qianduan BossPosX="0" BossPosY="0" BossScaleX="1" BossScaleY="1"/>
 				<Cehua TaskId="3" MouldId="2" MidItems="1720841 1720842 1720843 1720849 1720849 1720854" Args="15 3 1 50 15 1 3 3 3 5 6 9 10 6"
-				ChallengeTips="旷日持久的重生之路，必须要有充沛的体力。\n与余罪魔女战斗坚持超过10回合（无论胜败），重生之路即可前进！ 重生需要强大的力量进行支撑。\n与余罪魔女战斗中暴击不少于6次，重生之路即可前进！ 重生需要尽快完成。\n与余罪魔女战斗中每回合都先手，才能尽快完成重生！ 重生之后需要有充足的体力应对各方面的挑战。" 
+				ChallengeTips="旷日持久的重生之路，必须要有充沛的体力。\n与余罪魔女战斗坚持超过10回合（无论胜败），重生之路即可前进！ 重生需要强大的力量进行支撑。\n与余罪魔女战斗中暴击不少于6次，重生之路即可前进！ 重生需要尽快完成。\n与余罪魔女战斗中每回合都先手，才能尽快完成重生！ 重生之后需要有充足的体力应对各方面的挑战。"
 				PanelTips="重生必然要经过重重险阻。\n选择正确的道路走至终点列战胜余罪魔女即可通过此关卡。" BossId = "3866 3879 3860 3847 3823 3816 3815 3809 3945 3938 3924 3894 3883 3880 3865 3847 3825 3949"
 				/>
 				<Houtai Forever="106790 106791 106792 106793" Daily="14881 14881" BossStartID="60001" BossEndID="60022" BossStyle="0" StatLog="" />
@@ -377,14 +377,14 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		</Cover>
 		<Tasks Style="3" MonCount="1" TaskCount="1" Need="" TaskValue="106862">
 			<NotPassMould>
-				<Cehua TaskExId="1" MouldId="1" Items="1720993" MidItems="1721012 1720994" Args="10 4 10" 
+				<Cehua TaskExId="1" MouldId="1" Items="1720993" MidItems="1721012 1720994" Args="10 4 10"
 				BossId="3961 3962" BossPosX="0 0" BossPosY="0 0" BossScaleX="1 1" BossScaleY="1 1"
 				PanelTips="战胜2只精灵，随机获得$-$个$" />
 				<Houtai Forever="106863" Daily="14899" BossStartID="111001" BossEndID="111002" BossStyle="0" StatLog="1911290300"/>
 				<Qianduan Args="45763 3"/>
 			</NotPassMould>
 			<Mould>
-				<Cehua TaskId="1" MouldId="9" MidItems="1720994 1720996 1720998 1721000 1721002 1721004 1720984 1720986 1720988 1720990 1720992 
+				<Cehua TaskId="1" MouldId="9" MidItems="1720994 1720996 1720998 1721000 1721002 1721004 1720984 1720986 1720988 1720990 1720992
 				1721005 1721006 1721007 1721008 1721009" Items="1720993 1720995 1720997 1720999 1721001 1721003 1720983 1720985 1720987 1720989 1720991" Args="1 100 0 0 0 0 30 70 0 0 0 30 0 70 0 0 0 50 0 50 0 0 0 0 40 60 0 34 33 33 0 0 28 26 26 20 0 28 26 26 0 20 18 16 16 25 25 0 0 0 50 50 4 5 1 50 50 0 0 0 28 28 44 0 0 30 30 30 6 4 16 16 16 32 20 13 13 13 36 25 7 7 4 3 2 75 1000 5" BossId="3940 3950 3949 3910 3941 3876 3875 3860" PanelTips="依次通过以下2个关卡集齐一套道具即可获得新精灵。每次挑战均需要消耗1个通行证。" ChallengeTips="探险路上需要准备一个导航道具，不然会迷路哦！\n战胜1个精灵即可获得1个导航道具，从左到右精灵挑战难度依次上升。 不同的导航道具，会指引你前往不同的场景探索。 战胜下方三个精灵，即可随机获得1个通关道具。"/>
 				<Houtai Forever="106864 106865 106866 106867" BossStartID="113001" BossEndID="113020" BossStyle="0" StatLog="1911290304"/>
 				<Qianduan BossPosX="0 0 0 0 0 0 0 0" BossPosY="0 0 0 0 0 0 0 0" Args="行囊准备 未知探险 1 45763 3"/>
@@ -529,7 +529,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			<Houtai GainValue="106916" NewSeID="5518" TimesValue="14921" BossStartID="50036" BossREndID="50038" StatLog="2001030129"/>
 		</Power>
 	</Design>
-	
+
 	<Design ID="14" TimeFlag="2190" Desc="20200110 欧维帕德">
 		<Cover>
 			<Cehua ZhizunItemID="1721138" Args="1" PetInfoPosX="-380" PetInfoPosY="-30" PanelTips="通行证是获得新精灵的必备道具"/>
@@ -537,7 +537,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		</Cover>
 		<Tasks Style="3" MonCount="1" TaskCount="1" Need="" TaskValue="106925">
 			<NotPassMould>
-				<Cehua TaskExId="1" MouldId="1" Items="1721149" MidItems="1721168 1721150" Args="10 4 10" BossId="3987 3983" 
+				<Cehua TaskExId="1" MouldId="1" Items="1721149" MidItems="1721168 1721150" Args="10 4 10" BossId="3987 3983"
 				BossPosX="0 0" BossPosY="0 0" BossScaleX="1 1" BossScaleY="1 1"
 				PanelTips="战胜2只精灵，随机获得$-$个$" />
 				<Houtai Forever="106926" Daily="14922" BossStartID="111003" BossEndID="111004" BossStyle="0" StatLog="2001100200"/>
@@ -554,7 +554,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			<Houtai GainValue="106924" NewSeID="5522" TimesValue="14923" BossStartID="50039" BossEndID="50041" StatLog="2001100247"/>
 		</Power>
 	</Design>
-	
+
 	<Design ID="15" TimeFlag="" Desc="20200117 电王暴乱形态">
 		<Cover>
 			<Cehua ZhizunItemID="1721191" TaskNames="雷电之祖 天降雷鸣 永耀雷霆 王之属地" PetInfoPosX="-280" PetInfoPosY="-55"/>
@@ -617,16 +617,16 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			<Houtai GainValue="103525" NewSeID="5531" TimesValue="11379" BossStartID="50045" BossEndID="50047" StatLog="2001310248"/>
 		</Power>
 	</Design>
-	
+
 	<Design ID="18" TimeFlag="" Desc="20200214 S18蜜雪儿超进化">
 		<Cover>
-			<Cehua ZhizunItemID="1721340" OriginMonsterID="3920" OriginPanelName="MiXueErMainPanel" MainPosX="-250" MainPosY="-120" 
+			<Cehua ZhizunItemID="1721340" OriginMonsterID="3920" OriginPanelName="MiXueErMainPanel" MainPosX="-250" MainPosY="-120"
 			Args="1" PetInfoPosX="-380" PetInfoPosY="-30" PanelTips="通行证是获得新精灵的必备道具"/>
 			<Houtai SuperEvolveID="869"/>
 		</Cover>
 		<Tasks Style="3" MonCount="1" TaskCount="1" Need="" TaskValue="103540">
 			<NotPassMould>
-				<Cehua TaskExId="1" MouldId="1" Items="1721351" MidItems="1721365 1721352" Args="10 4 10" BossId="3986 3983" 
+				<Cehua TaskExId="1" MouldId="1" Items="1721351" MidItems="1721365 1721352" Args="10 4 10" BossId="3986 3983"
 				BossPosX="0 0" BossPosY="0 0" BossScaleX="1 1" BossScaleY="1 1"
 				PanelTips="战胜2只精灵，随机获得$-$个$" />
 				<Houtai Forever="103541" Daily="11381" BossStartID="111005" BossEndID="111006" BossStyle="0" StatLog="2002140200"/>
@@ -651,21 +651,21 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		</Cover>
 		<Tasks Style="1" MonCount="1" TaskCount="3" Need="" TaskValue="103559">
 			<Mould>
-				<Cehua TaskId="1" MouldId="15" MidItems="1721401 1721419 1721402 1721403 1721404 1721405" Args="4 0" BossIsBitmap="0" 
+				<Cehua TaskId="1" MouldId="15" MidItems="1721401 1721419 1721402 1721403 1721404 1721405" Args="4 0" BossIsBitmap="0"
 				BossId="4014" PanelTips="击败云华4次即可通过此关卡！每次击败都会使得云华的能力得到提高！"/>
 				<Houtai Forever="103560" Daily="11385" BossStartID="149001" BossEndID="149004" BossStyle="0" StatLog="2002210300"/>
 				<Qianduan BossPosX="0" BossPosY="0" BossPosScaleX="2" BossPosScaleY="2" />
 			</Mould>
 			<Mould>
-				<Cehua TaskId="2" MouldId="16" MidItems="1721406 1721419 1721419 1721407 1721408" Args="6 6 50 1 2 3" 
-				BossId="4007 4005 4003 3884 3902 3926 3927 3935 3953 3961 3962 3809 3757 3792 3907 3924 3940 3945 3960 3979 3986 3718 3672 4014" 
+				<Cehua TaskId="2" MouldId="16" MidItems="1721406 1721419 1721419 1721407 1721408" Args="6 6 50 1 2 3"
+				BossId="4007 4005 4003 3884 3902 3926 3927 3935 3953 3961 3962 3809 3757 3792 3907 3924 3940 3945 3960 3979 3986 3718 3672 4014"
 				PanelTips="云华变换成了不同精灵的样子。三轮都找到真云华，即可通过此关卡！" ChallengeTips="战胜左侧精灵，即可获得云华的位置信息。" />
 				<Houtai Forever="103561 103562" Daily="11386 11386" PlayerInfo="1025" BossStartID="153001" BossEndID="153024" BossStyle="0" StatLog="2002210308"/>
 				<Qianduan BossPosX="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" BossPosY="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
 			</Mould>
 			<Mould>
 				<Cehua TaskId="3" MouldId="17" Items="1721410" MidItems="1721409 1721414 1721413 1721412 1721411" Args="3 60 0 120 8 10 50 25 50 50"
-				BossId="3991 3990 3906 3904 4001 3999 4002 4004 4014" 
+				BossId="3991 3990 3906 3904 4001 3999 4002 4004 4014"
 				PanelTips="云华误入了迷途空间，穿越空间找到云华并击败她即可通过关卡。\n迷途空间共分为6层，初始时，赛尔处于第一层，云华处于第六层。\n（第1层1张地图，第2层2张地图，第3层8张地图，第4层8张地图，第5、6层16张地图）"
 				ChallengeTips="此图是我开，此洞是我钻，要想钻此洞，留下买洞财" />
 				<Houtai Forever="103563 103564 103565 103566 103567 103568 103569 103570 103571 103572 103573 103574 103575 103576 103577 103578 103579 103580 103581 103582 103583 103584 103585 103586 103587 103588 103589 103590 103591 103592 103593 103594 103595 103596 103597 103598 103599 103600 103601 103602 103603" Daily="11387" BossStartID="177001" BossEndID="177009" BossStyle="0" StatLog="2002210363"/>
@@ -673,7 +673,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			</Mould>
 		</Tasks>
 		<Power>
-			<Cehua PowerID="1" MonsterID="4014" MintmarkID="41773" NewSeIconId="1243" UpPosX="0" UpPosY="0" UpScaleX="1" UpScaleY="1" 
+			<Cehua PowerID="1" MonsterID="4014" MintmarkID="41773" NewSeIconId="1243" UpPosX="0" UpPosY="0" UpScaleX="1" UpScaleY="1"
 			Args ="15 13 80 80 80 60" MidItems="1721419 1721415 1721416 1721417 1721418" PanelTips="每战胜1次精灵，即可获得1次翻牌机会。翻出紫色专属刻印时，可领取专属刻印；翻出黄色第五技能时，可领取第五技能；翻出蓝色专属特性时，可领取专属特性；翻出天降好运时，可领取全部三件套。" CardStyle="1 1 1 1 1" />
 			<Houtai GainValue="103558" NewSeID="5538" Forever="103604" Daily="11388" BossStartID="147001" BossEndID="147001" StatLog="2002210389"/>
 		</Power>
@@ -693,10 +693,10 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			<Mould>
 				<Cehua TaskId="2" MouldId="7" MidItems="1721450 1721448 1721447 1721461" Args="10 3" BossId="4007 4004 4003 4005 4001" PanelTips="选择一个挑战模式战胜精灵走至终点即可通关。\n稳定模式每只精灵需要战胜三次，中途失败不重置。\n快速模式每只精灵只需要战胜1次，但挑战失败关卡重置。"/>
 				<Houtai Forever="103608" Daily="11390" BossStartID="96021" BossEndID="96030" BossStyle="0" StatLog="2002280207"/>
-			</Mould>   
+			</Mould>
 			<Mould>
 				<Qianduan BossPosX="0 0 0 50 40 0 70 0 0" BossPosY="0 -30 0 0 0 -20 0 -20 0"/>
-				<Cehua TaskId="3" MouldId="13" Items="1721453" MidItems="1721461 1721451 1721452 1721458 1721455 1721456 1721457 1721454" Args="25 15 25 35 50 80 100 7 7 8 15 10 20 2 3 7 10 260 280" 
+				<Cehua TaskId="3" MouldId="13" Items="1721453" MidItems="1721461 1721451 1721452 1721458 1721455 1721456 1721457 1721454" Args="25 15 25 35 50 80 100 7 7 8 15 10 20 2 3 7 10 260 280"
 				PanelTips="走至终点，用280个金币兑换辰星之石，即可通关领取新精灵。" ChallengeTips="辰星之石可以帮助圣辰之铠强化自己的能量，标注辰星之石的藏宝图随机掉落在场景里，先找出藏宝图吧！" BossId="4005 3992 3989 3971 3970 3958 3965 3963 3912"
 				BossIsBitmap="1 1 1 1 1 1 1 1 1" />
 				<Houtai Forever="103609 103610 103611 103612 103613 103614 103615 103616" Daily="11391" BossStartID="135010" BossEndID="135018" BossStyle="0" StatLog="2002280228"/>
@@ -706,7 +706,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			<Cehua MonsterID="4017" MintmarkID="41776" SkillID="" NewSeIconId="1251" ItemID="1721459" ItemCount="15 15 15" MidItemID="1721460" TimesItemID="1721461" VipTimes="5" NotVipTimes="3" ProbID="3" UpPosX="-420" UpPosY="-150" UpScaleX="1" UpScaleY="1"/>
 			<Houtai GainValue="103605" NewSeID="5546" TimesValue="11392" BossStartID="50051" BossEndID="50053" StatLog="2002280258"/>
 		</Power>
-	</Design> 
+	</Design>
 
 	<Design ID="21" TimeFlag="" Desc="20200306 哀狂达尔">
 		<Cover>
@@ -777,8 +777,8 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 				<Houtai Forever="107188" Daily="12561" BossStartID="144007" BossEndID="144009" BossStyle="0" StatLog="2003130200"/>
 			</Mould>
 			<Mould>
-				<Cehua TaskId="2" MouldId="8" Items="1721514 1721515 1721516 1721512 1721519" MidItems="1721511 1721517 1721518 1721513 1721525 1721526 1721522 1721522" 
-				Args="23 23 5 5 15 20 15 20 20 20 60 60 15 30 3 300 50 20 25 3 50 3 2 1" BossId="4023 4024 3350 3953" BossIsBitmap="0 1 1 1" 
+				<Cehua TaskId="2" MouldId="8" Items="1721514 1721515 1721516 1721512 1721519" MidItems="1721511 1721517 1721518 1721513 1721525 1721526 1721522 1721522"
+				Args="23 23 5 5 15 20 15 20 20 20 60 60 15 30 3 300 50 20 25 3 50 3 2 1" BossId="4023 4024 3350 3953" BossIsBitmap="0 1 1 1"
 				PanelTips="挑战哀目黑子获得种子，播种种子后，使用风之低语和水之低语，使其风能和水能达到100即可长出果实。通过采摘和兑换，集齐15个暗黑之心即可通关领取精灵。" ChallengeTips="战胜两个精灵，随机获得20-25个风之低语/水之低语"/>
 				<Houtai Forever="107189 107190 107191 107192" Daily="12562 12562" BossStartID="106011" BossEndID="106015" BossStyle="0" StatLog="2003130207"/>
 				<Qianduan BossPosX="0 0 0 0" BossPosY="-10 0 0 0" BossScaleX="1.2 1 1 1" BossScaleY="1.2 1 1 1" Args="风能 水能"/>
@@ -797,26 +797,26 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		</Cover>
 		<Tasks Style="1" MonCount="1" TaskCount="4" Need="" TaskValue="103654">
 			<Mould>
-				<Cehua TaskId="1" MouldId="20" MidItems="1721537 1721553 1721536" Args="10 10000 10000 10000" BossId="4020 4025 4023" 
+				<Cehua TaskId="1" MouldId="20" MidItems="1721537 1721553 1721536" Args="10 10000 10000 10000" BossId="4020 4025 4023"
 				PanelTips="哀狂达尔和哀目黑子阻止你追击哀影疾风，必须先对他俩累积造成一万伤害后，才能攻击哀影疾风。提前攻击哀影疾风会导致他俩的能力急剧上升！（战胜才计入累积伤害）" />
 				<Houtai Forever="103655 103656" Daily="11405" BossStartID="192001" BossEndID="192005" BossStyle="0" StatLog="2003200100"/>
 			</Mould>
 			<Mould>
-				<Cehua TaskId="2" MouldId="15" MidItems="1721542 1721553 1721538 1721539 1721540 1721541" Args="4 0" BossIsBitmap="0" 
+				<Cehua TaskId="2" MouldId="15" MidItems="1721542 1721553 1721538 1721539 1721540 1721541" Args="4 0" BossIsBitmap="0"
 				BossId="4025" PanelTips="击败哀影疾风4次即可通过此关卡！每次击败都会使得哀影疾风的能力得到提升！"/>
 				<Houtai Forever="103657" Daily="11406" BossStartID="149005" BossEndID="149008" BossStyle="0" StatLog="2003200107"/>
 				<Qianduan BossPosX="0" BossPosY="0" BossScaleX="2" BossScaleY="2" />
 			</Mould>
 			<Mould>
 				<Qianduan BossPosX="30" BossPosY="-50" BossScaleX="1" BossScaleY="1" Args="已扬起 已扬起 已扬起 已扬起 已扬起 2-1 2-2 2-3 2-4 2-5" IconPos="0_0_1_1|0_0_1_1|0_0_1_1|0_0_1_1|0_0_1_1" AlarmAndAlert="1_1_重复扬起了一阵疾风，疾风状态被重置了。|1_2_一阵疾风已被吹起！" />
-				<Cehua TaskId="3" MouldId="11" MidItems="1721544 1721553 1721545 1721543" Args="12 4" BossId="4025" 
+				<Cehua TaskId="3" MouldId="11" MidItems="1721544 1721553 1721545 1721543" Args="12 4" BossId="4025"
 				PanelTips="战胜哀影疾风即可随机扬起一阵疾风，5阵疾风全部被扬起即可通关！\n如果扬起了重复疾风，当前未被锁定的疾风将会被吹灭重置！\n（锁定的疾风不会被重复扬起及重置）"
 				RuleTips="一阵疾风被扬起4次后，必定不会被重复扬起及重置" />
 				<Houtai Forever="103658" Daily="11407" BossStartID="131003" BossEndID="131003" BossStyle="0" StatLog="2003200116"/>
 			</Mould>
 			<Mould>
 				<Cehua TaskId="4" MouldId="17" Items="1721549" MidItems="1721546 1721562 1721548 1721547 1721550" Args="3 60 0 140 8 10 50 25 60 60"
-				BossId="3460 3463 4024 4024 4020 4023 4020 4023 4025" 
+				BossId="3460 3463 4024 4024 4020 4023 4020 4023 4025"
 				PanelTips="哀影疾风进入了迷途空间，穿越空间找到哀影疾风并击败他即可通过关卡。\n迷途空间共分为6层，赛尔最初处于第一层，哀影疾风处于第六层。\n（第1层1张地图，第2层2张地图，第3层8张地图，第4层8张地图，第5、6层16张地图）"
 				ChallengeTips="此图是我开，此洞是我钻，要想钻此洞，留下买洞财" />
 				<Houtai Forever="103659 103660 103661 103662 103663 103664 103665 103666 103667 103668 103669 103670 103671 103672 103673 103674 103675 103676 103677 103678 103679 103680 103681 103682 103683 103684 103685 103686 103687 103688 103689 103690 103691 103692 103693 103694 103695 103696 103697 103698 103699" Daily="11408" BossStartID="177010" BossEndID="177018" BossStyle="0" StatLog="2003200119"/>
@@ -836,7 +836,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		</Cover>
 		<Tasks Style="3" MonCount="1" TaskCount="1" Need="" TaskValue="103702">
 			<NotPassMould>
-				<Cehua TaskExId="1" MouldId="1" Items="1721585" MidItems="1721594 1721586" Args="8 1 5" BossId="3367 4024" 
+				<Cehua TaskExId="1" MouldId="1" Items="1721585" MidItems="1721594 1721586" Args="8 1 5" BossId="3367 4024"
 				BossPosX="0 0" BossPosY="-50 -50" BossScaleX="1.2 1.2" BossScaleY="1.2 1.2"
 				PanelTips="战胜2只精灵，随机获得$-$个$" />
 				<Houtai Forever="103703" Daily="11415" BossStartID="111007" BossEndID="111008" BossStyle="0" StatLog="2003270100"/>
@@ -862,17 +862,17 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		<Tasks Style="1" MonCount="1" TaskCount="4" Need="" TaskValue="103710">
 			<Mould>
 				<Qianduan BossPosX="0 0 0 0" BossPosY="0 -45 -30 -30" BossScaleX="1 1.2 1 1" BossScaleY="1 1.2 1 1" Args="以下哪个不是六界帝神的技能？ 万仞极光破 圣剑之芒 万宰之光 太平洋中间是什么？ 海岛 海水 都不是 一个数去掉首位是13，去掉末位是40，这个数字是？ 13 43 都不是"/>
-				<Cehua TaskId="1" MouldId="10" Items="1721600" MidItems="1721628 1721601" BossId="4005 4006 3998 3998" Args="6 10 1 3 3 3 3 2 0 0" 
+				<Cehua TaskId="1" MouldId="10" Items="1721600" MidItems="1721628 1721601" BossId="4005 4006 3998 3998" Args="6 10 1 3 3 3 3 2 0 0"
 				PanelTips="搜集10个天辉斩魔剑即可通过此关卡，\n天辉斩魔剑随机掉落在该场景的某个地方。" BossIsBitmap="0 0 0 0" />
 				<Houtai Forever="103711" Daily="11417" PlayerInfo="1163" BossStartID="123033" BossEndID="123040" BossStyle="0" StatLog="2004030300"/>
 			</Mould>
 			<Mould>
 				<Cehua TaskId="2" MouldId="7" MidItems="1721604 1721602 1721603 1721628" Args="4 3" BossId="4028 4025 4023 4020 4030" PanelTips="选择一个挑战模式战胜精灵走至终点即可通关。\n稳定模式每只精灵需要战胜三次，中途失败不重置。\n快速模式每只精灵只需要战胜1次，但挑战失败关卡重置。"/>
 				<Houtai Forever="103712" Daily="11418" BossStartID="96031" BossEndID="96040" BossStyle="0" StatLog="2004030309"/>
-			</Mould>   
+			</Mould>
 			<Mould>
 				<Qianduan BossPosX="-20" BossPosY="-20" BossScaleX="1.2" BossScaleY="1.2" Args="已点燃 已点燃 已点燃 已点燃 已点燃 3-1 3-2 3-3 3-4 3-5" IconPos="0_0_1_1|0_0_1_1|0_0_1_1|0_0_1_1|0_0_1_1" AlarmAndAlert="1_1_重复点燃了一束神火，神火状态被重置了。|1_2_一束神火已被点燃！" />
-				<Cehua TaskId="3" MouldId="11" MidItems="1721605 1721628 1721606 1721626" Args="4 8" BossId="4032" 
+				<Cehua TaskId="3" MouldId="11" MidItems="1721605 1721628 1721606 1721626" Args="4 8" BossId="4032"
 				PanelTips="战胜六界御神即可随机点燃一束神火，5束神火均被点燃即可通关！\n如果点燃了重复神火，当前未被锁定的神火将会被熄灭重置！\n（锁定的神火不会被重复点燃及重置）"
 				RuleTips="一束神火被点燃8次后，必定不会被重复点燃及重置" />
 				<Houtai Forever="103713" Daily="11419" BossStartID="131004" BossEndID="131004" BossStyle="0" StatLog="2004030330"/>
@@ -898,7 +898,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		</Cover>
 		<Tasks Style="1" MonCount="1" TaskCount="3" Need="" TaskValue="103729">
 			<Mould>
-				<Cehua TaskId="1" MouldId="15" MidItems="1721645 1721670 1721646 1721647 1721648 1721649" Args="4 0" BossIsBitmap="0" 
+				<Cehua TaskId="1" MouldId="15" MidItems="1721645 1721670 1721646 1721647 1721648 1721649" Args="4 0" BossIsBitmap="0"
 				BossId="4037" PanelTips="天玄界神拥有永不屈服的意志！\n击败天玄界神4次才能通过此关卡！\n每次击败都会使得天玄界神的能力得到提升！"/>
 				<Houtai Forever="103730" Daily="11427" BossStartID="149009" BossEndID="149012" BossStyle="0" StatLog="2004100100"/>
 				<Qianduan BossPosX="0" BossPosY="0" BossScaleX="2" BossScaleY="2"/>
@@ -909,8 +909,8 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 				<Houtai Forever="103731" Daily="11428" BossStartID="55007" BossEndID="55008" BossStyle="0" StatLog="2004100109"/>
 			</Mould>
 			<Mould>
-				<Cehua TaskId="3" MouldId="22" Items="1721674 1721653 1721654 1721655 1721659 1721660 1721661 1721665 1721667" MidItems="1721652 1721656 1721657 1721658 1721662 1721663 1721664 1721666 1721672 1721673 1721670 1721670" 
-				Args="15 15 1 1 1 50 50 50 3 3 3 1 3 5 10 40 40 20 40 10 30 3 100 3 50 3 2 1 5" BossId="4037 4026 4020 4025 4023" BossIsBitmap="1 1 1 1 1" 
+				<Cehua TaskId="3" MouldId="22" Items="1721674 1721653 1721654 1721655 1721659 1721660 1721661 1721665 1721667" MidItems="1721652 1721656 1721657 1721658 1721662 1721663 1721664 1721666 1721672 1721673 1721670 1721670"
+				Args="15 15 1 1 1 50 50 50 3 3 3 1 3 5 10 40 40 20 40 10 30 3 100 3 50 3 2 1 5" BossId="4037 4026 4020 4025 4023" BossIsBitmap="1 1 1 1 1"
 				PanelTips="挑战天玄界神获得种子，播种种子后，使用光源和水源，使其光能和水能达到100，长出果实。通过采摘和兑换，集齐10个玄灵光羽即可通关领取精灵。" ChallengeTips="挑战的精灵星级越高，获得的道具品质越高；\n挑战某种星级的精灵达到3次，必定既能得到光源，又能得到水源"/>
 				<Houtai Forever="103732 103733 103734 103735 103736" Daily="11429 11429" BossStartID="207001" BossEndID="207006" BossStyle="0" StatLog="2004100115"/>
 				<Qianduan BossPosX="0 0 0 0 0" BossPosY="0 0 0 0 0" BossScaleX="1 1 1 1 1" BossScaleY="1 1 1 1 1" Args="光能 水能"/>
@@ -935,7 +935,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			</Mould>
 			<Mould>
 				<Qianduan BossPosX="0 0 0 0 70 0 0 0 0" BossPosY="-20 -20 -20 -20 -50 -20 -90 -90 0" BossScaleX="1.2 1.2 1.2 1.2 1 1 1 1 1" BossScaleY="1.2 1.2 1.2 1.2 1 1 1 1 1" />
-				<Cehua TaskId="2" MouldId="13" Items="1721680" MidItems="1721688 1721678 1721679 1721685 1721682 1721683 1721684 1721681" Args="20 40 45 50 60 80 100 8 8 8 15 10 20 2 3 7 10 180 200" 
+				<Cehua TaskId="2" MouldId="13" Items="1721680" MidItems="1721688 1721678 1721679 1721685 1721682 1721683 1721684 1721681" Args="20 40 45 50 60 80 100 8 8 8 15 10 20 2 3 7 10 180 200"
 				PanelTips="走至终点，用200个金币兑换晶龙之魂，即可通关领取新精灵。" ChallengeTips="晶龙之魂可以帮助克里斯托强化自己的能量，\n标注晶龙之魂地点的藏宝图随机掉落在场景里，\n先找出藏宝图吧！" BossId="4031 4019 4018 4010 3962 3935 3927 3926 3961"
 				BossIsBitmap="0 0 0 0 1 1 1 1 1" />
 				<Houtai Forever="103740 103741 103742 103743 103744 103745 103746 103747" Daily="11432" BossStartID="135019" BossEndID="135027" BossStyle="0" StatLog="2004170307"/>
@@ -962,7 +962,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			<Mould>
 				<Qianduan BossPosX="0 0 0 0 0 0 0" BossPosY="0 0 0 0 0 0 0" BossScaleX="1 1 1 1 1 1 1" BossScaleY="1 1 1 1 1 1 1" DropPanelTips="战胜的精灵星级越高，掉落的回音之歌越多"/>
 				<Cehua TaskId="2" MouldId="5" ResType="1"
-				Items="1721724 1721726" MidItems="1721729 1721725 1721727 1721728 1721732" Args="10 100 3 6 3 6 4 8 45 30 25 10 0 60 1 3 4 6 10 12" 
+				Items="1721724 1721726" MidItems="1721729 1721725 1721727 1721728 1721732" Args="10 100 3 6 3 6 4 8 45 30 25 10 0 60 1 3 4 6 10 12"
 				BossId="4037 4032 4024 3460 4025 4023 4020" BossIsBitmap="0 0 0 0 1 1 1"
 				PanelTips="\n搜集100个空谷绝响即可通过此关卡\n" RuleTips="1、通关条件：搜集100个空谷绝响即可通过此关卡\n2、格子类型：\n视野全开格：可以展示全图内容\n道具格：可以获得4-8个回音之歌\n星星格：可以获得3-6个空谷绝响\n3、回音之歌：翻开1个格子消耗3个回音之歌，挑战1个精灵消耗6个回音之歌\n4、关卡重置：挑战完所有的格子后，未集齐100个通关道具，关卡会重置，但保留60%空谷绝响"/>
 	            <Houtai Forever="103752 103753 103754 103755 103756 103757 103758 103759 103760 103761 103762" Daily="11437" BossStartID="83029" BossEndID="83035" BossStyle="0" StatLog="2004240207"/>
@@ -973,7 +973,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 	        <Houtai GainValue="103749" NewSeID="5567" Forever="103763" Daily="11438" BossStartID="210001" BossEndID="210004" StatLog="2004240221"/>
 	    </Power>
 	</Design>
-	
+
 	<Design ID="30" TimeFlag="" Desc="20200430 时空界神">
 		<Cover>
 			<Cehua ZhizunItemID="1721768" TaskNames=""/>
@@ -986,15 +986,15 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			</Mould>
 			<Mould>
 				<Qianduan BossPosX="0" BossPosY="50" BossScaleX="1" BossScaleY="1" />
-				<Cehua TaskId="2" MouldId="24" MidItems="1721773 1721784 1721772" Args="15 33 33 33 1 1 2 6 6 9 9 9 12" 
-				PanelTips="$bossname$需要凝聚100点次元能量才能完成超进化，\n每战胜1次$bossname$，会随机掉落1个次元能量。\n$bossname$对3种次元能量的吸收能力不同。\n同时吸收多个同类次元能量会获得翻倍的吸收效果。" 
+				<Cehua TaskId="2" MouldId="24" MidItems="1721773 1721784 1721772" Args="15 33 33 33 1 1 2 6 6 9 9 9 12"
+				PanelTips="$bossname$需要凝聚100点次元能量才能完成超进化，\n每战胜1次$bossname$，会随机掉落1个次元能量。\n$bossname$对3种次元能量的吸收能力不同。\n同时吸收多个同类次元能量会获得翻倍的吸收效果。"
 				BossId="3463" BossIsBitmap="0" BossFlip="0" />
 				<Houtai Forever="103767 103768" Daily="11440" BossStartID="214001" BossEndID="214001" BossStyle="0" StatLog="2004300107"/>
 			</Mould>
 			<Mould>
 				<Qianduan BossPosX="0" BossPosY="0" BossScaleX="1.2" BossScaleY="1.2" />
-				<Cehua TaskId="3" MouldId="25" MidItems="1721781 1721784 1721775 1721774 1721776 1721777 1721778 1721779 1721780" Args="10 2 2 3 1" 
-				RuleTips="超进化需要探寻自己的本心，激发自己内在的潜力。\n找出本心的位置并激发出界神的潜力，即可通过此关卡。 本心探寻成功，\n连续击败界神3次即可激发出他的内在潜力，通过此关卡。 时空界神进入疯狂状态，击败他使其平静下来，即可继续探寻其本心。" 
+				<Cehua TaskId="3" MouldId="25" MidItems="1721781 1721784 1721775 1721774 1721776 1721777 1721778 1721779 1721780" Args="10 2 2 3 1"
+				RuleTips="超进化需要探寻自己的本心，激发自己内在的潜力。\n找出本心的位置并激发出界神的潜力，即可通过此关卡。 本心探寻成功，\n连续击败界神3次即可激发出他的内在潜力，通过此关卡。 时空界神进入疯狂状态，击败他使其平静下来，即可继续探寻其本心。"
 				BossId="4050" BossIsBitmap="0" />
 				<Houtai Forever="103769 103770" Daily="11441" PlayerInfo="1025" BossStartID="215001" BossEndID="215005" BossStyle="0" StatLog="2004300115"/>
 			</Mould>
@@ -1004,33 +1004,33 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			<Houtai GainValue="103764" NewSeID="5570" TimesValue="11442" BossStartID="50078" BossEndID="50080" StatLog="2004300123"/>
 		</Power>
 	</Design>
-	
-	<Design ID="31" TimeFlag="" Desc="20200430 S31幻境界神">      
-	    <Cover>            
+
+	<Design ID="31" TimeFlag="" Desc="20200430 S31幻境界神">
+	    <Cover>
 	        <Cehua ZhizunItemID="1721785" TaskNames=""/>
 	        <Houtai SuperEvolveID="0"/>
-	    </Cover>    
-	    <Tasks Style="1" MonCount="1" TaskCount="3" Need="" TaskValue="107250">                        
+	    </Cover>
+	    <Tasks Style="1" MonCount="1" TaskCount="3" Need="" TaskValue="107250">
 	        <Mould>
-	            <Qianduan BossPosX="0 0 0 0" BossPosY="0 0 0 0" BossScaleX="0.8 0.8 0.8 0.8" BossScaleY="0.8 0.8 0.8 0.8"/>             
-	            <Cehua TaskId="1" MouldId="20" MidItems="1721787 1721796 1721786" Args="12 10000 10000 10000" BossId="4050 4048 4024" PanelTips="时空界神、地葬界神与幻境界神有着千丝万缕的关系，必须先对他俩累积造成一万伤害后，才能攻击幻境界神。提前攻击幻境界神会导致他俩的能力急剧上升！（战胜才计入累积伤害）" />            
-	            <Houtai Forever="107251 107252" Daily="12571" BossStartID="192006" BossEndID="192010" BossStyle="0" StatLog="2004300200"/>    
-	        </Mould>
-	        <Mould>        
-	            <Cehua TaskId="2" MouldId="26" MidItems="1721788 1721796 1721789" Args="6" BossId="4043 4040 4035 4023 4020 4021 4018 4007 3994 3987" />                        
-	            <Houtai Forever="107253" Daily="12572" BossStartID="220001" BossEndID="220010" BossStyle="0" StatLog="2004300207"/>   
+	            <Qianduan BossPosX="0 0 0 0" BossPosY="0 0 0 0" BossScaleX="0.8 0.8 0.8 0.8" BossScaleY="0.8 0.8 0.8 0.8"/>
+	            <Cehua TaskId="1" MouldId="20" MidItems="1721787 1721796 1721786" Args="12 10000 10000 10000" BossId="4050 4048 4024" PanelTips="时空界神、地葬界神与幻境界神有着千丝万缕的关系，必须先对他俩累积造成一万伤害后，才能攻击幻境界神。提前攻击幻境界神会导致他俩的能力急剧上升！（战胜才计入累积伤害）" />
+	            <Houtai Forever="107251 107252" Daily="12571" BossStartID="192006" BossEndID="192010" BossStyle="0" StatLog="2004300200"/>
 	        </Mould>
 	        <Mould>
-	            <Qianduan BossPosX="0" BossPosY="0" BossScaleX="1" BossScaleY="1"/>                        
-	            <Cehua TaskId="3" MouldId="2" MidItems="1721790 1721791 1721793 1721796 1721796 1721792" Args="8 3 3 0 8 2 3 3 3 10 12 15 8 5" ChallengeTips="旷日持久的历练，必须要有充沛的体力。\n与幻境界神战斗坚持超过8回合（无论胜败），即可前进！ 历练需要强大的力量进行支撑。\n与幻境界神战斗中暴击不少于5次，即可前进！ 界神历练需要尽快完成。\n与幻境界神战斗中每回合都先手，才能尽快完成历练！ 历练需要有充足的体力应对各方面的挑战。\n战胜3命幻境界神！" PanelTips="界神历练必然要经过重重险阻。\n选择正确的道路走至终点列战胜幻境界神即可通过此关卡。" BossId="3866 3861 3857 3896 3887 3880 3876 3999 3959 3937 3916 3904 3906 3911 3912 4050 4024 4048"/>            
-	            <Houtai Forever="107254 107255 107256 107257" Daily="12573 12573" BossStartID="60067" BossEndID="60088" BossStyle="0" StatLog="2004300227"/>        
+	            <Cehua TaskId="2" MouldId="26" MidItems="1721788 1721796 1721789" Args="6" BossId="4043 4040 4035 4023 4020 4021 4018 4007 3994 3987" />
+	            <Houtai Forever="107253" Daily="12572" BossStartID="220001" BossEndID="220010" BossStyle="0" StatLog="2004300207"/>
+	        </Mould>
+	        <Mould>
+	            <Qianduan BossPosX="0" BossPosY="0" BossScaleX="1" BossScaleY="1"/>
+	            <Cehua TaskId="3" MouldId="2" MidItems="1721790 1721791 1721793 1721796 1721796 1721792" Args="8 3 3 0 8 2 3 3 3 10 12 15 8 5" ChallengeTips="旷日持久的历练，必须要有充沛的体力。\n与幻境界神战斗坚持超过8回合（无论胜败），即可前进！ 历练需要强大的力量进行支撑。\n与幻境界神战斗中暴击不少于5次，即可前进！ 界神历练需要尽快完成。\n与幻境界神战斗中每回合都先手，才能尽快完成历练！ 历练需要有充足的体力应对各方面的挑战。\n战胜3命幻境界神！" PanelTips="界神历练必然要经过重重险阻。\n选择正确的道路走至终点列战胜幻境界神即可通过此关卡。" BossId="3866 3861 3857 3896 3887 3880 3876 3999 3959 3937 3916 3904 3906 3911 3912 4050 4024 4048"/>
+	            <Houtai Forever="107254 107255 107256 107257" Daily="12573 12573" BossStartID="60067" BossEndID="60088" BossStyle="0" StatLog="2004300227"/>
 	        </Mould>
 	    </Tasks>
-	    <Power>                       
-	        <Cehua LoadType="1" MonsterID="4048" MintmarkID="41826" SkillID="" NewSeIconId="1274" ItemID="1721794" ItemCount="15 15 15" MidItemID="1721795" TimesItemID="1721796" VipTimes="5" NotVipTimes="3" ProbID="1" UpPosX="0" UpPosY="0" UpScaleX="1" UpScaleY="1"/>                
+	    <Power>
+	        <Cehua LoadType="1" MonsterID="4048" MintmarkID="41826" SkillID="" NewSeIconId="1274" ItemID="1721794" ItemCount="15 15 15" MidItemID="1721795" TimesItemID="1721796" VipTimes="5" NotVipTimes="3" ProbID="1" UpPosX="0" UpPosY="0" UpScaleX="1" UpScaleY="1"/>
 	        <Houtai GainValue="107249" NewSeID="5569" TimesValue="12575" BossStartID="50075" BossEndID="50077" StatLog="2004300273"/>
-	    </Power>                                                            
-	</Design>  
+	    </Power>
+	</Design>
 
 	<Design ID="32" TimeFlag="2190" Desc="20200508 S32环•木心">
 		<Cover>
@@ -1039,16 +1039,16 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		</Cover>
 		<Tasks Style="3" MonCount="1" TaskCount="1" Need="" TaskValue="103802">
 			<NotPassMould>
-				<Cehua TaskExId="1" MouldId="1" Items="1721973" MidItems="1721982 1721974" Args="8 3 5" BossId="4043 4054" 
+				<Cehua TaskExId="1" MouldId="1" Items="1721973" MidItems="1721982 1721974" Args="8 3 5" BossId="4043 4054"
 				BossPosX="0 0" BossPosY="-30 -90" BossScaleX="1 1" BossScaleY="1 1" BossIsBitmap="1 1"
 				PanelTips="\n战胜2只精灵，随机获得$-$个$" />
 				<Houtai Forever="103803" Daily="11444" BossStartID="111009" BossEndID="111010" BossStyle="0" StatLog="2005080100"/>
 				<Qianduan Args="45763 3"/>
 			</NotPassMould>
 			<Mould>
-				<Cehua TaskId="1" MouldId="21" MidItems="1721974 1721968 1721969 1721970 1721971 1721972 1721958 1721959 1721960 1721961 1721962 1721975 1721976 1721977 1721978 1721979" 
-				Items="1721973 1721963 1721964 1721965 1721966 1721967 1721953 1721954 1721955 1721956 1721957" Args="1 1 2 3 5 8 0 1 30 30 30 30 30 10" 
-				BossId="4030 4037 4032 4024 4050 4020 4023 4025" PanelTips="依次通过以下2个关卡集齐一套道具即可获得新精灵。\n每次挑战均需要消耗1个通行证。" 
+				<Cehua TaskId="1" MouldId="21" MidItems="1721974 1721968 1721969 1721970 1721971 1721972 1721958 1721959 1721960 1721961 1721962 1721975 1721976 1721977 1721978 1721979"
+				Items="1721973 1721963 1721964 1721965 1721966 1721967 1721953 1721954 1721955 1721956 1721957" Args="1 1 2 3 5 8 0 1 30 30 30 30 30 10"
+				BossId="4030 4037 4032 4024 4050 4020 4023 4025" PanelTips="依次通过以下2个关卡集齐一套道具即可获得新精灵。\n每次挑战均需要消耗1个通行证。"
 				ChallengeTips="探险路上需要准备一个护符，不然会迷路哦！\n战胜1个精灵即可获得1个护符，从左到右精灵挑战难度依次上升。\n护符的品质越高，探险获得的道具数量越多！ \n携带不同的护符，探险可获得的道具数量不同。"/>
 				<Houtai Forever="103804 103805 103806 103807" BossStartID="197021" BossEndID="197040" BossStyle="0" StatLog="2005080104"/>
 				<Qianduan BossPosX="0 -20 30 -20 -20 0 0 0" BossPosY="0 0 10 -50 0 0 0 0" Args="行囊准备 未知探险 1 45763 3"/>
@@ -1101,7 +1101,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			</Mould>
 			<Mould>
 				<Qianduan BossPosX="-20" BossPosY="110" BossScaleX="1.2" BossScaleY="1.2" Args="已扬起 已扬起 已扬起 已扬起 已扬起 2-1 2-2 2-3 2-4 2-5" IconPos="0_0_1_1|0_0_1_1|0_0_1_1|0_0_1_1|0_0_1_1" AlarmAndAlert="1_1_重复扬起了一阵疾风，疾风状态被重置了。|1_2_一阵疾风已被吹起！" />
-				<Cehua TaskId="2" MouldId="11" ResType="1" MidItems="1722020 1722029 1722019 1722034" Args="6 4" BossId="4059" 
+				<Cehua TaskId="2" MouldId="11" ResType="1" MidItems="1722020 1722029 1722019 1722034" Args="6 4" BossId="4059"
 				PanelTips="战胜岚即可随机扬起一阵疾风，5阵疾风均被扬起即可通关！\n如果扬起了重复疾风，当前未被锁定的疾风将会被吹灭重置！\n（锁定的疾风不会被重复扬起及重置）"
 				RuleTips="一阵疾风被扬起4次后，必定不会被重复扬起及重置" />
 				<Houtai Forever="103827" Daily="11451" BossStartID="131005" BossEndID="131005" BossStyle="0" StatLog="2005220206"/>
@@ -1129,7 +1129,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 				<Houtai Forever="103834" Daily="11454" BossStartID="1079" BossEndID="1081" BossStyle="1" StatLog="2005290100"/>
 			</Mould>
 			<Mould>
-				<Qianduan BossPosX="0 0 0 0 0 0 0 0 0 0 0 0 0" BossPosY="0 0 0 0 0 0 0 0 0 0 0 0 0" 
+				<Qianduan BossPosX="0 0 0 0 0 0 0 0 0 0 0 0 0" BossPosY="0 0 0 0 0 0 0 0 0 0 0 0 0"
 						  BossScaleX="1 1 1 1 1 1 1 1 1 1 1 1 1" BossScaleY="1 1 1 1 1 1 1 1 1 1 1 1 1" />
 				<Cehua TaskId="2" MouldId="29" BossId="4061 4061 4032 4037 4030 4024 4050 4048 4032 4014 3999 4061 4061"
 					   MidItems="1722045 1722057 1722047 1722051 1722048 1722052 1722049 1722053 1722050 1722054"
@@ -1138,7 +1138,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			</Mould>
 			<Mould>
 				<Qianduan BossPosX="0" BossPosY="0" BossScaleX="1" BossScaleY="1" />
-				<Cehua TaskId="3" MouldId="28" MidItems="1722046 1722057 1722044" Args="12 5 3 3 1 8 0 10" BossId="4061" 
+				<Cehua TaskId="3" MouldId="28" MidItems="1722046 1722057 1722044" Args="12 5 3 3 1 8 0 10" BossId="4061"
 				PanelTips="搜集三个连续相同的元神即可通过试炼\n每战胜一次法莉，就会掉落一种元神\n元神之间可以两两消除，请小赛尔自行探索消除规则" />
 				<Houtai Forever="103835 103836 103837 103838 103839 103840" Daily="11455" BossStartID="235001" BossEndID="235001" BossStyle="0" StatLog="2005290107"/>
 			</Mould>
@@ -1156,19 +1156,19 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		</Cover>
 		<Tasks Style="1" MonCount="1" TaskCount="3" Need="" TaskValue="103845">
 			<Mould>
-				<Cehua TaskId="1" MouldId="20" MidItems="1722072 1722085 1722071" Args="12 8000 8000 8000" BossId="4061 4067 4059" 
+				<Cehua TaskId="1" MouldId="20" MidItems="1722072 1722085 1722071" Args="12 8000 8000 8000" BossId="4061 4067 4059"
 				PanelTips="法莉和岚阻止你挑战赛克迈特，必须先对他俩累积造成八千伤害后，才能攻击赛克迈特。\n提前攻击赛克迈特会导致他俩的能力急剧上升！（战胜才计入累积伤害）" />
 				<Houtai Forever="103846 103847" Daily="11458" BossStartID="192011" BossEndID="192015" BossStyle="0" StatLog="2006050300"/>
 			</Mould>
 			<Mould>
-				<Cehua TaskId="2" MouldId="15" MidItems="1722077 1722085 1722073 1722074 1722075 1722076" Args="4 0" BossIsBitmap="0" 
+				<Cehua TaskId="2" MouldId="15" MidItems="1722077 1722085 1722073 1722074 1722075 1722076" Args="4 0" BossIsBitmap="0"
 				BossId="4067" PanelTips="击败赛克迈特4次即可通过此关卡！每次击败都会使得赛克迈特的能力得到提升！"/>
 				<Houtai Forever="103848" Daily="11459" BossStartID="149013" BossEndID="149016" BossStyle="0" StatLog="2006050307"/>
 				<Qianduan BossPosX="0" BossPosY="0" BossScaleX="2" BossScaleY="2" />
 			</Mould>
 			<Mould>
 				<Cehua TaskId="3" MouldId="17" Items="1722080" MidItems="1722082 1722086 1722079 1722078 1722081" Args="2 60 2 140 8 10 50 25 60 60"
-				BossId="4036 4049 4056 4026 4035 4032 4004 3999 4067" BossIsBitmap="0 0 0 0 0 0 0 0 0" 
+				BossId="4036 4049 4056 4026 4035 4032 4004 3999 4067" BossIsBitmap="0 0 0 0 0 0 0 0 0"
 				PanelTips="赛克迈特进入了迷途空间，穿越空间找到赛克迈特并击败他即可通过关卡。\n迷途空间共分为6层，赛尔最初处于第一层，赛克迈特处于第六层。\n（第1层1张地图，第2层2张地图，第3层8张地图，第4层8张地图，第5、6层16张地图）"
 				ChallengeTips="此图是我开，此洞是我钻，要想钻此洞，留下买洞财" />
 				<Houtai Forever="103849 103850 103851 103852 103853 103854 103855 103856 103857 103858 103859 103860 103861 103862 103863 103864 103865 103866 103867 103868 103869 103870 103871 103872 103873 103874 103875 103876 103877 103878 103879 103880 103881 103882 103883 103884 103885 103886 103887 103888 103889" Daily="11460" BossStartID="177019" BossEndID="177027" BossStyle="0" StatLog="2006050316"/>
@@ -1202,8 +1202,8 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			</Mould>
 			<Mould>
 				<Qianduan BossPosX="0" BossPosY="0" BossScaleX="1.2" BossScaleY="1.2" />
-				<Cehua TaskId="4" MouldId="25" MidItems="1722100 1722105 1722114 1722113 1722115 1722116 1722117 1722118 1722119" Args="8 2 2 3 1" 
-				RuleTips="苍穹之望·艾希丝需要探寻自己的本心，激发自己内在的潜力。\n找出本心的位置并激发出她的潜力，即可通过此关卡。 本心探寻成功，\n连续击败苍穹之望·艾希丝3次即可激发出她的内在潜力，通过此关卡。 苍穹之望·艾希丝进入疯狂状态，击败她使其平静下来，即可继续探寻其本心。" 
+				<Cehua TaskId="4" MouldId="25" MidItems="1722100 1722105 1722114 1722113 1722115 1722116 1722117 1722118 1722119" Args="8 2 2 3 1"
+				RuleTips="苍穹之望·艾希丝需要探寻自己的本心，激发自己内在的潜力。\n找出本心的位置并激发出她的潜力，即可通过此关卡。 本心探寻成功，\n连续击败苍穹之望·艾希丝3次即可激发出她的内在潜力，通过此关卡。 苍穹之望·艾希丝进入疯狂状态，击败她使其平静下来，即可继续探寻其本心。"
 				BossId="4068" BossIsBitmap="0" />
 				<Houtai Forever="103917 103918" Daily="11465" PlayerInfo="1025" BossStartID="215006" BossEndID="215010" BossStyle="0" StatLog="2006120440"/>
 			</Mould>
@@ -1226,7 +1226,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 				<Houtai Forever="103922" Daily="11467" BossStartID="1082" BossEndID="1083" BossStyle="1" StatLog="2006190100"/>
 			</Mould>
 			<Mould>
-				<Qianduan BossPosX="0 0 0 0 0 0 0 0 0 0 0 0 0" BossPosY="0 0 0 0 0 0 0 0 0 0 0 0 0" 
+				<Qianduan BossPosX="0 0 0 0 0 0 0 0 0 0 0 0 0" BossPosY="0 0 0 0 0 0 0 0 0 0 0 0 0"
 						  BossScaleX="1 1 0.7 1 1 1 1 1 1 1 1 1 1" BossScaleY="1 1 0.7 1 1 1 1 1 1 1 1 1 1" />
 				<Cehua TaskId="2" MouldId="29" BossId="4072 4072 4044 4049 4013 4011 3962 3926 3927 3935 3961 4072 4072"
 					   MidItems="1722127 1722140 1722128 1722132 1722129 1722133 1722130 1722134 1722131 1722135"
@@ -1257,9 +1257,9 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 				<Cehua TaskId="1" MouldId="4" MidItems="1722153 1722152 1722169" Args="3" BossId="4075 4024 4030 4037" BossIsBitmap="0 1 1 1" PanelTips="\n使用混沌界神战胜右侧三个精灵，即可通过此关卡。\n"/>
 				<Houtai Forever="103983" Daily="11471" BossStartID="1084" BossEndID="1086" BossStyle="1" StatLog="2006240100"/>
 			</Mould>
-	        <Mould>        
-	            <Cehua TaskId="2" MouldId="26" MidItems="1722154 1722169 1722155" Args="6" BossId="4073 4072 4068 4061 4049 4043 4035 4031 4023 4007" />                        
-	            <Houtai Forever="103984" Daily="11472" BossStartID="220011" BossEndID="220020" BossStyle="0" StatLog="2006240107"/>   
+	        <Mould>
+	            <Cehua TaskId="2" MouldId="26" MidItems="1722154 1722169 1722155" Args="6" BossId="4073 4072 4068 4061 4049 4043 4035 4031 4023 4007" />
+	            <Houtai Forever="103984" Daily="11472" BossStartID="220011" BossEndID="220020" BossStyle="0" StatLog="2006240107"/>
 	        </Mould>
 			<Mould>
 				<Qianduan BossPosX="0 0 0 0 0" BossPosY="0 0 0 -30 0" BossScaleX="1 1 1 1 1" BossScaleY="1 1 1 1 1" />
@@ -1269,7 +1269,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			</Mould>
 			<Mould>
 				<Qianduan BossPosX="0" BossPosY="0" BossScaleX="1" BossScaleY="1" />
-				<Cehua TaskId="4" MouldId="28" MidItems="1722163 1722169 1722162" Args="15 5 4 4 1 8 0 10" BossId="4075" 
+				<Cehua TaskId="4" MouldId="28" MidItems="1722163 1722169 1722162" Args="15 5 4 4 1 8 0 10" BossId="4075"
 				PanelTips="\n搜集4个连续相同的元神即可通过试炼\n每战胜一次混沌界神，就会掉落一种元神\n元神之间可以两两消除，请小赛尔自行探索消除规则" />
 				<Houtai Forever="109001 109002 109003 109004 109005 109006" Daily="11474" BossStartID="235002" BossEndID="235002" BossStyle="0" StatLog="2006240138"/>
 			</Mould>
@@ -1288,7 +1288,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		<Tasks Style="1" MonCount="1" TaskCount="4" Need="" TaskValue="109011">
 			<Mould>
 				<Qianduan  BossScaleX="0.8 0.8 1" BossScaleY="0.8 0.8 1"  />
-				<Cehua TaskId="1" MouldId="20" MidItems="1722185 1722205 1722184" Args="6 5000 5000 5000" BossId="4020 4078 4023" 
+				<Cehua TaskId="1" MouldId="20" MidItems="1722185 1722205 1722184" Args="6 5000 5000 5000" BossId="4020 4078 4023"
 				PanelTips="哀狂达尔和哀目黑子阻止你挑战喋血·哀影疾风，\n必须先对他俩累积造成5000伤害后，才能攻击喋血·哀影疾风。\n提前攻击喋血·哀影疾风会导致他俩的能力急剧上升！（战胜才计入累积伤害）" />
 				<Houtai Forever="109012 109013" Daily="11476" BossStartID="192016" BossEndID="192020" BossStyle="0" StatLog="2007030100"/>
 			</Mould>
@@ -1300,15 +1300,15 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			</Mould>
 			<Mould>
 				<Qianduan BossPosX="0 0 0 0 -11 17 0 -4 0" BossPosY="-20 -20 -20 -20 -57 -50 -34 -41 -44" BossScaleX="1.2 1.2 1.2 1.2 1 1 1 1 1" BossScaleY="1.2 1.2 1.2 1.2 1 1 1 1 1" />
-				<Cehua TaskId="3" MouldId="13" Items="1722193" MidItems="1722205 1722191 1722192 1722198 1722195 1722196 1722197 1722194" Args="12 40 45 50 60 80 100 8 8 8 15 10 20 1 5 6 10 180 200" 
+				<Cehua TaskId="3" MouldId="13" Items="1722193" MidItems="1722205 1722191 1722192 1722198 1722195 1722196 1722197 1722194" Args="12 40 45 50 60 80 100 8 8 8 15 10 20 1 5 6 10 180 200"
 				PanelTips="走至终点，用200个金币兑换掠天之翼，即可通过此关卡。" ChallengeTips="掠天之翼可以帮助喋血·哀影疾风强化自己的能量，\n标注掠天之翼地点的藏宝图随机掉落在场景里，\n先找出藏宝图吧！" BossId="4043 4054 4072 4072 4069 3888 3844 3892 4078"
 				BossIsBitmap="0 0 0 0 1 1 1 1 1" />
 				<Houtai Forever="109015 109016 109017 109018 109019 109020 109021 109022" Daily="11478" BossStartID="135028" BossEndID="135036" BossStyle="0" StatLog="2007030114"/>
 			</Mould>
 	        <Mould>
-	            <Qianduan BossPosX="0" BossPosY="-59" BossScaleX="1" BossScaleY="1"/>                        
-	            <Cehua TaskId="4" MouldId="2" MidItems="1722201 1722199 1722200 1722205 1722205 1722202" Args="12 3 4 0 12 2 3 3 3 9 12 15 10 5" ChallengeTips="旷日持久的历练，必须要有充沛的体力。\n与喋血·哀影疾风战斗坚持超过10回合（无论胜败），即可前进！ 历练需要强大的力量进行支撑。\n与喋血·哀影疾风战斗中暴击不少于5次，即可前进！ 历练需要尽快完成。\n与喋血·哀影疾风战斗中每回合都先手，才能尽快完成历练！ 历练需要有充足的体力应对各方面的挑战。\n战胜3命喋血·哀影疾风！" PanelTips="历练必然要经过重重险阻。\n选择正确的道路走至终点列战胜喋血·哀影疾风即可通过此关卡。" BossId="4075 4048 4050 4068 4001 3999 3994 3983 3866 3847 3814 3815 3813 3806 3949 4082 4059 4078"/>            
-	            <Houtai Forever="109023 109024 109025 109026" Daily="11479 11479" BossStartID="60089" BossEndID="60110" BossStyle="0" StatLog="2007030121"/>        
+	            <Qianduan BossPosX="0" BossPosY="-59" BossScaleX="1" BossScaleY="1"/>
+	            <Cehua TaskId="4" MouldId="2" MidItems="1722201 1722199 1722200 1722205 1722205 1722202" Args="12 3 4 0 12 2 3 3 3 9 12 15 10 5" ChallengeTips="旷日持久的历练，必须要有充沛的体力。\n与喋血·哀影疾风战斗坚持超过10回合（无论胜败），即可前进！ 历练需要强大的力量进行支撑。\n与喋血·哀影疾风战斗中暴击不少于5次，即可前进！ 历练需要尽快完成。\n与喋血·哀影疾风战斗中每回合都先手，才能尽快完成历练！ 历练需要有充足的体力应对各方面的挑战。\n战胜3命喋血·哀影疾风！" PanelTips="历练必然要经过重重险阻。\n选择正确的道路走至终点列战胜喋血·哀影疾风即可通过此关卡。" BossId="4075 4048 4050 4068 4001 3999 3994 3983 3866 3847 3814 3815 3813 3806 3949 4082 4059 4078"/>
+	            <Houtai Forever="109023 109024 109025 109026" Daily="11479 11479" BossStartID="60089" BossEndID="60110" BossStyle="0" StatLog="2007030121"/>
 	        </Mould>
 		</Tasks>
 		<Power>
@@ -1335,7 +1335,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			<Mould>
 				<Qianduan BossPosX="0 0 0 0 0 0 15" BossPosY="0 0 0 0 0 0 0" BossScaleX="1 1 1 1 1 1 0.8" BossScaleY="1 1 1 1 1 1 0.8" DropPanelTips="战胜的精灵星级越高，掉落的炽热火种越多"/>
 				<Cehua TaskId="3" MouldId="5" ResType="1"
-				Items="1722214 1722216" MidItems="1722212 1722215 1722226 1722213 1722219" Args="12 100 3 6 3 6 4 8 45 30 25 10 0 60 1 3 4 6 10 12" 
+				Items="1722214 1722216" MidItems="1722212 1722215 1722226 1722213 1722219" Args="12 100 3 6 3 6 4 8 45 30 25 10 0 60 1 3 4 6 10 12"
 				BossId="4037 4030 4032 4050 4046 4045 4044" BossIsBitmap="0 0 0 0 1 1 1"
 				PanelTips="\n搜集100个炽热火种即可通过此关卡\n" RuleTips="1、通关条件：搜集100个炽热火种即可通过此关卡\n2、格子类型：\n视野全开格：可以展示全图内容\n道具格：可以获得4-8个严寒碎冰\n星星格：可以获得3-6个炽热火种\n3、严寒碎冰：翻开1个格子消耗3个严寒碎冰，挑战1个精灵消耗6个严寒碎冰\n4、关卡重置：挑战完所有的格子后，未集齐100个通关道具，关卡会重置，但保留60%炽热火种"/>
 	            <Houtai Forever="109032 109033 109034 109035 109036 109037 109038 109039 109040 109041 109042" Daily="11483" BossStartID="83036" BossEndID="83042" BossStyle="0" StatLog="2007030217"/>
@@ -1354,7 +1354,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		</Cover>
 		<Tasks Style="3" MonCount="1" TaskCount="1" Need="" TaskValue="109045">
 			<NotPassMould>
-				<Cehua TaskExId="1" MouldId="1" Items="1722259" MidItems="1722268 1722260" Args="10 3 5" BossId="4082 4067" 
+				<Cehua TaskExId="1" MouldId="1" Items="1722259" MidItems="1722268 1722260" Args="10 3 5" BossId="4082 4067"
 				BossPosX="0 -47" BossPosY="-30 -46" BossScaleX="1 1" BossScaleY="1 1" BossIsBitmap="1 1"
 				PanelTips="\n战胜2只精灵，随机获得$-$个$" />
 				<Houtai Forever="109046" Daily="11485" BossStartID="111011" BossEndID="111012" BossStyle="0" StatLog="2007100100"/>
@@ -1362,8 +1362,8 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			</NotPassMould>
 			<Mould>
 				<Cehua TaskId="1" MouldId="21" MidItems="1722260 1722254 1722255 1722256 1722257 1722258 1722244 1722245 1722246 1722247 1722248 1722261 1722262 1722263 1722264 1722265"
-				Items="1722259 1722249 1722250 1722251 1722252 1722253 1722239 1722240 1722241 1722242 1722243" Args="1 1 2 3 5 8 0 1 35 35 35 35 35 10" 
-				BossId="4030 4037 4048 4050 4075 4043 4054 4072" PanelTips="依次通过以下2个关卡集齐一套道具即可获得新精灵。\n每次挑战均需要消耗1个通行证。" 
+				Items="1722259 1722249 1722250 1722251 1722252 1722253 1722239 1722240 1722241 1722242 1722243" Args="1 1 2 3 5 8 0 1 35 35 35 35 35 10"
+				BossId="4030 4037 4048 4050 4075 4043 4054 4072" PanelTips="依次通过以下2个关卡集齐一套道具即可获得新精灵。\n每次挑战均需要消耗1个通行证。"
 				ChallengeTips="探险路上需要准备一个护符，不然会迷路哦！\n战胜1个精灵即可获得1个护符，从左到右精灵挑战难度依次上升。\n护符的品质越高，探险获得的道具数量越多！ \n携带不同的护符，探险可获得的道具数量不同。"/>
 				<Houtai Forever="109047 109048 109049 109050" BossStartID="197041" BossEndID="197060" BossStyle="0" StatLog="2007100102"/>
 				<Qianduan BossPosX="0 -20 14 -20 -20 4 -12 0" BossPosY="0 0 -24 -23 -34 0 -52 0" Args="行囊准备 未知探险 1 45763 3"/>
@@ -1388,14 +1388,14 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			</Mould>
 			<Mould>
 				<Qianduan BossPosX="0" BossPosY="50" BossScaleX="1" BossScaleY="1" />
-				<Cehua TaskId="2" MouldId="24" MidItems="1722312 1722326 1722311" Args="12 33 33 33 1 1 2 6 6 9 9 9 12" 
-				PanelTips="$bossname$需要凝聚100点能量才能完成超进化，\n每战胜1次$bossname$，会随机掉落1个能量。\n$bossname$对3种能量的吸收能力不同。\n同时吸收多个同类能量会获得翻倍的吸收效果。" 
+				<Cehua TaskId="2" MouldId="24" MidItems="1722312 1722326 1722311" Args="12 33 33 33 1 1 2 6 6 9 9 9 12"
+				PanelTips="$bossname$需要凝聚100点能量才能完成超进化，\n每战胜1次$bossname$，会随机掉落1个能量。\n$bossname$对3种能量的吸收能力不同。\n同时吸收多个同类能量会获得翻倍的吸收效果。"
 				BossId="4088" BossIsBitmap="0" BossFlip="0" />
 				<Houtai Forever="109056 109057" Daily="11488" BossStartID="214002" BossEndID="214002" BossStyle="0" StatLog="2007170106"/>
 			</Mould>
 			<Mould>
-				<Cehua TaskId="3" MouldId="22" Items="1722316 1722328 1722329 1722330 1722334 1722335 1722336 1722313 1722315" MidItems="1722323 1722331 1722332 1722333 1722337 1722338 1722339 1722314 1722321 1722322 1722326 1722326" 
-				Args="15 15 1 1 1 50 50 50 3 3 3 1 3 5 10 40 40 20 40 10 30 3 100 3 50 3 2 1 5" BossId="4088 4069 3949 3888 4029" BossIsBitmap="1 1 1 1 1" 
+				<Cehua TaskId="3" MouldId="22" Items="1722316 1722328 1722329 1722330 1722334 1722335 1722336 1722313 1722315" MidItems="1722323 1722331 1722332 1722333 1722337 1722338 1722339 1722314 1722321 1722322 1722326 1722326"
+				Args="15 15 1 1 1 50 50 50 3 3 3 1 3 5 10 40 40 20 40 10 30 3 100 3 50 3 2 1 5" BossId="4088 4069 3949 3888 4029" BossIsBitmap="1 1 1 1 1"
 				PanelTips="挑战环·圣芒获得种子，播种种子后，使用光源和水源，使其光能和水能达到100，长出果实。\n通过采摘和兑换，集齐10个圣洁粒子即可通关领取精灵。" ChallengeTips="挑战的精灵星级越高，获得的道具品质越高；\n挑战某种星级的精灵达到3次，必定既能得到光源，又能得到水源"/>
 				<Houtai Forever="109058 109059 109060 109061 109062" Daily="11489 11489" BossStartID="207007" BossEndID="207012" BossStyle="0" StatLog="2007170109"/>
 				<Qianduan BossPosX="0 0 0 0 0" BossPosY="0 0 0 0 0" BossScaleX="1 1 1 1 1" BossScaleY="1 1 1 1 1" Args="光能 水能"/>
@@ -1447,7 +1447,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			</Mould>
 			<Mould>
 				<Qianduan BossPosX="-20" BossPosY="67" BossScaleX="1.2" BossScaleY="1.2" Args="已扬起 已扬起 已扬起 已扬起 已扬起 2-1 2-2 2-3 2-4 2-5" IconPos="0_0_1_1|0_0_1_1|0_0_1_1|0_0_1_1|0_0_1_1" AlarmAndAlert="1_1_重复扬起了一阵疾风，疾风状态被重置了。|1_2_一阵疾风已被吹起！" />
-				<Cehua TaskId="2" MouldId="11" ResType="1" MidItems="1722386 1722432 1722385 1722395" Args="6 4" BossId="4094" 
+				<Cehua TaskId="2" MouldId="11" ResType="1" MidItems="1722386 1722432 1722385 1722395" Args="6 4" BossId="4094"
 				PanelTips="战胜樱即可随机扬起一阵疾风，5阵疾风均被扬起即可通关！\n如果扬起了重复疾风，当前未被锁定的疾风将会被吹灭重置！\n（锁定的疾风不会被重复扬起及重置）"
 				RuleTips="一阵疾风被扬起4次后，必定不会被重复扬起及重置" />
 				<Houtai Forever="109082" Daily="11496" BossStartID="131006" BossEndID="131006" BossStyle="0" StatLog="2007310506"/>
@@ -1470,13 +1470,13 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		</Cover>
 		<Tasks Style="1" MonCount="1" TaskCount="4" Need="" TaskValue="109089">
 			<Mould>
-				<Cehua TaskId="1" MouldId="15" MidItems="1722398 1722423 1722399 1722400 1722401 1722402" Args="4 0" BossIsBitmap="0" 
+				<Cehua TaskId="1" MouldId="15" MidItems="1722398 1722423 1722399 1722400 1722401 1722402" Args="4 0" BossIsBitmap="0"
 				BossId="4096" PanelTips="击败月牙之刃4次即可通过此关卡！\n每次击败都会使得月牙之刃的能力得到提升！"/>
 				<Houtai Forever="109090" Daily="200001" BossStartID="149017" BossEndID="149020" BossStyle="0" StatLog="2007310600"/>
 				<Qianduan BossPosX="-25" BossPosY="0" BossScaleX="1" BossScaleY="1" />
 			</Mould>
 			<Mould>
-				<Qianduan BossPosX="0 0 0 0 0 0 0 0 0 0 0 0 0" BossPosY="0 0 0 0 0 0 0 0 0 0 0 0 0" 
+				<Qianduan BossPosX="0 0 0 0 0 0 0 0 0 0 0 0 0" BossPosY="0 0 0 0 0 0 0 0 0 0 0 0 0"
 						  BossScaleX="1 1 1 1 1 1 1 1 1 1 1 1 1" BossScaleY="1 1 1 1 1 1 1 1 1 1 1 1 1" />
 				<Cehua TaskId="2" MouldId="29" BossId="4096 4096 4043 4054 4072 4088 4058 4064 4075 4084 4082 4096 4096"
 					   MidItems="1722403 1722423 1722404 1722408 1722405 1722409 1722406 1722410 1722407 1722411"
@@ -1509,7 +1509,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		<Tasks Style="1" MonCount="1" TaskCount="3" Need="" TaskValue="109120">
 			<Mould>
 				<Qianduan  BossScaleX="0.8 1 1" BossScaleY="0.8 1 1"  />
-				<Cehua TaskId="1" MouldId="20" MidItems="1722439 1722451 1722438" Args="9 5000 5000 5000" BossId="4078 4097 4023" 
+				<Cehua TaskId="1" MouldId="20" MidItems="1722439 1722451 1722438" Args="9 5000 5000 5000" BossId="4078 4097 4023"
 					PanelTips="喋血·哀影疾风和哀目黑子阻止你挑战哀梦幻蝶，\n必须先对他俩累积造成5000伤害后，才能攻击哀梦幻蝶。\n提前攻击哀梦幻蝶会导致他俩的能力急剧上升！（战胜才计入累积伤害）" />
 				<Houtai Forever="109121 109122" Daily="200006" BossStartID="192021" BossEndID="192025" BossStyle="0" StatLog="2008070200"/>
 			</Mould>
@@ -1519,10 +1519,10 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			</Mould>
 			<Mould>
 				<Cehua TaskId="3" MouldId="17" Items="1722446" MidItems="1722443 1722448 1722445 1722444 1722447" Args="2 60 2 80 6 15 50 15 60 60"
-				BossId="4043 4054 4072 4088 4094 4096 4087 4075 4097" BossIsBitmap="0 0 0 0 0 0 0 0 0" 
+				BossId="4043 4054 4072 4088 4094 4096 4087 4075 4097" BossIsBitmap="0 0 0 0 0 0 0 0 0"
 				PanelTips="哀梦幻蝶进入了迷途空间，穿越空间找到哀梦幻蝶并击败她即可通过关卡。\n迷途空间共分为6层，赛尔最初处于第一层，哀梦幻蝶处于第六层。\n（第1层1张地图，第2层2张地图，第3层8张地图，第4层8张地图，第5、6层16张地图）"
 				ChallengeTips="此图是我开，此洞是我钻，要想钻此洞，留下买洞财" />
-				<Houtai Forever="109124 109125 109126 109127 109128 109129 109130 109131 109132 109133 109134 109135 109136 109137 109138 109139 109140 109141 109142 109143 109144 109145 109146 109147 109148 109149 109150 109151 109152 109153 109154 109155 109156 109157 109158 109159 109160 109161 109162 109163 109164" Daily="200008" BossStartID="177028" BossEndID="177036" BossStyle="0" StatLog="2008070228"/>    
+				<Houtai Forever="109124 109125 109126 109127 109128 109129 109130 109131 109132 109133 109134 109135 109136 109137 109138 109139 109140 109141 109142 109143 109144 109145 109146 109147 109148 109149 109150 109151 109152 109153 109154 109155 109156 109157 109158 109159 109160 109161 109162 109163 109164" Daily="200008" BossStartID="177028" BossEndID="177036" BossStyle="0" StatLog="2008070228"/>
 				<Qianduan BossPosX="0 0 0 0 0 0 0 0 0" BossPosY="-40 -65 -40 -20 0 0 0 0 0" BossPosScaleX="1 1 1.3 0.9 0.7 0.7 1 1 1" BossPosScaleY="1 1 1.3 0.9 0.7 0.7 1 1 1" />
 			</Mould>
 		</Tasks>
@@ -1549,7 +1549,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			</Mould>
 			<Mould>
 				<Cehua TaskId="3" MouldId="33" MidItems="1722491 1722492 1722493 1722494" Args="15 180 50 3 4 3 5 3 5 3 8 5 12 25 20 12 18 15 25 20 30 7 8 20 3 30 3 2 3 60 20 10000 10000 10000 20 18 13 8 10 45 5 8 12 22 1 1 1 2 8 4 3 5 3"
-				BossId="3962 3962 3935 3839 3840" BossIsBitmap="0 0 0 0 0" PanelTips="15个敌人被消灭，赛尔坚持到最后即可通过关卡\nwinner winner chicken dinner~" />   
+				BossId="3962 3962 3935 3839 3840" BossIsBitmap="0 0 0 0 0" PanelTips="15个敌人被消灭，赛尔坚持到最后即可通过关卡\nwinner winner chicken dinner~" />
 				<Houtai Forever="109175 109176 109177 109178 109179 109180 109181 109182 109183 109184 109185 109186 109187 109188 109189 109190 109191 109192 109193 109194 109195 109196 109197 109198 109199 109200 109201 109202 109203 109204 109205 109206 109207 109208 109209 109210 109211 109212 109213 109214 109215 109216 109217 109218 109219 109220 109221 109222 109223 109224 109225 109226 109227 109228" Daily="200012" BossStartID="241001" BossEndID="241004" BossStyle="0" StatLog="2008140224"/>
 				<Qianduan BossPosX="0 0 0 0 0" BossPosY="0 0 0 0 0" BossPosScaleX="1 1 1 1 1" BossPosScaleY="1 1 1 1 1" />
 			</Mould>
@@ -1572,14 +1572,14 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 				<Houtai Forever="109234" Daily="200014" BossStartID="258001" BossEndID="258012" BossStyle="0" StatLog="2008210100"/>
 			</Mould>
 			<Mould>
-				<Qianduan BossPosX="0 0 0 0" BossPosY="0 0 0 -85" BossScaleX="1 1 1 1" BossScaleY="1 1 1 1" />				
+				<Qianduan BossPosX="0 0 0 0" BossPosY="0 0 0 -85" BossScaleX="1 1 1 1" BossScaleY="1 1 1 1" />
 				<Cehua TaskId="2" MouldId="35" MidItems="1722515 1722525" Args="10 40 80" BossId="4068 3949 3865 4105"/>
 								<!--!bossid左边的精灵放最后！-->
 				<Houtai Forever="109235" Daily="200015" BossStartID="264501" BossEndID="264504" BossStyle="0" StatLog="2008210125"/>
 			</Mould>
 			<Mould>
 				<Cehua TaskId="3" MouldId="33" MidItems="1722517 1722518 1722519 1722520" Args="18 200 50 3 4 3 5 3 5 3 8 5 12 25 20 12 18 15 25 20 30 7 8 20 3 30 3 2 3 60 20 10000 10000 10000 20 18 13 8 10 45 5 8 12 22 1 1 1 2 8 4 3 5 3"
-					BossId="3962 3854 3856 3862 3836" BossIsBitmap="0 0 0 0 0" PanelTips="15个敌人被消灭，赛尔坚持到最后即可通过关卡\nwinner winner chicken dinner~" />   
+					BossId="3962 3854 3856 3862 3836" BossIsBitmap="0 0 0 0 0" PanelTips="15个敌人被消灭，赛尔坚持到最后即可通过关卡\nwinner winner chicken dinner~" />
 				<!--!bossid这个地方配5个，第一个不用改，之前留的坑！！！！-->
 				<Houtai Forever="109236 109237 109238 109239 109240 109241 109242 109243 109244 109245 109246 109247 109248 109249 109250 109251 109252 109253 109254 109255 109256 109257 109258 109259 109260 109261 109262 109263 109264 109265 109266 109267 109268 109269 109270 109271 109272 109273 109274 109275 109276 109277 109278 109279 109280 109281 109282 109283 109284 109285 109286 109287 109288 109289" Daily="200016" BossStartID="241005" BossEndID="241008" BossStyle="0" StatLog="2008210134"/>
 				<Qianduan BossPosX="0 0 0 0 0" BossPosY="0 0 0 0 0" BossPosScaleX="1 1 1 1 1" BossPosScaleY="1 1 1 1 1" />
@@ -1603,31 +1603,31 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 	</Design>
 
 	<Design ID="50" TimeFlag="" Desc="20200828 魔剪•塞泽丝">
-	    <Cover>            
+	    <Cover>
 	        <Cehua ZhizunItemID="1722537" TaskNames=""/>
 	        <Houtai SuperEvolveID="0"/>
-	    </Cover>    
-	    <Tasks Style="1" MonCount="1" TaskCount="3" Need="" TaskValue="109297">    
+	    </Cover>
+	    <Tasks Style="1" MonCount="1" TaskCount="3" Need="" TaskValue="109297">
 	        <Mould>
-	            <Qianduan BossPosX="0 0 0 0" BossPosY="0 0 0 0" BossScaleX="0.8 0.8 0.8 0.8" BossScaleY="0.8 0.8 0.8 0.8"/>             
-	            <Cehua TaskId="1" MouldId="20" MidItems="1722539 1722548 1722538" Args="12 10000 10000 10000" BossId="4097 4109 4078" PanelTips="哀梦幻蝶、喋血·哀影疾风与魔剪·塞泽丝有着千丝万缕的关系，必须先对他俩累积造成一万伤害后，才能攻击魔剪·塞泽丝。提前攻击魔剪·塞泽丝会导致他俩的能力急剧上升！（战胜才计入累积伤害）" />            
-	            <Houtai Forever="109298 109299" Daily="200020" BossStartID="192026" BossEndID="192030" BossStyle="0" StatLog="2008280100"/>    
-	        </Mould>
-	        <Mould>        
-	            <Cehua TaskId="2" MouldId="26" MidItems="1722540 1722548 1722541" Args="6" BossId="4107 4106 4104 4103 4100 4099 4098 4083 4070 4063" />  
-	            <Houtai Forever="109300" Daily="200021" BossStartID="220021" BossEndID="220030" BossStyle="0" StatLog="2008280107"/>   
+	            <Qianduan BossPosX="0 0 0 0" BossPosY="0 0 0 0" BossScaleX="0.8 0.8 0.8 0.8" BossScaleY="0.8 0.8 0.8 0.8"/>
+	            <Cehua TaskId="1" MouldId="20" MidItems="1722539 1722548 1722538" Args="12 10000 10000 10000" BossId="4097 4109 4078" PanelTips="哀梦幻蝶、喋血·哀影疾风与魔剪·塞泽丝有着千丝万缕的关系，必须先对他俩累积造成一万伤害后，才能攻击魔剪·塞泽丝。提前攻击魔剪·塞泽丝会导致他俩的能力急剧上升！（战胜才计入累积伤害）" />
+	            <Houtai Forever="109298 109299" Daily="200020" BossStartID="192026" BossEndID="192030" BossStyle="0" StatLog="2008280100"/>
 	        </Mould>
 	        <Mould>
-	            <Qianduan BossPosX="0" BossPosY="0" BossScaleX="1" BossScaleY="1"/>                        
+	            <Cehua TaskId="2" MouldId="26" MidItems="1722540 1722548 1722541" Args="6" BossId="4107 4106 4104 4103 4100 4099 4098 4083 4070 4063" />
+	            <Houtai Forever="109300" Daily="200021" BossStartID="220021" BossEndID="220030" BossStyle="0" StatLog="2008280107"/>
+	        </Mould>
+	        <Mould>
+	            <Qianduan BossPosX="0" BossPosY="0" BossScaleX="1" BossScaleY="1"/>
 	            <Cehua TaskId="3" MouldId="2" MidItems="1722542 1722543 1722545 1722548 1722548 1722544" Args="8 3 2 0 8 2 3 3 3 10 12 15 8 5" ChallengeTips="旷日持久的历练，必须要有充沛的体力。\n与魔剪·塞泽丝战斗坚持超过8回合（无论胜败），即可前进！ 历练需要强大的力量进行支撑。\n与魔剪·塞泽丝战斗中暴击不少于5次，即可前进！ 历练需要尽快完成。\n与魔剪·塞泽丝战斗中每回合都先手，才能尽快完成历练！ 历练需要有充足的体力应对各方面的挑战。\n战胜3命魔剪·塞泽丝！" PanelTips="历练必然要经过重重险阻。\n选择正确的道路走至终点列战胜魔剪·塞泽丝即可通过此关卡。" BossId="4088 4072 4054 4043 4097 4078 4023 4020 4001 3999 3964 3949 3948 3921 3920 3487 3776 4109"/>
 	            <Houtai Forever="109301 109302 109303 109304" Daily="200022 200022" BossStartID="60111" BossEndID="60132" BossStyle="0" StatLog="2008280127"/>
 	        </Mould>
 	    </Tasks>
-	    <Power>                       
-	        <Cehua LoadType="1" MonsterID="4109" MintmarkID="41894" SkillID="" NewSeIconId="1318" ItemID="1722546" ItemCount="15 15 15" MidItemID="1722547" TimesItemID="1722548" VipTimes="5" NotVipTimes="3" ProbID="1" UpPosX="0" UpPosY="0" UpScaleX="1" UpScaleY="1"/>                
+	    <Power>
+	        <Cehua LoadType="1" MonsterID="4109" MintmarkID="41894" SkillID="" NewSeIconId="1318" ItemID="1722546" ItemCount="15 15 15" MidItemID="1722547" TimesItemID="1722548" VipTimes="5" NotVipTimes="3" ProbID="1" UpPosX="0" UpPosY="0" UpScaleX="1" UpScaleY="1"/>
 	        <Houtai GainValue="109296" NewSeID="5613" TimesValue="200023" BossStartID="50117" BossEndID="50119" StatLog="2008280202"/>
-	    </Power>                                                            
-	</Design>  
+	    </Power>
+	</Design>
 
 	<Design ID="51" TimeFlag="" Desc="20200904 S51风之子•岚">
 		<Cover>
@@ -1645,19 +1645,19 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			</Mould>
 			<Mould>
 				<Qianduan BossPosX="0" BossPosY="0" BossScaleX="1.2" BossScaleY="1.2" />
-				<Cehua TaskId="3" MouldId="25" MidItems="1722593 1722609 1722595 1722594 1722596 1722597 1722598 1722599 1722600" Args="8 2 2 3 1" 
-				RuleTips="风之子·岚需要探寻自己的本心，激发自己内在的潜力。\n找出本心的位置并激发出他的潜力，即可通过此关卡。 本心探寻成功，\n连续击败风之子·岚3次即可激发出他的内在潜力，通过此关卡。 风之子·岚进入疯狂状态，击败他使其平静下来，即可继续探寻其本心。" 
+				<Cehua TaskId="3" MouldId="25" MidItems="1722593 1722609 1722595 1722594 1722596 1722597 1722598 1722599 1722600" Args="8 2 2 3 1"
+				RuleTips="风之子·岚需要探寻自己的本心，激发自己内在的潜力。\n找出本心的位置并激发出他的潜力，即可通过此关卡。 本心探寻成功，\n连续击败风之子·岚3次即可激发出他的内在潜力，通过此关卡。 风之子·岚进入疯狂状态，击败他使其平静下来，即可继续探寻其本心。"
 				BossId="4113" BossIsBitmap="0" />
 				<Houtai Forever="109312 109313" Daily="200026" PlayerInfo="1025" BossStartID="215011" BossEndID="215015" BossStyle="0" StatLog="2009040134"/>
 			</Mould>
-	        <Mould> 
-	            <Qianduan BossPosX="-2 15 5 12" BossPosY="-74 -77 -70 -60" BossScaleX="1 1 1 1" BossScaleY="1 1 1 1"/>            
-	            <Cehua TaskId="4" MouldId="38" MidItems="1722606 1722609 1722602 1722603 1722604 1722605 1722601 1722628" Args="10 10" BossId="4037 4050 4075 4048" />  
-	            <Houtai Forever="109314 109315 109316" Daily="200027" BossStartID="268501" BossEndID="268504" BossStyle="0" StatLog="2009040147"/>   
+	        <Mould>
+	            <Qianduan BossPosX="-2 15 5 12" BossPosY="-74 -77 -70 -60" BossScaleX="1 1 1 1" BossScaleY="1 1 1 1"/>
+	            <Cehua TaskId="4" MouldId="38" MidItems="1722606 1722609 1722602 1722603 1722604 1722605 1722601 1722628" Args="10 10" BossId="4037 4050 4075 4048" />
+	            <Houtai Forever="109314 109315 109316" Daily="200027" BossStartID="268501" BossEndID="268504" BossStyle="0" StatLog="2009040147"/>
 	        </Mould>
 		</Tasks>
-	    <Power>                       
-	        <Cehua LoadType="1" MonsterID="4113" MintmarkID="41898" SkillID="" NewSeIconId="1321" ItemID="1722607" ItemCount="15 15 15" MidItemID="1722608" TimesItemID="1722609" VipTimes="5" NotVipTimes="3" ProbID="1" UpPosX="0" UpPosY="0" UpScaleX="1" UpScaleY="1"/>                
+	    <Power>
+	        <Cehua LoadType="1" MonsterID="4113" MintmarkID="41898" SkillID="" NewSeIconId="1321" ItemID="1722607" ItemCount="15 15 15" MidItemID="1722608" TimesItemID="1722609" VipTimes="5" NotVipTimes="3" ProbID="1" UpPosX="0" UpPosY="0" UpScaleX="1" UpScaleY="1"/>
 	        <Houtai GainValue="109306" NewSeID="5616" TimesValue="200028" BossStartID="50120" BossEndID="50122" StatLog="2009040155"/>
 	    </Power>
 	</Design>
@@ -1669,7 +1669,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		</Cover>
 		<Tasks Style="1" MonCount="1" TaskCount="3" Need="" TaskValue="109319">
 			<Mould>
-				<Cehua TaskId="1" MouldId="15" MidItems="1722634 1722659 1722635 1722636 1722637 1722638" Args="4 0" BossIsBitmap="0" 
+				<Cehua TaskId="1" MouldId="15" MidItems="1722634 1722659 1722635 1722636 1722637 1722638" Args="4 0" BossIsBitmap="0"
 				BossId="4116" PanelTips="核天使拥有永不屈服的意志！\n击败核天使4次才能通过此关卡！\n每次击败都会使得核天使的能力得到提升！"/>
 				<Houtai Forever="109320" Daily="200029" BossStartID="149021" BossEndID="149024" BossStyle="0" StatLog="2009110100"/>
 				<Qianduan BossPosX="0" BossPosY="0" BossScaleX="2" BossScaleY="2"/>
@@ -1680,8 +1680,8 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 				<Houtai Forever="109321" Daily="200030" BossStartID="55013" BossEndID="55014" BossStyle="0" StatLog="2009110109"/>
 			</Mould>
 			<Mould>
-				<Cehua TaskId="3" MouldId="22" Items="1722662 1722642 1722643 1722644 1722648 1722649 1722650 1722657 1722656" MidItems="1722641 1722645 1722646 1722647 1722651 1722652 1722653 1722655 1722660 1722661 1722659 1722659" 
-				Args="15 15 1 1 1 50 50 50 3 3 3 1 3 5 10 40 40 20 40 10 30 3 100 3 50 3 2 1 5" BossId="4116 4118 4113 4109 4082" BossIsBitmap="1 1 1 1 1" 
+				<Cehua TaskId="3" MouldId="22" Items="1722662 1722642 1722643 1722644 1722648 1722649 1722650 1722657 1722656" MidItems="1722641 1722645 1722646 1722647 1722651 1722652 1722653 1722655 1722660 1722661 1722659 1722659"
+				Args="15 15 1 1 1 50 50 50 3 3 3 1 3 5 10 40 40 20 40 10 30 3 100 3 50 3 2 1 5" BossId="4116 4118 4113 4109 4082" BossIsBitmap="1 1 1 1 1"
 				PanelTips="挑战核天使获得种子，播种种子后，使用光源和水源，使其光能和水能达到100，长出果实。\n通过采摘和兑换，集齐10个核能机甲即可通关领取精灵。" ChallengeTips="挑战的精灵星级越高，获得的道具品质越高；\n挑战某种星级的精灵达到3次，必定既能得到光源，又能得到水源"/>
 				<Houtai Forever="109322 109323 109324 109325 109326" Daily="200031 200031" BossStartID="207013" BossEndID="207018" BossStyle="0" StatLog="2009110115"/>
 				<Qianduan BossPosX="0 0 0 0 0" BossPosY="0 0 0 0 -60" BossScaleX="1 1 1 1 1" BossScaleY="1 1 1 1 1" Args="光能 水能"/>
@@ -1708,7 +1708,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			<Mould>
 				<Qianduan BossPosX="0 0 0 0 0 19 0" BossPosY="0 0 0 0 0 0 0" BossScaleX="1 1 1 1 1 1 1" BossScaleY="1 1 1 1 1 1 1" DropPanelTips="战胜的精灵星级越高，掉落的乍现电光越多"/>
 				<Cehua TaskId="2" MouldId="5" ResType="1"
-				Items="1722667 1722669" MidItems="1722672 1722668 1722670 1722671 1722675" Args="10 100 3 6 3 6 4 8 45 30 25 10 0 60 1 3 4 6 10 12" 
+				Items="1722667 1722669" MidItems="1722672 1722668 1722670 1722671 1722675" Args="10 100 3 6 3 6 4 8 45 30 25 10 0 60 1 3 4 6 10 12"
 				BossId="4114 4092 4064 4113 4109 4102 4090" BossIsBitmap="0 0 0 0 1 1 1"
 				PanelTips="\n搜集100个雷闪狂鸣即可通过此关卡\n" RuleTips="1、通关条件：搜集100个雷闪狂鸣即可通过此关卡\n2、格子类型：\n视野全开格：可以展示全图内容\n道具格：可以获得4-8个乍现电光\n星星格：可以获得3-6个雷闪狂鸣\n3、乍现电光：翻开1个格子消耗3个乍现电光，挑战1个精灵消耗6个乍现电光\n4、关卡重置：挑战完所有的格子后，未集齐100个通关道具，关卡会重置，但保留60%雷闪狂鸣"/>
 	            <Houtai Forever="109331 109332 109333 109334 109335 109336 109337 109338 109339 109340 109341" Daily="200034" BossStartID="83043" BossEndID="83049" BossStyle="0" StatLog="2009110207"/>
@@ -1759,14 +1759,14 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
                 <Houtai Forever="107367" Daily="12611" BossStartID="1121" BossEndID="1123" BossStyle="1" StatLog="2009250100"/>
             </Mould>
             <Mould>
-                <Qianduan BossPosX="0 0 0 0 0 0 0 0 0 0 0 0 0" BossPosY="0 0 0 0 0 0 0 0 0 0 0 0 0" 
+                <Qianduan BossPosX="0 0 0 0 0 0 0 0 0 0 0 0 0" BossPosY="0 0 0 0 0 0 0 0 0 0 0 0 0"
                     BossScaleX="1 1 1 1 1 1 1 1 1 1 1 1 1" BossScaleY="1 1 1 1 1 1 1 1 1 1 1 1 1" />
                 <Cehua TaskId="2" MouldId="29" BossId="4122 4122 3866 3896 3932 3983 3998 4089 4098 4099 4104 4122 4122" MidItems="1722702 1722714 1722704 1722708 1722705 1722709 1722706 1722710 1722707 1722711" Args="13 20 40 80 100 5 10 10 10 1 10 10 20"/>
                 <Houtai Forever="107374 107375" Daily="12612" BossStartID="235437" BossEndID="235448" BossStyle="0" StatLog="2009250110"/>
             </Mould>
             <Mould>
                 <Qianduan BossPosX="0" BossPosY="0" BossScaleX="1" BossScaleY="1" />
-                <Cehua TaskId="3" MouldId="28" MidItems="1722703 1722714 1722701" Args="12 5 3 3 1 8 0 10" BossId="4122" 
+                <Cehua TaskId="3" MouldId="28" MidItems="1722703 1722714 1722701" Args="12 5 3 3 1 8 0 10" BossId="4122"
                     PanelTips="搜集三个连续相同的元神即可通过试炼\n每战胜一次卡勒丽铂，就会掉落一种元神\n元神之间可以两两消除，请小赛尔自行探索消除规则" />
                 <Houtai Forever="107368 107369 107370 107371 107372 107373" Daily="12613" BossStartID="235003" BossEndID="235003" BossStyle="0" StatLog="2009250107"/>
             </Mould>
@@ -1817,16 +1817,16 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		</Cover>
 		<Tasks Style="3" MonCount="1" TaskCount="1" Need="" TaskValue="109366">
 			<NotPassMould>
-				<Cehua TaskExId="1" MouldId="1" Items="1722765" MidItems="1722774 1722766" Args="10 3 5" BossId="4094 4059" 
+				<Cehua TaskExId="1" MouldId="1" Items="1722765" MidItems="1722774 1722766" Args="10 3 5" BossId="4094 4059"
 				BossPosX="0 -8" BossPosY="-9 -46" BossScaleX="1 1" BossScaleY="1 1" BossIsBitmap="1 1"
 				PanelTips="\n战胜2只精灵，随机获得$-$个$" />
 				<Houtai Forever="109367" Daily="200041" BossStartID="111013" BossEndID="111014" BossStyle="0" StatLog="2010090100"/>
 				<Qianduan Args="45763 3"/>
 			</NotPassMould>
 			<Mould>
-				<Cehua TaskId="1" MouldId="21" MidItems="1722766 1722760 1722761 1722762 1722763 1722764 1722750 1722751 1722752 1722753 1722754 1722767 1722768 1722769 1722770 1722771" 
-				Items="1722765 1722755 1722756 1722757 1722758 1722759 1722745 1722746 1722747 1722748 1722749" Args="1 1 2 3 5 8 0 1 35 35 35 35 35 10" 
-				BossId="4116 3937 3912 3896 3845 3876 3880 3887" PanelTips="依次通过以下2个关卡集齐一套道具即可获得新精灵。\n每次挑战均需要消耗1个通行证。" 
+				<Cehua TaskId="1" MouldId="21" MidItems="1722766 1722760 1722761 1722762 1722763 1722764 1722750 1722751 1722752 1722753 1722754 1722767 1722768 1722769 1722770 1722771"
+				Items="1722765 1722755 1722756 1722757 1722758 1722759 1722745 1722746 1722747 1722748 1722749" Args="1 1 2 3 5 8 0 1 35 35 35 35 35 10"
+				BossId="4116 3937 3912 3896 3845 3876 3880 3887" PanelTips="依次通过以下2个关卡集齐一套道具即可获得新精灵。\n每次挑战均需要消耗1个通行证。"
 				ChallengeTips="探险路上需要准备一个护符，不然会迷路哦！\n战胜1个精灵即可获得1个护符，从左到右精灵挑战难度依次上升。\n护符的品质越高，探险获得的道具数量越多！ \n携带不同的护符，探险可获得的道具数量不同。"/>
 				<Houtai Forever="109368 109369 109370 109371" BossStartID="197061" BossEndID="197080" BossStyle="0" StatLog="2010090102"/>
 				<Qianduan BossPosX="0 -20 -8 21 -20 4 4 -12" BossPosY="0 0 6 4 -16 0 -28 1" Args="行囊准备 未知探险 1 45763 3"/>
@@ -1847,10 +1847,10 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			<Mould>
 				<Cehua TaskId="1" MouldId="7" MidItems="1722800 1722798 1722799 1722812" Args="4 3" BossId="4128 4129 4130 4131 4121" PanelTips="选择一个挑战模式战胜精灵走至终点即可通关。\n稳定模式每只精灵需要战胜三次，中途失败不重置。\n快速模式每只精灵只需要战胜1次，但挑战失败关卡重置。"/>
 				<Houtai Forever="109387" Daily="200048" BossStartID="96081" BossEndID="96090" BossStyle="0" StatLog="2010160100"/>
-			</Mould>   
+			</Mould>
 			<Mould>
 				<Qianduan BossPosX="-20" BossPosY="21" BossScaleX="1.2" BossScaleY="1.2" Args="已唤醒 已唤醒 已唤醒 已唤醒 已唤醒 4-1 4-2 4-3 4-4 4-5" IconPos="0_0_1_1|0_0_1_1|0_0_1_1|0_0_1_1|0_0_1_1" AlarmAndAlert="1_1_重复唤醒了1株灵草，灵草状态被重置了。|1_2_一株灵草已被唤醒！" />
-				<Cehua TaskId="2" MouldId="11" ResType="1" MidItems="1722801 1722812 1722802 1721626" Args="4 8" BossId="4135" 
+				<Cehua TaskId="2" MouldId="11" ResType="1" MidItems="1722801 1722812 1722802 1721626" Args="4 8" BossId="4135"
 				PanelTips="战胜愈灵·克丽娅即可随机唤醒一株灵草，5株灵草均被唤醒即可通关！\n如果唤醒了同一株灵草，当前未被锁定的灵草将会重置为未唤醒状态！\n（锁定的灵草不会被重复唤醒及重置）"
 				RuleTips="一株灵草被唤醒8次后，必定不会被重复唤醒及重置" />
 				<Houtai Forever="109388" Daily="200049" BossStartID="131007" BossEndID="131007" BossStyle="0" StatLog="2010160119"/>
@@ -1878,7 +1878,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
                 <Houtai Forever="107393" Daily="12616" BossStartID="258013" BossEndID="258024" BossStyle="0" StatLog="2010230100"/>
             </Mould>
             <Mould>
-                <Qianduan BossPosX="0 0 0 0" BossPosY="0 0 0 -85" BossScaleX="1 1 1 1" BossScaleY="1 1 1 1" />				
+                <Qianduan BossPosX="0 0 0 0" BossPosY="0 0 0 -85" BossScaleX="1 1 1 1" BossScaleY="1 1 1 1" />
                 <Cehua TaskId="2" MouldId="35" MidItems="1722820 1722825" Args="10 20 40" BossId="4109 4125 4135 4137"/>
                 <!--!bossid左边的精灵放最后！-->
                 <Houtai Forever="107394" Daily="12617" BossStartID="264505" BossEndID="264508" BossStyle="0" StatLog="2010230125"/>
@@ -1931,20 +1931,20 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
                 <Houtai Forever="107410" Daily="12624" BossStartID="1126" BossEndID="1127" BossStyle="1" StatLog="2011060100"/>
             </Mould>
             <Mould>
-                <Qianduan BossPosX="0 0 0 0 0 0 0 0 0 0 0 0 0" BossPosY="0 0 0 0 0 0 0 0 0 0 0 0 0" 
+                <Qianduan BossPosX="0 0 0 0 0 0 0 0 0 0 0 0 0" BossPosY="0 0 0 0 0 0 0 0 0 0 0 0 0"
                     BossScaleX="1 1 0.7 1 1 1 1 1 1 1 1 1 1" BossScaleY="1 1 0.7 1 1 1 1 1 1 1 1 1 1" />
                 <Cehua TaskId="2" MouldId="29" BossId="4143 4143 4128 4129 4130 4131 4132 4116 4134 4120 4123 4143 4143"
                     MidItems="1722865 1722878 1722866 1722870 1722867 1722871 1722868 1722872 1722869 1722873"
                     Args="13 20 40 80 100 5 10 10 10 1 10 10 20"/>
 
-                <!--这里的boss最后一个小关卡前6个配不同的boss，最后一个配目标boss，但是后台实际挑战的boss用同一个id-->  
+                <!--这里的boss最后一个小关卡前6个配不同的boss，最后一个配目标boss，但是后台实际挑战的boss用同一个id-->
 
                 <Houtai Forever="107411 107412" Daily="12625" BossStartID="235449" BossEndID="235460" BossStyle="0" StatLog="2011060107"/>
             </Mould>
             <Mould>
-                <Cehua TaskId="3" MouldId="33" MidItems="1722875 1722880 1722881 1722520" Args="18 160 50 3 4 3 5 3 5 3 8 5 12 25 20 12 18 15 25 20 30 7 8 20 3 30 3 2 3 60 20 10000 10000 10000 20 18 13 8 10 45 5 8 12 22 1 1 1 2 8 4 3 5 3" BossId="4068 4098 4099 4076 4143" BossIsBitmap="0 0 0 0 0" PanelTips="15个敌人被消灭，赛尔坚持到最后即可通过关卡\nwinner winner chicken dinner~" /> 
+                <Cehua TaskId="3" MouldId="33" MidItems="1722875 1722880 1722881 1722520" Args="18 160 50 3 4 3 5 3 5 3 8 5 12 25 20 12 18 15 25 20 30 7 8 20 3 30 3 2 3 60 20 10000 10000 10000 20 18 13 8 10 45 5 8 12 22 1 1 1 2 8 4 3 5 3" BossId="4068 4098 4099 4076 4143" BossIsBitmap="0 0 0 0 0" PanelTips="15个敌人被消灭，赛尔坚持到最后即可通过关卡\nwinner winner chicken dinner~" />
                 <!--!bossid这个地方配5个，第一个不用改，之前留的坑！！！！-->
-                <Houtai Forever="107413 107414 107415 107416 107417 107418 107419 107420 107421 107422 107423 107424 107425 107426 107427 107428 107429 107430 107431 107432 107433 107434 107435 107436 107437 107438 107439 107440 107441 107442 107443 107444 107445 107446 107447 107448 107449 107450 107451 107452 107453 107454 107455 107456 107457 107458 107459 107460 107461 107462 107463 107464 107465 107466" Daily="12626" BossStartID="241009" BossEndID="241012" BossStyle="0" StatLog="2011060134"/>                
+                <Houtai Forever="107413 107414 107415 107416 107417 107418 107419 107420 107421 107422 107423 107424 107425 107426 107427 107428 107429 107430 107431 107432 107433 107434 107435 107436 107437 107438 107439 107440 107441 107442 107443 107444 107445 107446 107447 107448 107449 107450 107451 107452 107453 107454 107455 107456 107457 107458 107459 107460 107461 107462 107463 107464 107465 107466" Daily="12626" BossStartID="241009" BossEndID="241012" BossStyle="0" StatLog="2011060134"/>
                 <Qianduan BossPosX="0 0 0 0 0" BossPosY="0 0 0 0 0" BossPosScaleX="1 1 1 1 1" BossPosScaleY="1 1 1 1 1" />
             </Mould>
         </Tasks>
@@ -1964,9 +1964,9 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
                 <Cehua TaskId="1" MouldId="4" MidItems="1722884 1722883 1722900" Args="3" BossId="4147 4113 4105 4068" BossIsBitmap="0 1 1 1" PanelTips="\n使用月冕战胜右侧三个精灵，即可通过此关卡。\n"/>
                 <Houtai Forever="107472" Daily="12637" BossStartID="1128" BossEndID="1130" BossStyle="1" StatLog="2011130100"/>
             </Mould>
-            <Mould>        
-                <Cehua TaskId="2" MouldId="26" MidItems="1722885 1722900 1722886" Args="6" BossId="4135 4136 4137 4138 4139 4140 4141 4142 3976 3936"/>                       
-                <Houtai Forever="107473" Daily="12638" BossStartID="220031" BossEndID="220040" BossStyle="0" StatLog="2011130107"/>   
+            <Mould>
+                <Cehua TaskId="2" MouldId="26" MidItems="1722885 1722900 1722886" Args="6" BossId="4135 4136 4137 4138 4139 4140 4141 4142 3976 3936"/>
+                <Houtai Forever="107473" Daily="12638" BossStartID="220031" BossEndID="220040" BossStyle="0" StatLog="2011130107"/>
             </Mould>
             <Mould>
                 <Qianduan BossPosX="0 0 0 0 0" BossPosY="0 0 0 -30 0" BossScaleX="1 1 1 1 1" BossScaleY="1 1 1 1 1" />
@@ -1976,7 +1976,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
             </Mould>
             <Mould>
                 <Qianduan BossPosX="0" BossPosY="73" BossScaleX="1.2" BossScaleY="1.2" />
-                <Cehua TaskId="4" MouldId="28" MidItems="1722894 1722900 1722893" Args="15 5 4 4 1 8 0 10" BossId="4147" 
+                <Cehua TaskId="4" MouldId="28" MidItems="1722894 1722900 1722893" Args="15 5 4 4 1 8 0 10" BossId="4147"
                     PanelTips="\n搜集4个连续相同的元神即可通过试炼\n每战胜一次月冕，就会掉落一种元神\n元神之间可以两两消除，请小赛尔自行探索消除规则" />
                 <Houtai Forever="107487 107488 107489 107490 107491 107492" Daily="12640" BossStartID="235004" BossEndID="235004" BossStyle="0" StatLog="2011130138"/>
             </Mould>
@@ -2019,7 +2019,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
         </Cover>
         <Tasks Style="1" MonCount="1" TaskCount="3" Need="" TaskValue="107511">
             <Mould>
-                <Cehua TaskId="1" MouldId="15" MidItems="1722979 1722977 1722980 1722981 1722982 1722983" Args="4 0" BossIsBitmap="0" 
+                <Cehua TaskId="1" MouldId="15" MidItems="1722979 1722977 1722980 1722981 1722982 1722983" Args="4 0" BossIsBitmap="0"
                     BossId="4155" PanelTips="岩天使拥有永不屈服的意志！\n击败岩天使4次才能通过此关卡！\n每次击败都会使得岩天使的能力得到提升！"/>
                 <Houtai Forever="107512" Daily="12648" BossStartID="149025" BossEndID="149028" BossStyle="0" StatLog=""/>
                 <Qianduan BossPosX="0" BossPosY="0" BossScaleX="1" BossScaleY="1"/>
@@ -2030,8 +2030,8 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
                 <Houtai Forever="107513" Daily="12649" BossStartID="55015" BossEndID="55016" BossStyle="0" StatLog=""/>
             </Mould>
             <Mould>
-                <Cehua TaskId="3" MouldId="22" Items="1722972 1722987 1722958 1722959 1722963 1722964 1722965 1722969 1722971" MidItems="1722986 1722960 1722961 1722962 1722966 1722967 1722968 1722970 1722973 1722974 1722977 1722977" 
-                    Args="15 15 1 1 1 50 50 50 3 3 3 1 3 5 10 40 40 20 40 10 30 3 100 3 50 3 2 1 5" BossId="4155 4147 4141 4143 4132" BossIsBitmap="1 1 1 1 1" 
+                <Cehua TaskId="3" MouldId="22" Items="1722972 1722987 1722958 1722959 1722963 1722964 1722965 1722969 1722971" MidItems="1722986 1722960 1722961 1722962 1722966 1722967 1722968 1722970 1722973 1722974 1722977 1722977"
+                    Args="15 15 1 1 1 50 50 50 3 3 3 1 3 5 10 40 40 20 40 10 30 3 100 3 50 3 2 1 5" BossId="4155 4147 4141 4143 4132" BossIsBitmap="1 1 1 1 1"
                     PanelTips="挑战岩天使获得种子，播种种子后，使用光源和水源，使其光能和水能达到100，长出果实。\n通过采摘和兑换，集齐10个撼地巨山即可通关领取精灵。" ChallengeTips="挑战的精灵星级越高，获得的道具品质越高；\n挑战某种星级的精灵达到3次，必定既能得到光源，又能得到水源"/>
                 <Houtai Forever="107514 107515 107516 107517 107518" Daily="12650 12650" BossStartID="207019" BossEndID="207024" BossStyle="0" StatLog=""/>
                 <Qianduan BossPosX="67 0 0 26 12" BossPosY="22 0 -43 31 -1" BossScaleX="1 1 1 1 1" BossScaleY="1 1 1 1 1" Args="光能 水能"/>
@@ -2055,7 +2055,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
             </Mould>
             <Mould>
                 <Qianduan BossPosX="0 0 0 0 -22 0 0 0 0" BossPosY="-20 -20 -20 -20 -20 -20 -45 -33 0" BossScaleX="1.2 1.2 1.2 1.2 1 1 1 1 1" BossScaleY="1.2 1.2 1.2 1.2 1 1 1 1 1" />
-                <Cehua TaskId="2" MouldId="13" Items="1722999" MidItems="1723007 1722997 1722998 1723004 1723001 1723002 1723003 1723000" Args="20 40 45 50 60 80 100 8 8 8 15 10 20 2 3 7 10 180 200" 
+                <Cehua TaskId="2" MouldId="13" Items="1722999" MidItems="1723007 1722997 1722998 1723004 1723001 1723002 1723003 1723000" Args="20 40 45 50 60 80 100 8 8 8 15 10 20 2 3 7 10 180 200"
                     PanelTips="走至终点，用200个金币兑换进化凝珠，即可通关领取新精灵。" ChallengeTips="进化凝珠可以帮助灰栗强化自己的能量，\n标注进化凝珠地点的藏宝图随机掉落在场景里，\n先找出藏宝图吧！" BossId="4150 4144 4138 4111 4096 4094 4113 4068 4054"
                     BossIsBitmap="0 0 0 0 1 1 1 1 1" />
                 <Houtai Forever="107524 107525 107526 107527 107528 107529 107530 107531" Daily="12653" BossStartID="135037" BossEndID="135045" BossStyle="0" StatLog="2004170307"/>
@@ -2133,7 +2133,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
         </Cover>
         <Tasks Style="1" MonCount="1" TaskCount="3" Need="" TaskValue="107578">
             <Mould>
-                <Cehua TaskId="1" MouldId="15" MidItems="1723063 1723091 1723064 1723065 1723066 1723067" Args="4 0" BossIsBitmap="0" 
+                <Cehua TaskId="1" MouldId="15" MidItems="1723063 1723091 1723064 1723065 1723066 1723067" Args="4 0" BossIsBitmap="0"
                     BossId="4165" PanelTips="序天使拥有永不屈服的意志！\n击败序天使4次才能通过此关卡！\n每次击败都会使得序天使的能力得到提升！"/>
                 <Houtai Forever="107579" Daily="12660" BossStartID="149029" BossEndID="149032" BossStyle="0" StatLog="2012250100"/>
                 <Qianduan BossPosX="0" BossPosY="0" BossScaleX="1.2" BossScaleY="1.2"/>
@@ -2144,8 +2144,8 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
                 <Houtai Forever="107580" Daily="12661" BossStartID="55017" BossEndID="55018" BossStyle="0" StatLog="2012250109"/>
             </Mould>
             <Mould>
-                <Cehua TaskId="3" MouldId="22" Items="1723086 1723071 1723072 1723073 1723077 1723078 1723079 1723083 1723085" MidItems="1723070 1723074 1723075 1723076 1723080 1723081 1723082 1723084 1723087 1723088 1723091 1723091" 
-                        Args="15 15 1 1 1 50 50 50 3 3 3 1 3 5 10 40 40 20 40 10 30 3 100 3 50 3 2 1 5" BossId="4165 4159 4157 4147 4096" BossIsBitmap="1 1 1 1 1" 
+                <Cehua TaskId="3" MouldId="22" Items="1723086 1723071 1723072 1723073 1723077 1723078 1723079 1723083 1723085" MidItems="1723070 1723074 1723075 1723076 1723080 1723081 1723082 1723084 1723087 1723088 1723091 1723091"
+                        Args="15 15 1 1 1 50 50 50 3 3 3 1 3 5 10 40 40 20 40 10 30 3 100 3 50 3 2 1 5" BossId="4165 4159 4157 4147 4096" BossIsBitmap="1 1 1 1 1"
                     PanelTips="挑战序天使获得种子，播种种子后，使用光源和水源，使其光能和水能达到100，长出果实。\n通过采摘和兑换，集齐10个恐怖天使即可通关领取精灵。" ChallengeTips="挑战的精灵星级越高，获得的道具品质越高；\n挑战某种星级的精灵达到3次，必定既能得到光源，又能得到水源"/>
                 <Houtai Forever="107581 107582 107583 107584 107585" Daily="12662 12662" BossStartID="207025" BossEndID="207030" BossStyle="0" StatLog="2012250115"/>
                 <Qianduan BossPosX="27 -18 0 26 12" BossPosY="-20 -39 -43 31 -1" BossScaleX="1 1 1 1 1" BossScaleY="1 1 1 1 1" Args="光能 水能"/>
@@ -2167,9 +2167,9 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
                 <Cehua TaskId="1" MouldId="4" MidItems="1723094 1723095 1723105" Args="3" BossId="4167 4163 4147 4096" BossIsBitmap="0 1 1 1" PanelTips="\n使用查梅洛尼达战胜右侧三个精灵，即可通过此关卡。\n"/>
                 <Houtai Forever="107589" Daily="12664" BossStartID="1137" BossEndID="1139" BossStyle="1" StatLog="2006240100"/>
             </Mould>
-            <Mould>        
-                <Cehua TaskId="2" MouldId="26" MidItems="1723097 1723105 1723096" Args="6" BossId="4159 4157 4150 4145 4136 4138 4133 4121 4123 4109" />                        
-                <Houtai Forever="107590" Daily="12665" BossStartID="220041" BossEndID="220050" BossStyle="0" StatLog="2006240107"/>   
+            <Mould>
+                <Cehua TaskId="2" MouldId="26" MidItems="1723097 1723105 1723096" Args="6" BossId="4159 4157 4150 4145 4136 4138 4133 4121 4123 4109" />
+                <Houtai Forever="107590" Daily="12665" BossStartID="220041" BossEndID="220050" BossStyle="0" StatLog="2006240107"/>
             </Mould>
             <Mould>
                 <Qianduan BossPosX="0 0 0 0 0" BossPosY="0 0 0 -30 0" BossScaleX="1 1 1 1 1" BossScaleY="1 1 1 1 1" />
@@ -2195,7 +2195,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 				<Houtai Forever="109497" Daily="200061" BossStartID="258037" BossEndID="258048" BossStyle="0" StatLog=""/>
 			</Mould>
 			<Mould>
-				<Qianduan BossPosX="0 0 0 0" BossPosY="0 0 0 -85" BossScaleX="1 1 1 1" BossScaleY="1 1 1 1" />				
+				<Qianduan BossPosX="0 0 0 0" BossPosY="0 0 0 -85" BossScaleX="1 1 1 1" BossScaleY="1 1 1 1" />
 				<Cehua TaskId="2" MouldId="35" MidItems="1723110 1723115" Args="5 20 40" BossId="4165 4155 4116 4170"/>
 								<!--!bossid左边的精灵放最后！-->
 				<Houtai Forever="109498" Daily="200062" BossStartID="264509" BossEndID="264512" BossStyle="0" StatLog=""/>
@@ -2249,7 +2249,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		<Tasks Style="1" MonCount="1" TaskCount="3" Need="" TaskValue="109519">
 			<Mould>
 				<Qianduan  BossScaleX="0.7 0.4 0.6" BossScaleY="0.7 0.4 0.6"  />
-				<Cehua TaskId="1" MouldId="20" MidItems="1723153 1723166 1723154" Args="9 5000 5000 5000" BossId="4122 4175 4038" 
+				<Cehua TaskId="1" MouldId="20" MidItems="1723153 1723166 1723154" Args="9 5000 5000 5000" BossId="4122 4175 4038"
 					PanelTips="卡勒丽铂和克里斯托阻止你挑战希尔克德，\n必须先对他俩累积造成5000伤害后，才能攻击希尔克德。\n提前攻击希尔克德会导致他俩的能力急剧上升！（战胜才计入累积伤害）" />
 				<Houtai Forever="109520 109521" Daily="200069" BossStartID="192031" BossEndID="192035" BossStyle="0" StatLog=""/>
 			</Mould>
@@ -2259,10 +2259,10 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			</Mould>
 			<Mould>
 				<Cehua TaskId="3" MouldId="17" Items="1723161" MidItems="1723158 1723163 1723160 1723159 1723162" Args="2 60 2 80 6 15 50 15 60 60"
-				BossId="4120 4114 4047 4145 4113 4125 4126 4163 4175" BossIsBitmap="0 0 0 0 0 0 0 0 0" 
+				BossId="4120 4114 4047 4145 4113 4125 4126 4163 4175" BossIsBitmap="0 0 0 0 0 0 0 0 0"
 				PanelTips="希尔克德进入了迷途空间，穿越空间找到希尔克德并击败她即可通过关卡。\n迷途空间共分为6层，赛尔最初处于第一层，希尔克德处于第六层。\n（第1层1张地图，第2层2张地图，第3层8张地图，第4层8张地图，第5、6层16张地图）"
 				ChallengeTips="此图是我开，此洞是我钻，要想钻此洞，留下买洞财" />
-				<Houtai Forever="109523 109524 109525 109526 109527 109528 109529 109530 109531 109532 109533 109534 109535 109536 109537 109538 109539 109540 109541 109542 109543 109544 109545 109546 109547 109548 109549 109550 109551 109552 109553 109554 109555 109556 109557 109558 109559 109560 109561 109562 109563" Daily="200071" BossStartID="177037" BossEndID="177045" BossStyle="0" StatLog=""/>    
+				<Houtai Forever="109523 109524 109525 109526 109527 109528 109529 109530 109531 109532 109533 109534 109535 109536 109537 109538 109539 109540 109541 109542 109543 109544 109545 109546 109547 109548 109549 109550 109551 109552 109553 109554 109555 109556 109557 109558 109559 109560 109561 109562 109563" Daily="200071" BossStartID="177037" BossEndID="177045" BossStyle="0" StatLog=""/>
 				<Qianduan BossPosX="0 0 0 0 0 0 0 0 0" BossPosY="-17 -65 -40 -20 0 0 0 0 0" BossPosScaleX="1 1 1.3 0.9 0.7 0.7 1 1 1" BossPosScaleY="1 1 1.3 0.9 0.7 0.7 1 1 1" />
 			</Mould>
 		</Tasks>
@@ -2285,7 +2285,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
             </Mould>
             <Mould>
                 <Qianduan BossPosX="-20" BossPosY="30" BossScaleX="1.2" BossScaleY="1.2" Args="已扬起 已扬起 已扬起 已扬起 已扬起 2-1 2-2 2-3 2-4 2-5" IconPos="0_0_1_1|0_0_1_1|0_0_1_1|0_0_1_1|0_0_1_1" AlarmAndAlert="1_1_重复扬起了一阵疾风，疾风状态被重置了。|1_2_一阵疾风已被吹起！" />
-                <Cehua TaskId="2" MouldId="11" ResType="1" MidItems="1723184 1723193 1723183 1723194" Args="6 4" BossId="4178" 
+                <Cehua TaskId="2" MouldId="11" ResType="1" MidItems="1723184 1723193 1723183 1723194" Args="6 4" BossId="4178"
                     PanelTips="战胜暮月之弦即可随机扬起一阵疾风，5阵疾风均被扬起即可通关！\n如果扬起了重复疾风，当前未被锁定的疾风将会被吹灭重置！\n（锁定的疾风不会被重复扬起及重置）"
                     RuleTips="一阵疾风被扬起4次后，必定不会被重复扬起及重置" />
                 <Houtai Forever="107620" Daily="12681" BossStartID="131008" BossEndID="131008" BossStyle="0" StatLog="2101290106"/>
@@ -2368,7 +2368,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		<Power>
 			<Cehua PowerID="1" LoadType="1" MonsterID="4186" MintmarkID="41979" NewSeIconId="1385"
 			Args ="5 3 90 90 90 40" MidItems="1723245 1722532 1722533 1722534 1722535" PanelTips="每战胜1次精灵，即可获得1次翻牌机会。翻出紫色专属刻印时，可领取专属刻印；翻出黄色第五技能时，可领取第五技能；翻出蓝色专属特性时，可领取专属特性；翻出天降好运时，可领取全部三件套。" CardStyle="1 1 1 1 1" />
-			<Houtai GainValue="109620" NewSeID="5679" Forever="109658" Daily="200085" BossStartID="147006" BossEndID="147006" StatLog="2102090171"/>
+			<Houtai GainValue="109620" NewSeID="5679" Forever="109658 125700" Daily="200085" BossStartID="147006" BossEndID="147006" StatLog="2102090171"/>
 		</Power>
     </Design>
 
@@ -2384,7 +2384,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 				<Houtai Forever="109752" Daily="200086" BossStartID="1140" BossEndID="1142" BossStyle="1" StatLog=""/>
 			</Mould>
 			<Mould>
-				<Qianduan BossPosX="0 0 0 0 0 0 0 0 0 0 0 0 0" BossPosY="0 0 0 0 0 0 0 0 0 0 0 0 0" 
+				<Qianduan BossPosX="0 0 0 0 0 0 0 0 0 0 0 0 0" BossPosY="0 0 0 0 0 0 0 0 0 0 0 0 0"
 						  BossScaleX="1 1 1 1 1 1 1 1 1 1 1 1 1" BossScaleY="1 1 1 1 1 1 1 1 1 1 1 1 1" />
 				<Cehua TaskId="2" MouldId="29" BossId="4187 4187 4179 4147 4123 4174 4171 4181 4166 4153 4159 4187 4187"
 					   MidItems="1723278 1723290 1723280 1723284 1723281 1723285 1723282 1723286 1723283 1723287"
@@ -2393,7 +2393,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			</Mould>
 			<Mould>
 				<Qianduan BossPosX="0" BossPosY="0" BossScaleX="1" BossScaleY="1" />
-				<Cehua TaskId="3" MouldId="28" MidItems="1723279 1723290 1722044" Args="12 5 3 3 1 8 0 10" BossId="4187" 
+				<Cehua TaskId="3" MouldId="28" MidItems="1723279 1723290 1722044" Args="12 5 3 3 1 8 0 10" BossId="4187"
 				PanelTips="搜集三个连续相同的元神即可通过试炼\n每战胜一次迪斯伯德，就会掉落一种元神\n元神之间可以两两消除，请小赛尔自行探索消除规则" />
 				<Houtai Forever="109755 109756 109757 109758 109759 109760" Daily="200088" BossStartID="235005" BossEndID="235005" BossStyle="0" StatLog=""/>
 			</Mould>
@@ -2420,21 +2420,21 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 			</Mould>
 			<Mould>
 				<Qianduan BossPosX="0" BossPosY="0" BossScaleX="1.2" BossScaleY="1.2" />
-				<Cehua TaskId="3" MouldId="25" MidItems="1723305 1723322 1723307 1723306 1723308 1723309 1723310 1723311 1723312" Args="8 2 2 3 1" 
-				RuleTips="凌雪·樱需要探寻自己的本心，激发自己内在的潜力。\n找出本心的位置并激发出他的潜力，即可通过此关卡。 本心探寻成功，\n连续击败凌雪·樱3次即可激发出他的内在潜力，通过此关卡。 凌雪·樱进入疯狂状态，击败他使其平静下来，即可继续探寻其本心。" 
+				<Cehua TaskId="3" MouldId="25" MidItems="1723305 1723322 1723307 1723306 1723308 1723309 1723310 1723311 1723312" Args="8 2 2 3 1"
+				RuleTips="凌雪·樱需要探寻自己的本心，激发自己内在的潜力。\n找出本心的位置并激发出他的潜力，即可通过此关卡。 本心探寻成功，\n连续击败凌雪·樱3次即可激发出他的内在潜力，通过此关卡。 凌雪·樱进入疯狂状态，击败他使其平静下来，即可继续探寻其本心。"
 				BossId="4189" BossIsBitmap="0" />
 				<Houtai Forever="109768 109769" Daily="200092" PlayerInfo="1025" BossStartID="215021" BossEndID="215025" BossStyle="0" StatLog=""/>
 			</Mould>
-	        <Mould> 
-	            <Qianduan BossPosX="-2 15 5 12" BossPosY="-74 -77 -40 -20" BossScaleX="1 1 1 1" BossScaleY="1 1 1 1"/>            
-	            <Cehua TaskId="4" MouldId="38" MidItems="1722606 1723322 1723313 1723314 1723315 1723316 1722601 1723319" Args="10 6" BossId="4068 4069 4032 4004" />  
-	            <Houtai Forever="109770 109771 109772" Daily="200093" BossStartID="268505" BossEndID="268508" BossStyle="0" StatLog=""/>   
+	        <Mould>
+	            <Qianduan BossPosX="-2 15 5 12" BossPosY="-74 -77 -40 -20" BossScaleX="1 1 1 1" BossScaleY="1 1 1 1"/>
+	            <Cehua TaskId="4" MouldId="38" MidItems="1722606 1723322 1723313 1723314 1723315 1723316 1722601 1723319" Args="10 6" BossId="4068 4069 4032 4004" />
+	            <Houtai Forever="109770 109771 109772" Daily="200093" BossStartID="268505" BossEndID="268508" BossStyle="0" StatLog=""/>
 	        </Mould>
 		</Tasks>
-	    <Power>                       
-	        <Cehua LoadType="1" MonsterID="4189" MintmarkID="41992" SkillID="" NewSeIconId="1387" ItemID="1723320" ItemCount="15 15 15" MidItemID="1723321" TimesItemID="1723322" VipTimes="5" NotVipTimes="3" ProbID="1" UpPosX="0" UpPosY="0" UpScaleX="1" UpScaleY="1"/>                
+	    <Power>
+	        <Cehua LoadType="1" MonsterID="4189" MintmarkID="41992" SkillID="" NewSeIconId="1387" ItemID="1723320" ItemCount="15 15 15" MidItemID="1723321" TimesItemID="1723322" VipTimes="5" NotVipTimes="3" ProbID="1" UpPosX="0" UpPosY="0" UpScaleX="1" UpScaleY="1"/>
 	        <Houtai GainValue="109762" NewSeID="5682" TimesValue="200094" BossStartID="50180" BossEndID="50182" StatLog="2102260100"/>
-	    </Power>                                                            
+	    </Power>
 	</Design>
 
     <Design ID="78" TimeFlag="" Desc="20210305 露姆莉亚">
@@ -2444,7 +2444,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
         </Cover>
         <Tasks Style="1" MonCount="1" TaskCount="3" Need="" TaskValue="109775">
             <Mould>
-                <Cehua TaskId="1" MouldId="15" MidItems="1723336 1723363 1723337 1723338 1723339 1723340" Args="4 0" BossIsBitmap="0" 
+                <Cehua TaskId="1" MouldId="15" MidItems="1723336 1723363 1723337 1723338 1723339 1723340" Args="4 0" BossIsBitmap="0"
                     BossId="4194" PanelTips="露姆莉亚拥有永不屈服的意志！\n击败露姆莉亚4次才能通过此关卡！\n每次击败都会使得露姆莉亚的能力得到提升！"/>
                 <Houtai Forever="109776" Daily="200095" BossStartID="149033" BossEndID="149036" BossStyle="0" StatLog=""/>
                 <Qianduan BossPosX="0" BossPosY="0" BossScaleX="1.2" BossScaleY="1.2"/>
@@ -2455,8 +2455,8 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
                 <Houtai Forever="109777" Daily="200096" BossStartID="55021" BossEndID="55022" BossStyle="0" StatLog=""/>
             </Mould>
             <Mould>
-                <Cehua TaskId="3" MouldId="22" Items="1723358 1723344 1723345 1723346 1723350 1723351 1723352 1723356 1723377" MidItems="1723343 1723347 1723348 1723349 1723353 1723354 1723355 1723357 1723359 1723360 1723363 1723363" 
-                        Args="15 15 1 1 1 50 50 50 3 3 3 1 3 5 10 40 40 20 40 10 30 3 100 3 50 3 2 1 5" BossId="4194 4144 4136 4146 4132" BossIsBitmap="1 0 1 1 1" 
+                <Cehua TaskId="3" MouldId="22" Items="1723358 1723344 1723345 1723346 1723350 1723351 1723352 1723356 1723377" MidItems="1723343 1723347 1723348 1723349 1723353 1723354 1723355 1723357 1723359 1723360 1723363 1723363"
+                        Args="15 15 1 1 1 50 50 50 3 3 3 1 3 5 10 40 40 20 40 10 30 3 100 3 50 3 2 1 5" BossId="4194 4144 4136 4146 4132" BossIsBitmap="1 0 1 1 1"
                     PanelTips="挑战露姆莉亚获得种子，播种种子后，使用光源和水源，使其光能和水能达到100，长出果实。\n通过采摘和兑换，集齐10个战车旗帜即可通关领取精灵。" ChallengeTips="挑战的精灵星级越高，获得的道具品质越高；\n挑战某种星级的精灵达到3次，必定既能得到光源，又能得到水源"/>
                 <Houtai Forever="109778 109779 109780 109781 109782" Daily="200097 200097" BossStartID="207031" BossEndID="207036" BossStyle="0" StatLog=""/>
                 <Qianduan BossPosX="71 -1 -29 -13 12" BossPosY="-9 -48 39 -19 -1" BossScaleX="0.8 1 1 1 1" BossScaleY="0.8 1 1 1 1" Args="光能 水能"/>
@@ -2502,7 +2502,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
         <Tasks Style="1" MonCount="1" TaskCount="4" Need="" TaskValue="107699">
             <Mould>
                 <Qianduan  BossScaleX="0.8 0.8 1" BossScaleY="0.8 0.8 1"  />
-                <Cehua TaskId="1" MouldId="20" MidItems="1723402 1723422 1723401" Args="6 5000 5000 5000" BossId="4163 4200 4094" 
+                <Cehua TaskId="1" MouldId="20" MidItems="1723402 1723422 1723401" Args="6 5000 5000 5000" BossId="4163 4200 4094"
                     PanelTips="佩特菲德和樱阻止你挑战阿莱克托，\n必须先对他俩累积造成5000伤害后，才能攻击阿莱克托。\n提前攻击阿莱克托会导致他俩的能力急剧上升！（战胜才计入累积伤害）" />
                 <Houtai Forever="107700 107701" Daily="12693" BossStartID="192036" BossEndID="192040" BossStyle="0" StatLog="2007030100"/>
             </Mould>
@@ -2514,15 +2514,15 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
             </Mould>
             <Mould>
                 <Qianduan BossPosX="-63 0 0 0 -11 17 0 -4 0" BossPosY="-34 -20 -20 -20 -57 -50 -34 -11 -44" BossScaleX="1.2 1.2 1.2 1.2 1 1 1 1 1" BossScaleY="1.2 1.2 1.2 1.2 1 1 1 1 1" />
-                <Cehua TaskId="3" MouldId="13" Items="1722193" MidItems="1723422 1723408 1723409 1723415 1723412 1723413 1723414 1723411" Args="12 40 45 50 60 80 100 8 8 8 15 10 20 1 5 6 10 180 200" 
+                <Cehua TaskId="3" MouldId="13" Items="1722193" MidItems="1723422 1723408 1723409 1723415 1723412 1723413 1723414 1723411" Args="12 40 45 50 60 80 100 8 8 8 15 10 20 1 5 6 10 180 200"
                     PanelTips="走至终点，用200个金币兑换灾厄之章，即可通过此关卡。" ChallengeTips="灾厄之章可以帮助阿莱克托强化自己的能量，\n标注灾厄之章地点的藏宝图随机掉落在场景里，\n先找出藏宝图吧！" BossId="4067 4085 4090 4069 3888 3844 3892 4052 4033"
                     BossIsBitmap="0 0 0 0 1 1 1 1 1" />
                 <Houtai Forever="107703 107704 107705 107706 107707 107708 107709 107710" Daily="12695" BossStartID="135046" BossEndID="135054" BossStyle="0" StatLog="2007030114"/>
             </Mould>
             <Mould>
-                <Qianduan BossPosX="0" BossPosY="-59" BossScaleX="1" BossScaleY="1"/>                        
-                <Cehua TaskId="4" MouldId="2" MidItems="1723418 1723416 1723417 1723422 1723422 1723419" Args="12 3 4 0 12 2 3 3 3 9 12 15 10 5" ChallengeTips="旷日持久的历练，必须要有充沛的体力。\n与阿莱克托战斗坚持超过10回合（无论胜败），即可前进！ 历练需要强大的力量进行支撑。\n与阿莱克托战斗中暴击不少于5次，即可前进！ 历练需要尽快完成。\n与阿莱克托战斗中每回合都先手，才能尽快完成历练！ 历练需要有充足的体力应对各方面的挑战。\n战胜3命阿莱克托！" PanelTips="历练必然要经过重重险阻。\n选择正确的道路走至终点列战胜阿莱克托即可通过此关卡。" BossId="4075 4048 4050 4068 4001 3999 3994 3983 3866 3847 3814 3815 3813 3806 3503 4168 4176 4200"/>            
-                <Houtai Forever="107711 107712 107713 107714" Daily="12696 12696" BossStartID="60133" BossEndID="60154" BossStyle="0" StatLog="2007030121"/>        
+                <Qianduan BossPosX="0" BossPosY="-59" BossScaleX="1" BossScaleY="1"/>
+                <Cehua TaskId="4" MouldId="2" MidItems="1723418 1723416 1723417 1723422 1723422 1723419" Args="12 3 4 0 12 2 3 3 3 9 12 15 10 5" ChallengeTips="旷日持久的历练，必须要有充沛的体力。\n与阿莱克托战斗坚持超过10回合（无论胜败），即可前进！ 历练需要强大的力量进行支撑。\n与阿莱克托战斗中暴击不少于5次，即可前进！ 历练需要尽快完成。\n与阿莱克托战斗中每回合都先手，才能尽快完成历练！ 历练需要有充足的体力应对各方面的挑战。\n战胜3命阿莱克托！" PanelTips="历练必然要经过重重险阻。\n选择正确的道路走至终点列战胜阿莱克托即可通过此关卡。" BossId="4075 4048 4050 4068 4001 3999 3994 3983 3866 3847 3814 3815 3813 3806 3503 4168 4176 4200"/>
+                <Houtai Forever="107711 107712 107713 107714" Daily="12696 12696" BossStartID="60133" BossEndID="60154" BossStyle="0" StatLog="2007030121"/>
             </Mould>
         </Tasks>
         <Power>
@@ -2538,7 +2538,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
 		</Cover>
 		<Tasks Style="3" MonCount="1" TaskCount="1" Need="" TaskValue="109792">
 			<NotPassMould>
-				<Cehua TaskExId="1" MouldId="1" Items="1723456" MidItems="1723465 1723457" Args="8 1 5" BossId="3415 3677" 
+				<Cehua TaskExId="1" MouldId="1" Items="1723456" MidItems="1723465 1723457" Args="8 1 5" BossId="3415 3677"
 				BossPosX="-2 3" BossPosY="4 6" BossScaleX="1.2 1.2" BossScaleY="1.2 1.2"
 				PanelTips="成功战胜下面2只精灵即可随机获得$-$个$" />
 				<Houtai Forever="109793" Daily="200100" BossStartID="111015" BossEndID="111016" BossStyle="0" StatLog=""/>
@@ -2566,9 +2566,9 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
                 <Cehua TaskId="1" MouldId="4" MidItems="1723470 1723469 1723503" Args="3" BossId="4208 4048 4050 4075" BossIsBitmap="0 1 1 1" PanelTips="\n使用锢灵·舞战胜右侧三个界神，即可通过此关卡。\n"/>
                 <Houtai Forever="107724" Daily="12708" BossStartID="1145" BossEndID="1147" BossStyle="1" StatLog="2006240100"/>
             </Mould>
-            <Mould>        
-                <Cehua TaskId="2" MouldId="26" MidItems="1723471 1723504 1723472" Args="6" BossId="4148 4142 4015 3992 3945 3659 3498 3494 3508 3612" />                        
-                <Houtai Forever="107725" Daily="12709" BossStartID="220051" BossEndID="220060" BossStyle="0" StatLog="2006240107"/>   
+            <Mould>
+                <Cehua TaskId="2" MouldId="26" MidItems="1723471 1723504 1723472" Args="6" BossId="4148 4142 4015 3992 3945 3659 3498 3494 3508 3612" />
+                <Houtai Forever="107725" Daily="12709" BossStartID="220051" BossEndID="220060" BossStyle="0" StatLog="2006240107"/>
             </Mould>
             <Mould>
                 <Qianduan BossPosX="0 0 0 0 0" BossPosY="0 0 0 -30 0" BossScaleX="1 1 1 1 1" BossScaleY="1 1 1 1 1" />
@@ -2606,7 +2606,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
             <Mould>
                 <Qianduan BossPosX="0 0 0 0 7 0 15" BossPosY="0 0 0 0 -50 0 0" BossScaleX="1 1 1 1 1 1 0.8" BossScaleY="1 1 1 1 1 1 0.8" DropPanelTips="战胜的精灵星级越高，掉落的绿色花种越多"/>
                 <Cehua TaskId="3" MouldId="5" ResType="1"
-                    Items="1723517 1723519" MidItems="1723515 1723518 1723520 1723516 1723521" Args="12 100 3 6 3 6 4 8 45 30 25 10 0 60 1 4 4 7 7 10" 
+                    Items="1723517 1723519" MidItems="1723515 1723518 1723520 1723516 1723521" Args="12 100 3 6 3 6 4 8 45 30 25 10 0 60 1 4 4 7 7 10"
                     BossId="4034 4193 3844 3711 4006 3585 3739" BossIsBitmap="0 0 0 0 0 0 0"
                     PanelTips="\n搜集100个小镇佳酿即可通过此关卡\n" RuleTips="1、通关条件：搜集100个小镇佳酿即可通过此关卡。\n2、格子类型：\n视野全开格：可以展示全图内容。\n道具格：可以获得4-8个绿色花种。\n星星格：可以获得3-6个绿色花种。\n3、严寒碎冰：翻开1个格子消耗3个绿色花种，挑战1个精灵消耗6个绿色花种。\n4、关卡重置：挑战完所有的格子后，未集齐100个小镇佳酿则关卡进度将会重置，同时保留60%的物品。"/>
                 <Houtai Forever="107773 107774 107775 107776 107777 107778 107779 107780 107781 107782 107783" Daily="12717" BossStartID="83050" BossEndID="83056" BossStyle="0" StatLog="2007030217"/>
@@ -2634,7 +2634,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
             </Mould>
             <Mould>
                 <Qianduan BossPosX="-20" BossPosY="-20" BossScaleX="1.2" BossScaleY="1.2" Args="已点燃 已点燃 已点燃 已点燃 已点燃 3-1 3-2 3-3 3-4 3-5" IconPos="0_0_1_1|0_0_1_1|0_0_1_1|0_0_1_1|0_0_1_1" AlarmAndAlert="1_1_重复点燃了一束神火，神火状态被重置了。|1_2_一束神火已被点燃！" />
-                <Cehua TaskId="3" MouldId="11" MidItems="1723536 1723537 1723538 1723549" Args="5 10" BossId="4216" 
+                <Cehua TaskId="3" MouldId="11" MidItems="1723536 1723537 1723538 1723549" Args="5 10" BossId="4216"
                     PanelTips="战胜拉克希斯即可随机点燃一束神火，5束神火均被点燃即可通关！\n如果点燃了重复神火，当前未被锁定的神火将会被熄灭重置！\n（锁定的神火不会被重复点燃及重置）"
                     RuleTips="一束神火被点燃10次后，必定不会被重复点燃及重置" />
                 <Houtai Forever="107790" Daily="12723" BossStartID="131009" BossEndID="131009" BossStyle="0" StatLog="2004030330"/>
@@ -2688,20 +2688,20 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
                 <Houtai Forever="107807" Daily="12741" BossStartID="55023" BossEndID="55024" BossStyle="0" StatLog=""/>
             </Mould>
             <Mould>
-                <Cehua TaskId="3" MouldId="58" Items="1723595" MidItems="1723593 1723594 1723596 1723597" Args="3 4 1 25 10 100" BossId="4156 4092 4027 3961 3938 3921 3785 3898 3978 3844" 
+                <Cehua TaskId="3" MouldId="58" Items="1723595" MidItems="1723593 1723594 1723596 1723597" Args="3 4 1 25 10 100" BossId="4156 4092 4027 3961 3938 3921 3785 3898 3978 3844"
 				PanelTips="在宇宙之中前行，累计收集100个火焰原力即可通过此关卡。" ChallengeTips="一只精灵挡住了你的去路！\n3回合内击败它可获得4点火焰原力\n3回合后击败它可获得1点火焰原力\n战斗失败将损失当前拥有总和25%的火焰原力"/>
 				<Houtai Forever="107808" Daily="12742" BossStartID="803901" BossEndID="803910" BossStyle="1" StatLog="2104300200"/>
             </Mould>
             <Mould>
                 <Qianduan BossPosX="2" BossPosY="80" BossScaleX="0.9" BossScaleY="0.9" />
-                <Cehua TaskId="4" MouldId="59" Items="1723603 1723601" MidItems="1723598 1723599 1723602 1723600" Args="3 30 5 3 8 12 4 8 10" BossId="3309 3302 3326 4021 3971 4114 3631 3741 3994 4004 4219" BossIsBitmap="0" 
+                <Cehua TaskId="4" MouldId="59" Items="1723603 1723601" MidItems="1723598 1723599 1723602 1723600" Args="3 30 5 3 8 12 4 8 10" BossId="3309 3302 3326 4021 3971 4114 3631 3741 3994 4004 4219" BossIsBitmap="0"
                 RuleTips="1、通关条件：战胜任意难度的红莲之誓•安卡即可通过此关卡。\n2、道具获得：通过每轮的精灵试炼可获得降低BOSS难度的道具。每轮试炼完成后，除了有几率直接获得红莲核心外，累计失败次数≤3次可随机获得8-12个红莲能量，累计失败次数＞3次可随机获得4-8个红莲能量。\n3、道具使用：每消耗3个红莲核心可降低BOSS的挑战难度；每消耗30个红莲能量可兑换1个红莲核心。"/>
 				<Houtai Forever="107809 107810" Daily="12743" BossStartID="806901" BossEndID="806916" BossStyle="0" StatLog="2104300221"/>
             </Mould>
         </Tasks>
         <Power>
             <Cehua PowerID="1" LoadType="1" MonsterID="4219" MintmarkID="42023" SkillID="35072" NewSeIconId="1414" Args ="5 3 90 90 90 40" MidItems="1723245 1722532 1722533 1722534 1722535" PanelTips="每战胜1次精灵即可获得1次翻牌机会。翻出紫色专属刻印时可领取专属刻印；翻出黄色第五技能时可领取第五技能；翻出蓝色专属特性时可领取专属特性；翻出天降好运时可全部领取！" CardStyle="1 1 1 1 1" />
-            <Houtai GainValue="107804" NewSeID="5714" Forever="107811" Daily="12744" BossStartID="147007" BossEndID="147007" StatLog="2102090171"/>
+            <Houtai GainValue="107804" NewSeID="5714" Forever="107811 124433" Daily="12744" BossStartID="147007" BossEndID="147007" StatLog="2102090171"/>
         </Power>
     </Design>
     <Design ID="87" TimeFlag="1965" Desc="20210507 S87墨秋">
@@ -2726,7 +2726,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
             </Mould>
             <Mould>
                 <Cehua TaskId="3" MouldId="17" Items="1723614" MidItems="1723611 1723616 1723613 1723612 1723615" Args="2 60 2 80 6 15 50 15 60 60"
-                    BossId="3811 4177 3756 3769 4078 4163 4189 4208 4224" BossIsBitmap="0 0 0 0 0 0 0 0 0" 
+                    BossId="3811 4177 3756 3769 4078 4163 4189 4208 4224" BossIsBitmap="0 0 0 0 0 0 0 0 0"
                     PanelTips="墨秋进入了迷途空间，穿越空间找到墨秋并击败即可通过关卡。\n迷途空间共分为6层，赛尔最初处于第一层，墨秋处于第六层。\n（第1层1张地图，第2层2张地图，第3层8张地图，第4层8张地图，第5、6层16张地图）"
                     ChallengeTips="此图是我开，此洞是我钻，要想钻此洞，留下买洞财！" />
                 <Houtai Forever="107818 107819 107820 107821 107822 107823 107824 107825 107826 107827 107828 107829 107830 107831 107832 107833 107834 107835 107836 107837 107838 107839 107840 107841 107842 107843 107844 107845 107846 107847 107848 107849 107850 107851 107852 107853 107854 107855 107856 107857 107858" Daily="12747" BossStartID="177046" BossEndID="177054" BossStyle="0" StatLog=""/>
@@ -2758,7 +2758,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
             </Mould>
             <Mould>
                 <Qianduan BossPosX="-10 0 0 0 -11 17 0 -4 26" BossPosY="-30 -20 -20 -102 -57 -50 -34 -11 20" BossScaleX="1.2 1.2 1.2 1.2 1 1 1 1 1" BossScaleY="1.2 1.2 1.2 1.2 1 1 1 1 1" />
-                <Cehua TaskId="3" MouldId="13" Items="1723650" MidItems="1723646 1723648 1723649 1723655 1723652 1723653 1723654 1723651" Args="12 40 45 50 60 80 100 8 8 8 15 10 20 1 5 6 10 180 200" 
+                <Cehua TaskId="3" MouldId="13" Items="1723650" MidItems="1723646 1723648 1723649 1723655 1723652 1723653 1723654 1723651" Args="12 40 45 50 60 80 100 8 8 8 15 10 20 1 5 6 10 180 200"
                     PanelTips="走至终点，用200个金币兑换修炼勋章，即可通过此关卡。" ChallengeTips="修炼勋章可以帮助桑谷强化自己的能量，\n标注修炼勋章地点的藏宝图随机掉落在场景里，\n先找出藏宝图吧！" BossId="4181 4145 4138 4073 3695 4022 3713 3427 3840"
                     BossIsBitmap="0 0 0 0 1 1 1 1 1" />
                 <Houtai Forever="107874 107882 107876 107877 107878 107879 107880 107881" Daily="200231" BossStartID="135055" BossEndID="135063" BossStyle="0" StatLog="2007030114"/>
@@ -2813,8 +2813,8 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
                 <Houtai Forever="107896" Daily="200239" BossStartID="55025" BossEndID="55026" BossStyle="0" StatLog="2009110109"/>
             </Mould>
             <Mould>
-                <Cehua TaskId="3" MouldId="22" Items="1723718 1723706 1723707 1723708 1723712 1723713 1723714 1723722 1723721" MidItems="1723705 1723709 1723710 1723711 1723715 1723716 1723717 1723723 1723719 1723720 1723724 1723724" 
-                    Args="15 15 1 1 1 50 50 50 3 3 3 1 3 5 10 40 40 20 40 10 30 3 100 3 50 3 2 1 5" BossId="4234 3827 3859 3844 3888" BossIsBitmap="1 1 1 1 1" 
+                <Cehua TaskId="3" MouldId="22" Items="1723718 1723706 1723707 1723708 1723712 1723713 1723714 1723722 1723721" MidItems="1723705 1723709 1723710 1723711 1723715 1723716 1723717 1723723 1723719 1723720 1723724 1723724"
+                    Args="15 15 1 1 1 50 50 50 3 3 3 1 3 5 10 40 40 20 40 10 30 3 100 3 50 3 2 1 5" BossId="4234 3827 3859 3844 3888" BossIsBitmap="1 1 1 1 1"
                     PanelTips="挑战茉茉子获得种子，播种种子后，使用光源和水源，使其光能和水能达到100，长出果实。\n通过采摘和兑换，集齐10个复苏之叶即可通关领取精灵。" ChallengeTips="挑战的精灵星级越高，获得的道具品质越高；\n挑战某种星级的精灵达到3次，必定既能得到光源，又能得到水源"/>
                 <Houtai Forever="107897 107898 107899 107900 107901" Daily="200240 200240" BossStartID="207037" BossEndID="207042" BossStyle="0" StatLog="2009110115"/>
                 <Qianduan BossPosX="0 0 0 0 0" BossPosY="0 0 0 0 -60" BossScaleX="1 1 1 1 1" BossScaleY="1 1 1 1 1" Args="光能 水能"/>
@@ -2862,7 +2862,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
         </Cover>
         <Tasks Style="3" MonCount="1" TaskCount="1" Need="" TaskValue="107930">
             <NotPassMould>
-                <Cehua TaskExId="1" MouldId="1" Items="1723813" MidItems="1723822 1723814" Args="10 1 5" BossId="3619 3608" 
+                <Cehua TaskExId="1" MouldId="1" Items="1723813" MidItems="1723822 1723814" Args="10 1 5" BossId="3619 3608"
                     BossPosX="-2 3" BossPosY="4 6" BossScaleX="1.2 1.2" BossScaleY="1.2 1.2"
                     PanelTips="成功战胜下面2只精灵即可随机获得$-$个$" />
                 <Houtai Forever="107931" Daily="200309" BossStartID="111017" BossEndID="111018" BossStyle="0" StatLog=""/>
@@ -2890,7 +2890,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
                 <Houtai Forever="107947" Daily="200317" BossStartID="258073" BossEndID="258084" BossStyle="0" StatLog="2010230100"/>
             </Mould>
             <Mould>
-                <Qianduan BossPosX="0 0 0 0" BossPosY="0 0 0 -85" BossScaleX="1 1 1 1" BossScaleY="1 1 1 1" />				
+                <Qianduan BossPosX="0 0 0 0" BossPosY="0 0 0 -85" BossScaleX="1 1 1 1" BossScaleY="1 1 1 1" />
                 <Cehua TaskId="2" MouldId="35" MidItems="1723883 1723884" Args="10 20 40" BossId="3472 4168 3927 4254"/>
                 <!--!bossid左边的精灵放最后！-->
                 <Houtai Forever="107948" Daily="200318" BossStartID="264513" BossEndID="264516" BossStyle="0" StatLog="2010230125"/>
@@ -2924,7 +2924,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
             <Mould>
                 <Qianduan BossPosX="0 0 0 0 7 -7 -35" BossPosY="0 0 0 0 -50 -42 -39" BossScaleX="1 1 1 1 1 1 1" BossScaleY="1 1 1 1 1 1 1" DropPanelTips="挑战并战胜下方的精灵星级越高，掉落的微茫星光数量越多"/>
                 <Cehua TaskId="3" MouldId="5" ResType="1"
-                    Items="1723917 1723919" MidItems="1723915 1723918 1723920 1723916 1723921" Args="10 100 3 6 3 6 4 8 45 30 25 10 0 60 1 4 4 7 7 10" 
+                    Items="1723917 1723919" MidItems="1723915 1723918 1723920 1723916 1723921" Args="10 100 3 6 3 6 4 8 45 30 25 10 0 60 1 4 4 7 7 10"
                     BossId="3681 4127 3499 3507 3192 3244 4050" BossIsBitmap="0 0 0 0 0 0 0"
                     PanelTips="\n搜集100个无惑之月即可通过此关卡\n" RuleTips="1、通关条件：搜集100个无惑之月即可通过此关卡。\n2、格子类型：\n视野全开格：可以展示全图内容。\n道具格：可以获得4-8个微茫星光。\n星星格：可以获得3-6个无惑之月。\n3、微茫星光：翻开1个格子消耗3个微茫星光，挑战1个精灵消耗6个微茫星光。\n4、关卡重置：挑战完所有的格子后，未集齐100个无惑之月则关卡进度将会重置，同时保留60%的道具！"/>
                 <Houtai Forever="107956 107957 107958 107959 107960 107961 107962 107963 107964 107965 107966" Daily="200323" BossStartID="83057" BossEndID="83063" BossStyle="0" StatLog="2007030217"/>
@@ -2943,21 +2943,21 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
         <Tasks Style="1" MonCount="1" TaskCount="3" Need="" TaskValue="107970">
             <Mould>
                 <Qianduan  BossScaleX="1 1 1" BossScaleY="1 1 1"  />
-                <Cehua TaskId="1" MouldId="20" MidItems="1723977 1723978 1723979" Args="9 5000 5000 5000" BossId="2886 4268 3420" 
+                <Cehua TaskId="1" MouldId="20" MidItems="1723977 1723978 1723979" Args="9 5000 5000 5000" BossId="2886 4268 3420"
                     PanelTips="德尔波拉和梦·赫尔墨斯阻止你挑战古索迪尔，先对它们造成5000点伤害才能攻击古索迪尔。\n提前攻击古索迪尔会导致它们的能力急剧上升！（战胜才计入累积伤害）" />
                 <Houtai Forever="107971 107972" Daily="200325" BossStartID="192046" BossEndID="192050" BossStyle="0" StatLog=""/>
             </Mould>
             <Mould>
-                <Cehua TaskId="2" MouldId="58" Items="1723982" MidItems="1723980 1723981 1723983 1723984" Args="3 4 1 20 10 100" BossId="4203 3264 4027 4118 3248 3921 3990 3764 3573 3676" 
+                <Cehua TaskId="2" MouldId="58" Items="1723982" MidItems="1723980 1723981 1723983 1723984" Args="3 4 1 20 10 100" BossId="4203 3264 4027 4118 3248 3921 3990 3764 3573 3676"
                     PanelTips="在宇宙之中前行，累计收集100个砂砾原力即可通过此关卡。" ChallengeTips="一只精灵挡住了你的去路！\n3回合内击败它可获得4点砂砾原力\n3回合后击败它可获得1点砂砾原力\n战斗失败将损失当前拥有总和20%的砂砾原力"/>
                 <Houtai Forever="107973" Daily="200326" BossStartID="803911" BossEndID="803920" BossStyle="1" StatLog="2104300200"/>
             </Mould>
             <Mould>
                 <Cehua TaskId="3" MouldId="17" Items="1723988" MidItems="1723985 1723990 1723987 1723986 1723989" Args="2 60 2 80 6 15 50 15 60 60"
-                    BossId="3607 3716 2754 2841 4078 4163 4189 4208 4268" BossIsBitmap="0 0 0 0 0 0 0 0 0" 
+                    BossId="3607 3716 2754 2841 4078 4163 4189 4208 4268" BossIsBitmap="0 0 0 0 0 0 0 0 0"
                     PanelTips="古索迪尔进入了迷途空间，穿越空间找到古索迪尔并击败即可通过关卡。\n迷途空间共分为6层，赛尔最初处于第一层，古索迪尔处于第六层。\n（第1层1张地图，第2层2张地图，第3层8张地图，第4层8张地图，第5、6层16张地图）"
                     ChallengeTips="此图是我开，此洞是我钻，要想钻此洞，留下买洞财！" />
-                <Houtai Forever="107974 107975 107976 107977 107978 107979 107980 107981 107982 107983 107984 107985 107986 107987 107988 107989 108300 108301 108302 108303 108304 108305 108306 108307 108308 108309 108310 108311 108312 108313 108314 108315 108316 108317 108318 108319 108320 108321 108322 108323 108324" Daily="200327" BossStartID="177055" BossEndID="177063" BossStyle="0" StatLog=""/>    
+                <Houtai Forever="107974 107975 107976 107977 107978 107979 107980 107981 107982 107983 107984 107985 107986 107987 107988 107989 108300 108301 108302 108303 108304 108305 108306 108307 108308 108309 108310 108311 108312 108313 108314 108315 108316 108317 108318 108319 108320 108321 108322 108323 108324" Daily="200327" BossStartID="177055" BossEndID="177063" BossStyle="0" StatLog=""/>
                 <Qianduan BossPosX="0 0 0 0 0 0 0 0 0" BossPosY="-17 -65 -40 -20 0 0 0 0 0" BossPosScaleX="1 1 1.3 0.9 0.7 0.7 1 1 1" BossPosScaleY="1 1 1.3 0.9 0.7 0.7 1 1 1" />
             </Mould>
         </Tasks>
@@ -3001,9 +3001,9 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
                 <Cehua TaskId="1" MouldId="4" MidItems="1724095 1724094 1724109" Args="3" BossId="4290 3474 2969 3545" BossIsBitmap="0 1 1 1" PanelTips="\n使用灵魂收割者·黛战胜右侧三个精灵，即可通过此关卡。\n"/>
                 <Houtai Forever="108357" Daily="200345" BossStartID="1151" BossEndID="1153" BossStyle="1" StatLog="2006240100"/>
             </Mould>
-            <Mould>        
-                <Cehua TaskId="2" MouldId="26" MidItems="1724096 1724109 1724097" Args="6" BossId="4195 4142 4198 4225 3945 3860 3602 3417 4234 3612" />                        
-                <Houtai Forever="108358" Daily="200346" BossStartID="220061" BossEndID="220070" BossStyle="0" StatLog="2006240107"/>   
+            <Mould>
+                <Cehua TaskId="2" MouldId="26" MidItems="1724096 1724109 1724097" Args="6" BossId="4195 4142 4198 4225 3945 3860 3602 3417 4234 3612" />
+                <Houtai Forever="108358" Daily="200346" BossStartID="220061" BossEndID="220070" BossStyle="0" StatLog="2006240107"/>
             </Mould>
             <Mould>
                 <Qianduan BossPosX="0 0 0 0 0" BossPosY="0 0 0 -30 0" BossScaleX="1 1 1 1 1" BossScaleY="1 1 1 1 1" />
@@ -3062,7 +3062,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
             </Mould>
             <Mould>
                 <Qianduan BossPosX="-10 0 0 0 -11 13 0 -4 26" BossPosY="-30 -20 -20 -102 -57 -20 -34 -11 20" BossScaleX="1.2 1.2 1.2 1.2 1 1 1 1 1" BossScaleY="1.2 1.2 1.2 1.2 1 1 1 1 1" />
-                <Cehua TaskId="3" MouldId="13" Items="1724154" MidItems="1724150 1724152 1724153 1724159 1724156 1724157 1724158 1724155" Args="12 40 45 50 60 80 100 8 8 8 15 10 20 1 5 6 10 180 200" 
+                <Cehua TaskId="3" MouldId="13" Items="1724154" MidItems="1724150 1724152 1724153 1724159 1724156 1724157 1724158 1724155" Args="12 40 45 50 60 80 100 8 8 8 15 10 20 1 5 6 10 180 200"
                     PanelTips="走至终点，用200个金币兑换净火宝珠，即可通过此关卡。" ChallengeTips="净火宝珠可以帮助沃卡奥拉强化自己的能量，\n标注净火宝珠地点的藏宝图随机掉落在场景里，\n先找出藏宝图吧！" BossId="4181 4145 4138 4073 3472 3938 4055 3898 3840"
                     BossIsBitmap="0 0 0 0 1 1 1 1 1" />
                 <Houtai Forever="108409 108410 108411 108412 108413 108414 108415 108416" Daily="200355" BossStartID="135064" BossEndID="135072" BossStyle="0" StatLog="2007030114"/>
@@ -3084,7 +3084,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
                 <Houtai Forever="123802" Daily="202900" BossStartID="258085" BossEndID="258096" BossStyle="0" StatLog="2010230100"/>
             </Mould>
             <Mould>
-                <Qianduan BossPosX="0 0 0 0" BossPosY="0 0 0 -85" BossScaleX="1 1 1 1" BossScaleY="1 1 1 1" />				
+                <Qianduan BossPosX="0 0 0 0" BossPosY="0 0 0 -85" BossScaleX="1 1 1 1" BossScaleY="1 1 1 1" />
                 <Cehua TaskId="2" MouldId="35" MidItems="1724245 1724246" Args="10 30 60" BossId="4313 4243 4215 4316"/>
                 <!--!bossid左边的精灵放最后！-->
                 <Houtai Forever="123803" Daily="202901" BossStartID="264517" BossEndID="264520" BossStyle="0" StatLog="2010230125"/>
@@ -3168,7 +3168,7 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
             </Mould>
             <Mould>
                 <Qianduan BossPosX="-20" BossPosY="-20" BossScaleX="1.2" BossScaleY="1.2" Args="已点燃 已点燃 已点燃 已点燃 已点燃 3-1 3-2 3-3 3-4 3-5" IconPos="0_0_1_1|0_0_1_1|0_0_1_1|0_0_1_1|0_0_1_1" AlarmAndAlert="1_1_重复点燃了一束神火，神火状态被重置了。|1_2_一束神火已被点燃！" />
-                <Cehua TaskId="3" MouldId="11" MidItems="1724363 1724364 1724365 1723549" Args="5 10" BossId="4330" 
+                <Cehua TaskId="3" MouldId="11" MidItems="1724363 1724364 1724365 1723549" Args="5 10" BossId="4330"
                     PanelTips="战胜审判之魂即可随机点燃一束神火，5束神火均被点燃即可通关！\n如果点燃了重复神火，当前未被锁定的神火将会被熄灭重置！\n（锁定的神火不会被重复点燃及重置）"
                     RuleTips="一束神火被点燃10次后，必定不会被重复点燃及重置！" />
                 <Houtai Forever="108470" Daily="200388" BossStartID="131010" BossEndID="131010" BossStyle="0" StatLog="2004030330"/>
@@ -3222,9 +3222,9 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
                 <Cehua TaskId="1" MouldId="4" MidItems="1724469 1724468 1724493" Args="3" BossId="4354 4048 4030 4037" BossIsBitmap="0 1 1 1" PanelTips="\n使用狂沙之主·萨特战胜右侧三个界神，即可通过此关卡。\n"/>
                 <Houtai Forever="123819" Daily="202909" BossStartID="1157" BossEndID="1159" BossStyle="1" StatLog="2006240100"/>
             </Mould>
-            <Mould>        
-                <Cehua TaskId="2" MouldId="26" MidItems="1724470 1724494 1724471" Args="6" BossId="4148 4142 4015 3992 3945 3659 3498 3494 3508 3612" />                        
-                <Houtai Forever="123820" Daily="202910" BossStartID="220071" BossEndID="220080" BossStyle="0" StatLog="2006240107"/>   
+            <Mould>
+                <Cehua TaskId="2" MouldId="26" MidItems="1724470 1724494 1724471" Args="6" BossId="4148 4142 4015 3992 3945 3659 3498 3494 3508 3612" />
+                <Houtai Forever="123820" Daily="202910" BossStartID="220071" BossEndID="220080" BossStyle="0" StatLog="2006240107"/>
             </Mould>
             <Mould>
                 <Qianduan BossPosX="0 0 0 0 0" BossPosY="0 0 0 -30 0" BossScaleX="1 1 1 1 1" BossScaleY="1 1 1 1 1" />
@@ -3244,6 +3244,6 @@ TimeFlag:时间ID（后台使用，因为S不下架一般可以不配时间，�
             <Houtai GainValue="123817" NewSeID="5848" Forever="123835" Daily="202913" BossStartID="210077" BossEndID="210080" StatLog="2006240144"/>
         </Power>
     </Design>
-	
-	
+
+
 </Root>

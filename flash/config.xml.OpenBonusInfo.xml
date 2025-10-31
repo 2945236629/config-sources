@@ -1988,6 +1988,11 @@ eg:
 			<Monster ID="4817" ExtraMove="1" NewSeID="6311" Lv="100" Name="玛艾拉"/>
 		</Out>
 	</Bonus>
+	<Bonus ID="2309" NewStatId="" Desc="20251031 十一月包月精灵">
+		<Out ID="1" >
+			<Monster ID="4832" ExtraMove="1" NewSeID="6322" Lv="100" Name="杜兰杜兰"/>
+		</Out>
+	</Bonus>
 	
 	
 	

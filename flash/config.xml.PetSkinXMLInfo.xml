@@ -2564,6 +2564,12 @@ Year：该皮肤所属的年份（当前仅面向巅峰时装）
 		<SkinKind ID="1" Type="2" LifeTime="0"/>
 	</Skin>	
 
+    <Skin ID="770" MonID="4830" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs=""  Name="鲨鱼辣椒" Go="app/FinalActivityPanel" GoType="module">
+		<SkinKind ID="1" Type="2" LifeTime="0"/>
+	</Skin>	
 
+    <Skin ID="771" MonID="4830" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="18" Name="鲨鱼巨人" Go="app/FinalActivityPanel" GoType="module">
+		<SkinKind ID="1" Type="2" LifeTime="0"/>
+	</Skin>	
 
 </PetSkins>

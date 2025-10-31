@@ -1297,6 +1297,18 @@ AddArgs：       背包展示套装增加的属性：0 固定值  1 百分比  �
 		<Rank Lv="1" Attribute="0 0 0 0 0 0" AddWay="1" BattleLv="0 0 0 0 0 0" OtherAttribute="0 0 0" EffectID="" EffectArgs=""  Desc=""/>
 	</Equip>
 	
+	<Equip ID="328" ItemID="1301126" Quality="3" Occasion="0" Part="0" Target="0" MonID="0" SuitID="469" SuitNewseId="7773" AddArgs="0 0 70 0 70 0 0" Name="丸子龙头盔" Desc="背包内所有精灵防御+70点、特防+70点">
+		<Rank Lv="1" Attribute="0 0 0 0 0 0" AddWay="1" BattleLv="0 0 0 0 0 0" OtherAttribute="0 0 0" EffectID="" EffectArgs=""  Desc=""/>
+	</Equip>
+	<Equip ID="329" ItemID="1301127" Quality="3" Occasion="0" Part="3" Target="0" MonID="0" SuitID="469" SuitNewseId="7773" AddArgs="0 0 70 0 70 0 0" Name="丸子龙臂铠" Desc="背包内所有精灵防御+70点、特防+70点">
+		<Rank Lv="1" Attribute="0 0 0 0 0 0" AddWay="1" BattleLv="0 0 0 0 0 0" OtherAttribute="0 0 0" EffectID="" EffectArgs=""  Desc=""/>
+	</Equip>
+	<Equip ID="331" ItemID="1301129" Quality="3" Occasion="0" Part="4" Target="0" MonID="0" SuitID="469" SuitNewseId="7773" AddArgs="0 0 70 0 70 0 0" Name="丸子龙战靴" Desc="背包内所有精灵防御+70点、特防+70点">
+		<Rank Lv="1" Attribute="0 0 0 0 0 0" AddWay="1" BattleLv="0 0 0 0 0 0" OtherAttribute="0 0 0" EffectID="" EffectArgs=""  Desc=""/>
+	</Equip>
+	
+	
+
 
 </Equips>
 

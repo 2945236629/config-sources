@@ -213,11 +213,11 @@ Desc:    刻印信息  tips的获得途径文字
 
 <Hotspot><!-- 本周热点 -->
 <item intro="全新精灵上线，快来看看吧！">
-      <place type= "0" ID="4825" ImageID= "4825" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
-	  <place type= "0" ID="4826" ImageID= "4826" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
-	  <place type= "0" ID="4827" ImageID= "4827" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
-	  <place type= "0" ID="4828" ImageID= "4828" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
-	  <place type= "0" ID="4829" ImageID= "4829" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
+      <place type= "0" ID="4830" ImageID= "4830" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
+	  <place type= "0" ID="4831" ImageID= "4831" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
+	  <place type= "0" ID="4832" ImageID= "4832" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
+	  <!-- <place type= "0" ID="4828" ImageID= "4828" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
+	  <!-- <place type= "0" ID="4829" ImageID= "4829" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
 	  <!-- <place type= "0" ID="4806" ImageID= "4806" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
 	  <!-- <place type= "0" ID="4804" ImageID= "4804" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
 	  <!-- <place type= "0" ID="4805" ImageID= "4805" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
@@ -256,10 +256,10 @@ Desc:    刻印信息  tips的获得途径文字
 
 
 
-      <place type= "1" ID="766" monID="4825" ImageID= "1400766" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
-      <place type= "1" ID="767" monID="4828" ImageID= "1400767" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
-	  <place type= "1" ID="768" monID="4829" ImageID= "1400768" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
-	  <place type= "1" ID="769" monID="4822" ImageID= "1400769" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
+      <place type= "1" ID="770" monID="4830" ImageID= "1400770" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
+      <place type= "1" ID="771" monID="4830" ImageID= "1400770" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
+	  <!-- <place type= "1" ID="768" monID="4829" ImageID= "1400768" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/> -->
+	  <!-- <place type= "1" ID="769" monID="4822" ImageID= "1400769" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/> -->
       <!-- <place type= "1" ID="749" monID="4805" ImageID= "1400749" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/> -->
 	  <!-- <place type= "1" ID="750" monID="4069" ImageID= "1400750" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/> -->
 	  <!-- <place type= "1" ID="747" monID="4676" ImageID= "1400747" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/> -->
@@ -2507,7 +2507,7 @@ Desc:    刻印信息  tips的获得途径文字
 	<Monster ID="2177" hasSound="1" DefName="阿斯狄" Type="火 超能" Height="146" Weight="41" Features="凶恶的第六星系来客，血手阿斯狄，鲜血与火焰的化身，象征着第六星系的最强火焰力量！" mapID="0"/>
 	<Monster ID="2178" hasSound="1" DefName="邪龙" Type="暗影 龙" Height="105" Weight="50" Features="邪龙尊的第一形态，被内心的负面情绪所腐蚀的龙尊，全身都受到了黑暗力量的侵蚀。" mapID="0"/>
 	<Monster ID="2179" hasSound="1" DefName="邪龙尊" Type="暗影 龙" Height="265" Weight="445" Features="龙尊内心的阴暗面，邪恶力量的化身——邪龙尊，龙尊永恒的对手，自己和自己的对决永不终结！" mapID="0"/>
-	<Monster ID="2180" hasSound="1" DefName="安娜" Type="超能" Height="29" Weight="8.7" Features="狄安娜pet_skin的第一形态安娜，安娜是月亮的代言，只要有她出现的夜晚，任何能够遮掩的月亮阴云都将消散。" mapID="0"/>
+	<Monster ID="2180" hasSound="1" DefName="安娜" Type="超能" Height="29" Weight="8.7" Features="狄安娜的第一形态安娜，安娜是月亮的代言，只要有她出现的夜晚，任何能够遮掩的月亮阴云都将消散。" mapID="0"/>
 	<Monster ID="2181" hasSound="1" DefName="狄安娜" Type="超能" Height="181" Weight="65" Features="月亮之神狄安娜是太阳之神阿波罗的妹妹，与她的兄长一样，她是来自神界的精灵，拥有难以匹敌的神格和神力。" mapID="0"/>
 	<Monster ID="2182" hasSound="1" DefName="瓦伦" Type="飞行 超能" Height="59" Weight="28" Features="比德尔和伊力沙的宝宝——瓦伦，瓦伦是是比德尔和伊力沙繁殖得来的精灵，和她的父母一样可爱，小小的翅膀和胖胖的身体注定了她是一只飞不起来的小笨鸟。" mapID="0"/>
 	<Monster ID="2183" hasSound="1" DefName="瓦伦丁" Type="飞行 超能" Height="125" Weight="86" Features="瓦伦的第二形态，由于父母的遗传因素，自己也是一只大胖鸟，飞的不快也不高，但是有了超能力的帮助，可以勉强在空中飞行。" mapID="0"/>
@@ -2549,7 +2549,7 @@ Desc:    刻印信息  tips的获得途径文字
 	<Monster ID="2219" hasSound="1" DefName="烈焰号" Type="战斗 火" Height="231" Weight="215" Features="烈焰号火车侠是勇气号火车侠的劲敌，装备有强力火焰喷射器的烈焰号火车侠是勇气号火车侠的强力克星！" mapID="97"/>
 	<Monster ID="2220" hasSound="1" DefName="利爪鲁斯王" Type="水" Height="143" Weight="77" Features="鲁斯王超进化，水系融合主宠的最强形态——利爪鲁斯王！惊涛和骇浪尽在他的掌控，只要在水中他就没有任何对手，锋利的爪子和强劲的双鳍让他在水中无可匹敌！" mapID="981" jumptarget="91/2220" Target="150012"/>
 	<Monster ID="2221" hasSound="1" DefName="炽焰金刚" Type="火" Height="151" Weight="88" Features="魔焰猩猩超进化，火系融合主宠的最强形态——炽焰金刚！鬃毛燃起了熊熊烈焰，躯干变得更加坚不可摧，炽焰金刚就是力量速度与火焰的化身！" mapID="981" jumptarget="91/2221" Target="150013"/>
-	<Monster ID="2222" hasSound="1" DefName="康纳" Type="战斗 暗影" Height="71" Weight="25" Features="康纳是麦康纳的第一形态，他的内心中永远充满着一股正义的新年，无论身在何处，他总是声张正义的先锋。" mapID="982"/>
+	<Monster ID="2222" hasSound="1" DefName="康纳" Type="战斗 暗影" Height="71" Weight="25" Features="康纳是麦康纳的第一形态，他的内心中永远充满着一股正义的信念，无论身在何处，他总是声张正义的先锋。" mapID="982"/>
 	<Monster ID="2223" hasSound="1" DefName="麦康纳" Type="战斗 暗影" Height="125" Weight="35" Features="麦康纳是创世之神的坐骑之一！他是正义的使者，同时也是正义的试炼者，只要通过他的考验就能和正义站在一起，成为正义的伙伴！" mapID="982"/>
 	<Monster ID="2224" hasSound="1" DefName="菲娜" Type="草" Height="42" Weight="7.5" Features="菲奥娜的第一形态，菲娜是草系的精灵，在生长时和植物一样，需要土壤、水分、阳光和营养。" mapID="981"/>
 	<Monster ID="2225" hasSound="1" DefName="菲奥娜" Type="草" Height="78" Weight="11.6" Features="春天的使者菲奥娜，充满了生机的植物小精灵，只要有她在的地方就会四季长春，永远将季节定格在最美丽的春天。" mapID="981"/>
@@ -4487,7 +4487,7 @@ Desc:    刻印信息  tips的获得途径文字
 	<Monster ID="4183" DefName="阿哞" Type="远古 地面" Height="66" Weight="20" Features="阿哞每次遇到伙伴们总是强调自己并不是牛，但是他的外形和名字让别人联想到，阿哞也很苦恼..." Redirect="map" Go="0"/>
 	<Monster ID="4184" DefName="贝狄薇尔" Type="机械 次元" Height="170" Weight="49" Features="英灵殿的新成员贝狄薇尔，玫瑰和钢铁的艺术结合体现出她的高贵和霸道！" Redirect="map" Go="103"/>
 	<Monster ID="4185" DefName="未来·雷小伊" Type="电" Height="66" Weight="11.3" Features="结合了未来科技的雷小伊，穿上了新装备准备开启美好的新一年！" Redirect="map|module" Go="103;app/PetJackpotMainPanel"/>
-	<Monster ID="4186" DefName="镇世·乔特鲁德" Type="龙" Height="500" Weight="260" Features="龙系精灵王乔特鲁德脱离邪恶的控制后重获新生，觉醒爆发成为正义的化身！" Redirect="map|module" Go="1478;app/S75SGQTLDMainPanel"/>
+	<Monster ID="4186" DefName="镇世·乔特鲁德" Type="龙" Height="500" Weight="260" Features="龙系精灵王乔特鲁德脱离邪恶的控制后重获新生，觉醒爆发成为正义的化身！" Redirect="map|module" Go="1478;app/S75SGQTLDMainPanel" Target="150096"/>
 	<Monster ID="4187" DefName="迪斯伯德" Type="远古 神秘" Height="180" Weight="75" Features="流浪的除灵者，能消耗自身的力量解开世间万物的祝福和诅咒，似乎与弑序神罗有某些联系！" Redirect="map|module" Go="1479;app/S76DiSiBoDeMainPanel"/>
 	<Monster ID="4188" DefName="幽灵铁甲" Type="机械 邪灵" Height="100" Weight="25" Features="幽灵铁甲在无止境的飘荡中似乎有了自己的意识，它偶尔会出现在阴暗的炼狱囚牢中，只有很少一部人见过。" Redirect="map" Go="1479"/>
 	<Monster ID="4189" DefName="凌雪·樱" Type="混沌 冰" Height="180" Weight="55" Features="樱接受了混沌之力的侵蚀，内心也变得更加冷酷无情！" Redirect="map|module" Go="1480;app/S77LingxueYinMainPanel"/>
@@ -5128,5 +5128,8 @@ Desc:    刻印信息  tips的获得途径文字
 	<Monster ID="4827" DefName="蜘蛛侦探" Type="地面 超能" Height="162" Weight="68" Features="蜘蛛侦探是B系列中的5号机，他非常喜欢金钱与财富，但真有了一大笔钱时，却会变得胆战心惊。" Redirect="module" Go="app/FinalActivityPanel" Target="113053"/>
 	<Monster ID="4828" DefName="蜻蜓队长" Type="电 次元" Height="未知" Weight="未知" Features="在“和平星争夺战”中出现的神秘裁判机器人，总是自说自话的开始主持各种比赛。" Redirect="module" Go="app/FinalActivityPanel" Target="113057"/>
 	<Monster ID="4829" DefName="卡布达超级形态" Type="电 战斗" Height="222" Weight="78" Features="开启了超级变换形态的卡布达，实力强大，十分的神气威武。友情是卡布达强大的力量来源。" Redirect="module" Go="app/FinalActivityPanel" Target="113054"/>
+	<Monster ID="4830" DefName="鲨鱼辣椒超级形态" Type="神秘 战斗" Height="218" Weight="86" Features="开启了超级变换形态的鲨鱼辣椒，成为了B系列机器人之中变身时间最长，破坏力最强的机器人。" Redirect="module" Go="app/FinalActivityPanel" Target="113058"/>
+	<Monster ID="4831" DefName="蝎子莱莱" Type="地面 暗影" Height="173" Weight="65" Features="蝎子莱莱是B系列中的4号机，他平时饮酒为乐，对待身边的朋友特别真诚。" Redirect="module" Go="app/FinalActivityPanel" Target="113060"/>
+	<Monster ID="4832" DefName="杜兰杜兰" Type="光 暗影" Height="164" Weight="41" Features="2025包月精灵，赫星童话之《目不可及》，故事讲述的是一位有着奇怪罕见病“隐形病”的女高中生，如何成为“隐形怪盗”这一传奇般的都市传说的。" Redirect="module" Go="app/FinalActivityPanel" Target="120000"/>
 
 </root>

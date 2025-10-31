@@ -1963,7 +1963,7 @@
 	<item moveId="37439" petId="4658" moveName1="化" moveName2="十方哑唤"/>
 	<item moveId="37444" petId="4659" moveName1="八月" moveName2="的流火"/>
 	<item moveId="37449" petId="4660" moveName1="天下" moveName2="一锅鲜"/>
-	<item moveId="37460" petId="4661" moveName1=" " moveName2="无相谛"/>
+	<item moveId="37460" petId="4661" moveName1="无相谛"/>
 	<item moveId="37464" petId="3623" moveName1="花溅" moveName2="梦呢喃"/>
 	<item moveId="37466" petId="3482" moveName1="鬼神嚎哭" moveName2="极"/>
 	<item moveId="37465" petId="3783" moveName1="天启" moveName2="麟心印"/>
@@ -2112,6 +2112,9 @@
 		<item moveId="38128" petId="4827" moveName1="投掷" moveName2="爪锚"/>
 		<item moveId="38131" petId="4828" moveName1="绝不" moveName2="意气用事"/>
 		<item moveId="38134" petId="4829" moveName1="超压" moveName2="雷击剑"/>
+		<item moveId="38137" petId="4830" moveName1="断金" moveName2="鳍锋斩"/>
+		<item moveId="38140" petId="4831" moveName1="蝎子" moveName2="回力标"/>
+		<item moveId="38143" petId="4832" moveName1="破隐" moveName2="缭乱刺"/>
 
 
 
