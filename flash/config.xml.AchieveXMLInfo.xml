@@ -296,6 +296,7 @@
 				<Rule ID="18" Threshold="18" AchievementPoint="10" icon="1" achName="浪浪山奇遇" proicon="1427" SpeNameBonus="553" title="浪浪山奇遇" Desc="完成主线【行至浪浪山】获得" titleColor="0xFFFFFF"/>
 				<Rule ID="19" Threshold="19" AchievementPoint="10" icon="1" achName="想要让你知道" proicon="1438" SpeNameBonus="554" title="真心翡翠" Desc="完成主线【想要让你知道】获得" titleColor="0xFFFFFF"/>
 				<Rule ID="20" Threshold="20" AchievementPoint="10" icon="1" achName="俯瞰星穹" proicon="1440" SpeNameBonus="556" title="俯瞰星穹" Desc="完成支线【俯仰星尘】获得" titleColor="0xFFFFFF"/>
+				<Rule ID="21" Threshold="21" AchievementPoint="10" icon="1" achName="卡布达与朋友" proicon="1447" SpeNameBonus="558" title="卡布达与朋友" Desc="完成剧情【和平星争霸赛】获得" titleColor="0xFFFFFF" />
 			</Branch>
 
 		</Branches>
@@ -1779,9 +1780,10 @@
 				<Rule ID="17" Threshold="17" AchievementPoint="20" icon="1" achName="星海相逢" proicon="1412" SpeNameBonus="543" title="星海相逢" Desc="在这浩瀚的星海之中，我们终将相逢" titleColor="0xFFFFFF" AbilityTitle="1" abtext="攻击+40，特攻+40，速度+20"/>
 				<Rule ID="18" Threshold="18" AchievementPoint="15" icon="1" achName="露希欧幻梦" proicon="1413" SpeNameBonus="544" title="露希欧幻梦" Desc="承载露希欧星历史的珍贵记忆，送给最重要的你" titleColor="0xFFFFFF" AbilityTitle="1" abtext="防御+30，特防+30，体力+60"/>
 				<Rule ID="19" Threshold="19" AchievementPoint="10" icon="1" achName="魔王降临" proicon="1414" SpeNameBonus="545" title="魔王降临" Desc="购买湮灭之主·咤克斯至尊礼包获得" titleColor="0xFFFFFF" AbilityTitle="1" abtext="攻击+20，特攻+20，体力+100"/>
-				<Rule ID="20" Threshold="20" AchievementPoint="10" icon="1" achName="梦境守望" proicon="1415" SpeNameBonus="546" title="梦境守望" Desc="守护易碎的梦境，直到星光重新点亮露希欧的夜空。" titleColor="0xFFFFFF" />
+				<Rule ID="20" Threshold="20" AchievementPoint="10" icon="1" achName="梦境守望" proicon="1415" SpeNameBonus="546" title="梦境守望" Desc="守护易碎的梦境，直到星光重新点亮露希欧的夜空" titleColor="0xFFFFFF" />
 				<Rule ID="21" Threshold="21" AchievementPoint="10" achName="你存在的证明" Desc="嘿，我在看着你。在每个瞬间，每个角落，在某段无法被想起的电波里" proicon="1416" icon="1" />
-				<Rule ID="22" Threshold="22" AchievementPoint="10" icon="1" achName="海洋之友" proicon="1423" SpeNameBonus="549" title="海洋之友" Desc="与海洋星居民建立友谊。" titleColor="0xFFFFFF" />
+				<Rule ID="22" Threshold="22" AchievementPoint="10" icon="1" achName="海洋之友" proicon="1423" SpeNameBonus="549" title="海洋之友" Desc="与海洋星居民建立友谊" titleColor="0xFFFFFF" />
+				
 			</Branch>
 
 			<Branch ID="171" Type="0" Desc="系列皮肤收集成就" >

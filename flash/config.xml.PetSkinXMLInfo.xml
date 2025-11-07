@@ -12,7 +12,7 @@ skinkind id 皮肤种类id
 SkinKind Type:  1:限时皮肤  2:永久皮肤
 LifeTime:限时天数
 
-SkinType：该皮肤所属的系列id（1-巅峰时装 2-星海誓约 3-夏日奇遇 4-童话梦境 5-江湖令 6-洛林卡之星 7-时代轨迹 8-月满中秋）
+SkinType：该皮肤所属的系列id（1-巅峰时装 2-星海誓约 3-夏日奇遇 4-童话梦境 5-江湖令 6-洛林卡之星 7-时代轨迹 8-月满中秋 9-铁甲小宝 10-万圣惊魂夜）
 Year：该皮肤所属的年份（当前仅面向巅峰时装）
 
 -->
@@ -1776,7 +1776,7 @@ Year：该皮肤所属的年份（当前仅面向巅峰时装）
 	</Skin>
 
 	<Skin ID="573" MonID="4163" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="黑猫惊魂·佩特菲德">
-		<SkinKind ID="1" Type="2" LifeTime="0"/>
+		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="10"/>
 	</Skin>
 
 	<Skin ID="574" MonID="3642" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Name="托鲁克">
@@ -2160,15 +2160,15 @@ Year：该皮肤所属的年份（当前仅面向巅峰时装）
 	</Skin>
 
 	<Skin ID="669" MonID="4599" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="幻夜独行·索杰德尔" >
-		<SkinKind ID="1" Type="2" LifeTime="0"/>
+		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="10"/>
 	</Skin>
 
 	<Skin ID="670" MonID="3623" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="喋血魅影·鬼面幽蝶" >
-		<SkinKind ID="1" Type="2" LifeTime="0"/>
+		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="10"/>
 	</Skin>
 
 	<Skin ID="671" MonID="4688" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="喵瓜大暴走·库洛妮" >
-		<SkinKind ID="1" Type="2" LifeTime="0"/>
+		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="10"/>
 	</Skin>
 
 	<Skin ID="672" MonID="3529" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Name="海瑟薇" >
@@ -2553,11 +2553,11 @@ Year：该皮肤所属的年份（当前仅面向巅峰时装）
 	</Skin>	
 
     <Skin ID="767" MonID="4828" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="归来·蜻蜓队长" Go="app/FinalActivityPanel" GoType="module">
-		<SkinKind ID="1" Type="2" LifeTime="0"/>
+		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="9"/>
 	</Skin>	
 
     <Skin ID="768" MonID="4829" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="18" Name="卡布达巨人" Go="app/FinalActivityPanel" GoType="module">
-		<SkinKind ID="1" Type="2" LifeTime="0"/>
+		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="9"/>
 	</Skin>	
 
     <Skin ID="769" MonID="4822" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs=""  Name="里奥斯" Go="app/FinalActivityPanel" GoType="module">
@@ -2569,7 +2569,15 @@ Year：该皮肤所属的年份（当前仅面向巅峰时装）
 	</Skin>	
 
     <Skin ID="771" MonID="4830" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="18" Name="鲨鱼巨人" Go="app/FinalActivityPanel" GoType="module">
+		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="9"/>
+	</Skin>	
+
+    <Skin ID="772" MonID="4231" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="秋日印象·克洛托">
 		<SkinKind ID="1" Type="2" LifeTime="0"/>
+	</Skin>	
+	
+	<Skin ID="773" MonID="3941" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="自在提偶·霍德尔">
+		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="10"/>
 	</Skin>	
 
 </PetSkins>

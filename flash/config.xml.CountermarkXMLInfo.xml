@@ -3703,15 +3703,16 @@
 	<MintMark ID="42600" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 4 2 2 13" MaxAttriValue="0 29 45 29 26 131" MintmarkClass="91" Level="100" Max="99" Des="和平星-狮子座" EffectDes="防御2/29,特攻4/45,特防2/29,速度2/26,体力13/131"/>
 	<MintMark ID="42601" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="3 5 0 5 2 9" MaxAttriValue="32 55 0 55 23 95" MintmarkClass="91" Level="100" Max="99" Des="和平星-处女座" EffectDes="攻击3/32,防御5/55,特防5/55,速度2/23,体力9/95"/>
 	<MintMark ID="42602" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 5 3 5 2 9" MaxAttriValue="0 55 32 55 23 95" MintmarkClass="91" Level="100" Max="99" Des="和平星-天秤座" EffectDes="防御5/55,特攻3/32,特防5/55,速度2/23,体力9/95"/>
-    <MintMark ID="42603" Type="3" Rare="2" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 3 0 3 2 11" MaxAttriValue="40 30 0 30 25 115" Level="100" Max="99" Des="和平星-天蝎座β" EffectDes="攻击4/40,防御3/30,特防3/30,速度2/25,体力11/115" MintmarkClass="91"/>
-    <MintMark ID="42604" Type="3" Rare="2" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 2 4 2 0 11" MaxAttriValue="40 25 40 25 0 110" Level="100" Max="99" Des="和平星-蛇夫座β" EffectDes="攻击4/40,特攻4/40,防御2/25,特防2/25,体力11/110" MintmarkClass="91"/>
-    <MintMark ID="42605" Type="3" Rare="2" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 5 3 3 9" MaxAttriValue="0 30 50 30 35 95" Level="100" Max="99" Des="和平星-射手座β" EffectDes="防御3/30,特攻5/50,特防3/30,速度3/35,体力9/95" MintmarkClass="91"/>
-	<!--42606-42607和平星β预留-->
+    <MintMark ID="42603" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 3 0 3 2 11" MaxAttriValue="40 30 0 30 25 115" Level="100" Max="99" Des="和平星-天蝎座β" EffectDes="攻击4/40,防御3/30,特防3/30,速度2/25,体力11/115" MintmarkClass="91"/>
+    <MintMark ID="42604" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 2 4 2 0 11" MaxAttriValue="40 25 40 25 0 110" Level="100" Max="99" Des="和平星-蛇夫座β" EffectDes="攻击4/40,防御2/25,特攻4/40,特防2/25,体力11/110" MintmarkClass="91"/>
+    <MintMark ID="42605" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 5 3 3 9" MaxAttriValue="0 30 50 30 35 95" Level="100" Max="99" Des="和平星-射手座β" EffectDes="防御3/30,特攻5/50,特防3/30,速度3/35,体力9/95" MintmarkClass="91"/>
+	<MintMark ID="42606" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="5 3 0 3 3 9" MaxAttriValue="50 30 0 30 35 95" Level="100" Max="99" Des="和平星-摩羯座β" EffectDes="攻击5/50,防御3/30,特防3/30,速度3/35,体力9/95" MintmarkClass="91"/>
+    <MintMark ID="42607" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="5 2 5 2 0 9" MaxAttriValue="50 25 50 25 0 90" Level="100" Max="99" Des="和平星-水瓶座β" EffectDes="攻击5/50,防御2/25,特攻5/50,特防2/25,体力9/90" MintmarkClass="91"/>
 	<MintMark ID="42608" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="5 3 0 3 3 9" MaxAttriValue="50 30 0 30 30 90" MonsterID="4829" Level="100" Max="99" Des="卡布达超级形态专属全能刻印" EffectDes="攻击5/50,防御3/30,特防3/30,速度3/30,体力9/90"/>
 	<MintMark ID="42609" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="5 2 0 2 3 9" MaxAttriValue="52 25 0 25 38 90" MonsterID="4830" Level="100" Max="99" Des="鲨鱼辣椒超级形态专属全能刻印" EffectDes="攻击5/52,防御2/25,特防2/25,速度3/38,体力9/90"/>
+	<MintMark ID="42610" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 4 4 4 2 8" MaxAttriValue="0 40 40 40 20 80" Level="100" Max="99" Des="永噤之夜" EffectDes="防御4/40,特攻4/40,特防4/40,速度2/20,体力8/80" Rarity="3" MintmarkClass="65" ExtraAttriValue="0 5 5 5 0 5"/>
+    <MintMark ID="42611" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 3 0 3 3 12" MaxAttriValue="40 30 0 30 30 120" MintmarkClass="11" Level="100" Max="99" Des="航行6000天" EffectDes="攻击4/40,防御3/30,特防3/30,速度3/30,体力12/120"/>
 	
-
-
 
 	<!--刻印铸造碎片-->
 	<MintMark ID="50001" Type="4" SalePrice="10000" Quality="0" MintmarkLevel="0" BaseHoleNum="0" BaseAttriValue="0 0 0 0 0 0" MaxAttriValue="0 0 0 0 0 0" Level="100" MonsterID="" Max="99" Des="小碎片"/>

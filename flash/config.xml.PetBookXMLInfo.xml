@@ -213,9 +213,9 @@ Desc:    刻印信息  tips的获得途径文字
 
 <Hotspot><!-- 本周热点 -->
 <item intro="全新精灵上线，快来看看吧！">
-      <place type= "0" ID="4830" ImageID= "4830" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
-	  <place type= "0" ID="4831" ImageID= "4831" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
-	  <place type= "0" ID="4832" ImageID= "4832" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
+      <place type= "0" ID="4833" ImageID= "4833" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
+	  <!-- <place type= "0" ID="4831" ImageID= "4831" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
+	  <!-- <place type= "0" ID="4832" ImageID= "4832" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
 	  <!-- <place type= "0" ID="4828" ImageID= "4828" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
 	  <!-- <place type= "0" ID="4829" ImageID= "4829" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
 	  <!-- <place type= "0" ID="4806" ImageID= "4806" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
@@ -255,9 +255,8 @@ Desc:    刻印信息  tips的获得途径文字
       <place type= "0" ID="4641" ImageID= "4641" Label= "0"  Redirect="map|module" Go="1679;app/ValleyExpeditionHatchMainPanel"/>-->
 
 
-
-      <place type= "1" ID="770" monID="4830" ImageID= "1400770" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
-      <place type= "1" ID="771" monID="4830" ImageID= "1400770" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
+      <place type= "1" ID="772" monID="4231" ImageID= "1400772" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
+      <place type= "1" ID="773" monID="3941" ImageID= "1400773" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
 	  <!-- <place type= "1" ID="768" monID="4829" ImageID= "1400768" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/> -->
 	  <!-- <place type= "1" ID="769" monID="4822" ImageID= "1400769" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/> -->
       <!-- <place type= "1" ID="749" monID="4805" ImageID= "1400749" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/> -->
@@ -5131,5 +5130,6 @@ Desc:    刻印信息  tips的获得途径文字
 	<Monster ID="4830" DefName="鲨鱼辣椒超级形态" Type="神秘 战斗" Height="218" Weight="86" Features="开启了超级变换形态的鲨鱼辣椒，成为了B系列机器人之中变身时间最长，破坏力最强的机器人。" Redirect="module" Go="app/FinalActivityPanel" Target="113058"/>
 	<Monster ID="4831" DefName="蝎子莱莱" Type="地面 暗影" Height="173" Weight="65" Features="蝎子莱莱是B系列中的4号机，他平时饮酒为乐，对待身边的朋友特别真诚。" Redirect="module" Go="app/FinalActivityPanel" Target="113060"/>
 	<Monster ID="4832" DefName="杜兰杜兰" Type="光 暗影" Height="164" Weight="41" Features="2025包月精灵，赫星童话之《目不可及》，故事讲述的是一位有着奇怪罕见病“隐形病”的女高中生，如何成为“隐形怪盗”这一传奇般的都市传说的。" Redirect="module" Go="app/FinalActivityPanel" Target="120000"/>
+	<Monster ID="4833" DefName="蟑螂恶霸" Type="暗影 战斗" Height="156" Weight="78" Features="蟑螂恶霸是B系列中的8号机，他的行为粗暴，外表看起来很邪恶，但其实有着一颗温柔浪漫的心。" Redirect="module" Go="app/FinalActivityPanel" Target="113061"/>
 
 </root>
