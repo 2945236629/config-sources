@@ -9716,7 +9716,7 @@
           {
             "id": 1,
             "life_time": 0,
-            "skin_type": 0,
+            "skin_type": 10,
             "type": 2,
             "year": 0
           }
@@ -11348,7 +11348,7 @@
           {
             "id": 1,
             "life_time": 0,
-            "skin_type": 0,
+            "skin_type": 10,
             "type": 2,
             "year": 0
           }
@@ -11365,7 +11365,7 @@
           {
             "id": 1,
             "life_time": 0,
-            "skin_type": 0,
+            "skin_type": 10,
             "type": 2,
             "year": 0
           }
@@ -11382,7 +11382,7 @@
           {
             "id": 1,
             "life_time": 0,
-            "skin_type": 0,
+            "skin_type": 10,
             "type": 2,
             "year": 0
           }
@@ -12606,7 +12606,7 @@
           {
             "id": 1,
             "life_time": 0,
-            "skin_type": 3,
+            "skin_type": 0,
             "type": 2,
             "year": 0
           }
@@ -13014,7 +13014,7 @@
           {
             "id": 1,
             "life_time": 0,
-            "skin_type": 0,
+            "skin_type": 9,
             "type": 2,
             "year": 0
           }
@@ -13031,7 +13031,7 @@
           {
             "id": 1,
             "life_time": 0,
-            "skin_type": 0,
+            "skin_type": 9,
             "type": 2,
             "year": 0
           }
@@ -13082,7 +13082,7 @@
           {
             "id": 1,
             "life_time": 0,
-            "skin_type": 0,
+            "skin_type": 9,
             "type": 2,
             "year": 0
           }
@@ -13090,6 +13090,40 @@
         "id": 771,
         "mon_id": 4830,
         "type": 18
+      },
+      {
+        "go": "",
+        "go_type": "",
+        "name": "秋日印象·克洛托",
+        "skin_kind": [
+          {
+            "id": 1,
+            "life_time": 0,
+            "skin_type": 0,
+            "type": 2,
+            "year": 0
+          }
+        ],
+        "id": 772,
+        "mon_id": 4231,
+        "type": 3
+      },
+      {
+        "go": "",
+        "go_type": "",
+        "name": "自在提偶·霍德尔",
+        "skin_kind": [
+          {
+            "id": 1,
+            "life_time": 0,
+            "skin_type": 10,
+            "type": 2,
+            "year": 0
+          }
+        ],
+        "id": 773,
+        "mon_id": 3941,
+        "type": 3
       }
     ]
   }

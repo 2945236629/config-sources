@@ -4,6 +4,30 @@
       {
         "bean": 0,
         "hide": 1,
+        "id": 1400163,
+        "max": 99999,
+        "name": "占位虚拟物品2",
+        "rarity": 1,
+        "sort": 31,
+        "cat_id": 14,
+        "purpose": 0,
+        "wd": 1
+      },
+      {
+        "bean": 0,
+        "hide": 1,
+        "id": 1400162,
+        "max": 99999,
+        "name": "占位虚拟物品1",
+        "rarity": 1,
+        "sort": 31,
+        "cat_id": 14,
+        "purpose": 0,
+        "wd": 1
+      },
+      {
+        "bean": 0,
+        "hide": 1,
         "id": 1400161,
         "max": 9999,
         "name": "星之能量",
