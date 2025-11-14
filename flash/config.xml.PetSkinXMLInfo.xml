@@ -1,7 +1,7 @@
 <!--
 Skin ID：		主键ID 皮肤ID
 MonID：			皮肤归属MonID精灵
-Type:  1:英雄（停用） 2:史诗 3:传说 4:周年限定 5:万圣限定 6:中秋限定 7:春节限定 8:圣诞限定 9:青春校园 11:周年限定-乐队 12：周年限定-泳池 13：异元时空限定 14：神话（后续可能单开展示） 15：巅峰赛季限定 16：古堡晚宴限定 17：七夕限定 18：限定
+Type:  1:英雄（停用） 2:史诗 3:传说 4:周年限定 5:万圣限定 6:中秋限定 7:春节限定 8:圣诞限定 9:青春校园 11:周年限定-乐队 12：周年限定-泳池 13：异元时空限定 14：神话（后续可能单开展示） 15：巅峰赛季限定 16：古堡晚宴限定 17：七夕限定 18：限定 19：航行纪念
 Target：		0 对自己生效； 1 对对手生效  默认0
 Occasion: 		0 全部生效； 1 pvp生效； 2 pve生效  （若配成其他值，可在特定场合处理、生效）
 AddWay:			与Attribute配合使用；0 按照固定值加成； 1 按照百分比加成
@@ -2448,16 +2448,16 @@ Year：该皮肤所属的年份（当前仅面向巅峰时装）
 		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="3"/>
 	</Skin>	
 
-	<Skin ID="741" MonID="4785" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs=""   Type="3" Name="郁海繁花·铭唤"  Go="1095;app/PeakJihad2023MainPanel" GoType="map|module">
+	<Skin ID="741" MonID="4785" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs=""   Type="3" Name="郁海繁花·铭唤"  >
 		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="1" Year="2025"/>
 	</Skin>	
 
-	<Skin ID="742" MonID="4462" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs=""   Type="3" Name="梦色仲夏·月华"  Go="app/FinalActivityPanel" GoType="module">
+	<Skin ID="742" MonID="4462" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs=""   Type="3" Name="梦色仲夏·月华"  >
 		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="3"/>
 	</Skin>	
 	
-	<Skin ID="743" MonID="3697" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs=""   Type="15" Name="璀璨音律·凡尔斯" Go="app/FinalActivityPanel" GoType="module">
-		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="3"/>
+	<Skin ID="743" MonID="3697" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs=""   Type="15" Name="璀璨音律·凡尔斯" >
+		<SkinKind ID="1" Type="2" LifeTime="0"/>
 	</Skin>	
 
 	<Skin ID="744" MonID="4597" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs=""   Type="3" Name="风漪夏吻·维伊">
@@ -2508,15 +2508,15 @@ Year：该皮肤所属的年份（当前仅面向巅峰时装）
 		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="7"/>
 	</Skin>	
 
-    <Skin ID="756" MonID="4636" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="18" Name="第一宇航员·西塔伦" Go="app/FinalActivityPanel" GoType="module">
+    <Skin ID="756" MonID="4636" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="18" Name="第一宇航员·西塔伦" >
 		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="6"/>
 	</Skin>	
 	
-    <Skin ID="757" MonID="4644" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="领衔·克雷弗德" Go="app/FinalActivityPanel" GoType="module">
+    <Skin ID="757" MonID="4644" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="领衔·克雷弗德" >
 		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="6"/>
 	</Skin>	
 
-    <Skin ID="758" MonID="4643" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="朔星·蓓丽安特" Go="app/FinalActivityPanel" GoType="module">
+    <Skin ID="758" MonID="4643" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="朔星·蓓丽安特" >
 		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="6"/>
 	</Skin>	
 
@@ -2532,12 +2532,12 @@ Year：该皮肤所属的年份（当前仅面向巅峰时装）
 		<SkinKind ID="1" Type="2" LifeTime="0"/>
 	</Skin>	
 	
-    <Skin ID="762" MonID="4477" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="地狱使者·伊洛特斯" Go="app/FinalActivityPanel" GoType="module">
+    <Skin ID="762" MonID="4477" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="地狱使者·伊洛特斯" >
 		<SkinKind ID="1" Type="2" LifeTime="0"/>
 	</Skin>	
 
     <Skin ID="763" MonID="4823" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="冬日礼装·雪璞" Go="app/FinalActivityPanel" GoType="module">
-		<SkinKind ID="1" Type="2" LifeTime="0"/>
+		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="1" Year="2025"/>
 	</Skin>	
 
     <Skin ID="764" MonID="3524" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="源初躁动·乔列尼德" Go="app/FinalActivityPanel" GoType="module">
@@ -2572,12 +2572,24 @@ Year：该皮肤所属的年份（当前仅面向巅峰时装）
 		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="9"/>
 	</Skin>	
 
-    <Skin ID="772" MonID="4231" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="秋日印象·克洛托">
+    <Skin ID="772" MonID="4231" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="秋日印象·克洛托" Go="app/FinalActivityPanel" GoType="module">
 		<SkinKind ID="1" Type="2" LifeTime="0"/>
 	</Skin>	
 	
 	<Skin ID="773" MonID="3941" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="自在提偶·霍德尔">
 		<SkinKind ID="1" Type="2" LifeTime="0" SkinType="10"/>
 	</Skin>	
+
+    <Skin ID="774" MonID="5000" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="19" Name="世界之脉·圣灵谱尼" Go="app/FinalActivityPanel" GoType="module">
+		<SkinKind ID="1" Type="2" LifeTime="0"/>
+	</Skin>	
+
+    <Skin ID="775" MonID="4648" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="19" Name="潮汐之主·星光鲁斯王" Go="app/FinalActivityPanel" GoType="module">
+		<SkinKind ID="1" Type="2" LifeTime="0"/>
+	</Skin>	
+
+    <!-- <Skin ID="000" MonID="000" Target="0" Occasion="1" AddWay="1" Attribute="" SkinEffectID="" SkinEffectArgs="" Type="3" Name="复制模版"> -->
+		<!-- <SkinKind ID="1" Type="2" LifeTime="0"/> -->
+	<!-- </Skin>	 -->
 
 </PetSkins>

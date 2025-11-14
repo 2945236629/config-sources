@@ -191,4 +191,5 @@
 	<item id="600089" changeBody="875" hasEffect="0" hideModel="0"/>
 	<!-- 圣诞雪球  -->
 	<item id="600090" changeBody="0" hasEffect="1" hideModel="0"/>
+	<item id="600094" changeBody="0" hasEffect="1" hideModel="0"/>
 </root>

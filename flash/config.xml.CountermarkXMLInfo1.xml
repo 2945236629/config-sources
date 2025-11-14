@@ -55,78 +55,7 @@
 	ExtraAttriValue：非必填项；全能刻印隐藏属性，在升级到最高等级时隐藏属性才生效，共6个参数，依次为攻击、防御、特攻、特防、速度、体力；无隐藏属性的全能刻印不需要配置此项；
 	TotalConsume：非必填项；全能刻印升满级总计所需泰坦之灵数量；若不填则根据默认公式计算自动生成，若填写则表示升级此刻印需要对应数量的泰坦之灵
 	MintmarkClass：非必填项；用于非专属全能刻印的分类；专属全能刻印不填此项；非专属全能刻印每个大类填一个参数，参数顺延
-		1	- 睿智系列
-		2	- 辉耀之印系列
-		3	- 星系列
-		4	- 神耀系列
-		5	- 特级全能系列
-		6	- 探险家&典狱长系列
-		7	- 月系列
-		8	- 阳系列
-		9	- 雷神崛起
-		10	- 庆系列
-		11	- 强化庆系列
-		12	- 精灵王系列
-		13	- 五帝系列
-		14	- 征战系列
-		15	- 王·战联系列
-		16	- 谱尼圣能系列	
-		17	- 泰坦系列
-		18	- 神兽大战索伦森系列
-		19	- 年费相关系列
-		20	- 八部太玄系列
-		21	- 衡系列		
-		22	- 圣灵系列		
-		23	- 混沌系列		
-		24	- 偃月系列
-		25	- V8系列	
-		26  - 军团之令系列
-		27  - 炫彩系列
-		28  - 星系守护系列
-		29  - 星球系列
-		30  - 清系列（清明节等春日主题）
-		31  - 星系战争印记系列
-		32  - 童心系列（61节主题刻印）
-		33  - 九周年系列
-		34  - 巅峰圣战系列
-		35  - 功勋、图鉴等系统系列
-		36  - 最终决战系列
-        37  - 秩序之战系列
-		38  - 暗黑战联系列
-		39  - 十周年系列
-		40  - 天蛇系列
-		41  — 魔界系列
-		42  — 界神系列
-		43  — 凶兽系列
-		44  — 夏系列（仲夏节等夏日主题）
-		45  — 时系列
-		46  — 永恒记忆系列
-		47  — 命世系列
-		48  — 冰雪节系列
-		49  — 四九系列
-		50  — 青系列（踏青节等春日主题）
-		51  — 龙族英魂系列
-		52  — 元宵系列（元宵节主题）
-		53  — 异空系列
-		54  — 星愿系列（11周年主题）
-		55  — 露姆仙境系列
-		56  — 晓月系列（约瑟联动）
-		57  — 神牛系列（21年春节主题）
-		58  — 浮云系列
-		59  — 飓风系列（21年国庆主题）
-		60  — 焰火系列（22年春节主题）
-		61  — 英雄之证系列（单独个体精灵冠名）
-		62  — 大暗黑天系列
-		63  — 新春系列
-		64  — 莱达神谕系列
-		65  — 精灵王誓约系列
-		66  — 十三周年庆典冠名系列（星璨【乐队】及灵籁【泳池】系列刻印）
-		67  — K13冠名系列
-		68  — 中秋满月系列
-		69  — 珍宝系列
-		70  — 15周年淘乐节系列
-		71  — 四君子系列
-		72  — 异元之铭系列（23年春节主题）
+	系列对应见文件末尾
 		
 12. 2023.11.28新增稀有度字段Rarity
      3 - 稀有
@@ -3690,13 +3619,13 @@
 	<MintMark ID="42516" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 3 2 2 7" MaxAttriValue="0 24 32 24 26 70" MonsterID="4675" Level="100" Max="99" Des="招财专属全能刻印" EffectDes="防御2/24,特攻3/32,特防2/24,速度2/26,体力7/70"/>
 	<MintMark ID="42517" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 3 2 2 6" MaxAttriValue="0 25 30 25 28 67" MonsterID="4681" Level="100" Max="99" Des="伏奥诺专属全能刻印" EffectDes="防御2/25,特攻3/30,特防2/25,速度2/28,体力6/67"/>
 	<MintMark ID="42518" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 25 30 25 28 67" MaxAttriValue="0 25 30 25 28 67" MonsterID="4681" Level="100" Max="99" Des="伏奥诺专属全能刻印S" EffectDes="防御2/25,特攻3/30,特防2/25,速度2/28,体力6/67"/>
-	<MintMark ID="42519" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="2 3 2 3 0 9" MaxAttriValue="25 30 25 30 0 90" MonsterID="4677" Level="100" Max="99" Des="星辰万象·天启星魂专属全能刻印" EffectDes="攻击2/25,防御3/30,特攻2/25,特防3/30,体力9/90" ExtraAttriValue="0 0 0 0 40 0"/>
-	<MintMark ID="42520" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 6 3 3 8" MaxAttriValue="0 30 67 30 38 85" Level="100" Max="99" Des="大地神迹" EffectDes="防御3/30,特攻6/67,特防3/30,速度3/38,体力8/85" MintmarkClass="85" ExtraAttriValue="0 0 5 0 0 5"/>
-	<MintMark ID="42521" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="6 3 0 3 3 8" MaxAttriValue="67 30 0 30 38 85" Level="100" Max="99" Des="辉光永恒" EffectDes="攻击6/67,防御3/30,特防3/30,速度3/38,体力8/85" MintmarkClass="85" ExtraAttriValue="5 0 0 0 0 5"/>
-	<MintMark ID="42522" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 4 3 3 12" MaxAttriValue="0 30 40 30 30 120" Level="100" Max="99" Des="深渊瞥视" EffectDes="防御3/30,特攻4/40,特防3/30,速度3/30,体力12/120" MintmarkClass="85" ExtraAttriValue="0 0 5 0 0 5"/>
-	<MintMark ID="42523" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 3 0 3 3 12" MaxAttriValue="40 30 0 30 30 120" Level="100" Max="99" Des="恶念缚魂" EffectDes="攻击4/40,防御3/30,特防3/30,速度3/30,体力12/120" MintmarkClass="85" ExtraAttriValue="5 0 0 0 0 5"/>
-	<MintMark ID="42524" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 4 3 4 9" MaxAttriValue="0 35 45 35 42 93" Level="100" Max="99" Des="超限审判" EffectDes="防御3/35,特攻4/45,特防3/35,速度4/42,体力9/93" MintmarkClass="85" ExtraAttriValue="0 5 0 5 0 0"/>
-	<MintMark ID="42525" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 3 0 3 4 9" MaxAttriValue="45 35 0 35 42 93" Level="100" Max="99" Des="时空秩守" EffectDes="攻击4/45,防御3/35,特防3/35,速度4/42,体力9/93" MintmarkClass="85" ExtraAttriValue="0 5 0 5 0 0"/>
+	<MintMark ID="42519" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="2 3 2 3 0 9" MaxAttriValue="25 30 25 30 0 90" MonsterID="4677" Level="100" Max="99" Des="星辰万象·天启星魂专属全能刻印" EffectDes="攻击2/25,防御3/30,特攻 2/25,特防3/30,体力9/90" ExtraAttriValue="0 0 0 0 40 0"/>
+	<MintMark ID="42520" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 6 3 3 8" MaxAttriValue="0 30 67 30 38 85" Level="100" Max="99" Des="大地神迹" EffectDes="防御3/30,特攻6/67,特防3/30,速度3/38,体力8/85" MintmarkClass="85" ExtraAttriValue="0 0 5 0 0 5"/>
+	<MintMark ID="42521" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="6 3 0 3 3 8" MaxAttriValue="67 30 0 30 38 85" Level="100" Max="99" Des="辉光永恒" EffectDes="攻击6/67,防御3/30,特防3/30,速度3/38,体力8/85" MintmarkClass="85" ExtraAttriValue="5 0 0 0 0 5"/>
+	<MintMark ID="42522" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 4 3 3 12" MaxAttriValue="0 30 40 30 30 120" Level="100" Max="99" Des="深渊瞥视" EffectDes="防御3/30,特攻4/40,特防3/30,速度3/30,体力12/120" MintmarkClass="85" ExtraAttriValue="0 0 5 0 0 5"/>
+	<MintMark ID="42523" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 3 0 3 3 12" MaxAttriValue="40 30 0 30 30 120" Level="100" Max="99" Des="恶念缚魂" EffectDes="攻击4/40,防御3/30,特防3/30,速度3/30,体力12/120" MintmarkClass="85" ExtraAttriValue="5 0 0 0 0 5"/>
+	<MintMark ID="42524" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 4 3 4 9" MaxAttriValue="0 35 45 35 42 93" Level="100" Max="99" Des="超限审判" EffectDes="防御3/35,特攻4/45,特防3/35,速度4/42,体力9/93" MintmarkClass="85" ExtraAttriValue="0 5 0 5 0 0"/>
+	<MintMark ID="42525" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 3 0 3 4 9" MaxAttriValue="45 35 0 35 42 93" Level="100" Max="99" Des="时空秩守" EffectDes="攻击4/45,防御3/35,特防3/35,速度4/42,体力9/93" MintmarkClass="85" ExtraAttriValue="0 5 0 5 0 0"/>
 	<MintMark ID="42526" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 3 3 3 8" MaxAttriValue="0 30 35 30 30 80" MonsterID="4678" Level="100" Max="99" Des="迪迦奥特曼专属全能刻印" EffectDes="防御3/30,特攻3/35,特防3/30,速度3/30,体力8/80"/>
 	<MintMark ID="42527" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 4 3 3 8" MaxAttriValue="0 30 40 30 35 80" MonsterID="4679" Level="100" Max="99" Des="赛罗奥特曼专属全能刻印" EffectDes="防御3/30,特攻4/40,特防3/30,速度3/35,体力8/80"/>
 	<MintMark ID="42528" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 4 3 3 8" MaxAttriValue="0 30 40 30 30 85" MonsterID="4680" Level="100" Max="99" Des="贝利亚奥特曼专属全能刻印" EffectDes="防御3/30,特攻4/40,特防3/30,速度3/30,体力8/85"/>
@@ -3708,10 +3637,11 @@
 	<MintMark ID="42534" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="37 22 0 22 32 62" MaxAttriValue="37 22 0 22 32 62" MonsterID="4698" Level="100" Max="99" Des="希尔琳专属全能刻印S" EffectDes="攻击3/37,防御2/22,特防2/22,速度3/32,体力6/62"/>
     <MintMark ID="42535" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 4 2 3 8" MaxAttriValue="0 25 40 25 32 80" MonsterID="4697" Level="100" Max="99" Des="华光之翼·杰洛恩专属全能刻印" EffectDes="特攻4/40,防御2/25,特防2/25,速度3/32,体力8/80"/>
     <MintMark ID="42536" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 6 2 3 8" MaxAttriValue="0 25 65 25 35 85" Level="100" Max="99" MintmarkClass="64" Des="归元诗匣" EffectDes="体力8/85,防御2/25,特攻6/65,特防2/25,速度3/35"/>
-	<MintMark ID="42537" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 5 2 4 9" MaxAttriValue="0 25 50 25 40 95" MonsterID="4706" Level="100" Max="99" Des="奥菲利娅专属全能刻印" EffectDes="防御2/25,特攻5/50,特防2/25,速度4/40,体力9/95" Rarity="3"/>
-	<MintMark ID="42538" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="5 2 0 2 3 10" MaxAttriValue="50 25 0 25 30 105" MonsterID="4714" Level="100" Max="99" Des="古代巨型机器人专属全能刻印" EffectDes="攻击5/50,防御2/25,特防2/25,速度3/30,体力10/105" Rarity="3"/>
+	<MintMark ID="42537" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 5 2 4 9" MaxAttriValue="0 25 50 25 40 95" MonsterID="4706" Level="100" Max="99" Des="奥菲利娅专属全能刻印" EffectDes="防御2/25,特攻5/50,特防2/25,速度4/40,体力9/95"/>
+	<MintMark ID="42538" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="5 2 0 2 3 10" MaxAttriValue="50 25 0 25 30 105" MonsterID="4714" Level="100" Max="99" Des="古代巨型机器人专属全能刻印" EffectDes="攻击5/50,防御2/25,特防2/25,速度3/30,体力10/105"/>
 	<MintMark ID="42539" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 5 2 3 10" MaxAttriValue="0 25 50 25 30 100" MonsterID="4717" Level="100" Max="99" Des="原始黑洞·尤纳斯专属刻印" EffectDes="防御2/25,特攻5/50,特防2/25,速度3/30,体力10/100"/>
 	<MintMark ID="42540" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 5 2 3 11" MaxAttriValue="0 25 55 25 30 115" MonsterID="4717" Level="100" Max="99" Des="原始黑洞·尤纳斯专属刻印α" EffectDes="防御2/25,特攻5/55,特防2/25,速度3/30,体力11/115"/>
+	<MintMark ID="42541" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 4 2 3 9" MaxAttriValue="0 24 40 24 32 95" MonsterID="4721" Level="100" Max="99" Des="黯魂·索比拉特专属全能刻印" EffectDes="防御2/24,特攻4/40,特防2/24,速度3/32,体力9/95"/>
 	<MintMark ID="42542" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="5 3 0 3 4 8" MaxAttriValue="50 33 0 33 40 89" ExtraAttriValue="6 3 0 3 3 0" MintmarkClass="86" Level="100" Max="99" Des="赫星千年·雷神" EffectDes="攻击5/50,防御3/33,特防3/33,速度4/40,体力8/89"/>
 	<MintMark ID="42543" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 5 3 4 8" MaxAttriValue="0 33 50 33 40 89" ExtraAttriValue="0 3 6 3 3 0" MintmarkClass="86" Level="100" Max="99" Des="赫星千年·黎明" EffectDes="防御3/33,特攻5/50,特防3/33,速度4/40,体力8/89"/>
 	<MintMark ID="42544" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="6 3 0 3 3 9" MaxAttriValue="60 30 0 30 33 92" ExtraAttriValue="5 4 0 4 2 0" MintmarkClass="86" Level="100" Max="99" Des="赫星千年·贪妄" EffectDes="攻击6/60,防御3/30,特防3/30,速度3/33,体力9/92"/>
@@ -3720,15 +3650,70 @@
 	<MintMark ID="42547" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 4 2 2 12" MaxAttriValue="0 29 42 29 24 120" ExtraAttriValue="0 3 0 3 0 10" MintmarkClass="86" Level="100" Max="99" Des="赫星千年·虚空" EffectDes="防御2/29,特攻4/42,特防2/29,速度2/24,体力12/120"/>
 	<MintMark ID="42548" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="3 4 0 4 2 9" MaxAttriValue="32 45 0 45 28 95" ExtraAttriValue="0 5 0 5 0 5" MintmarkClass="86" Level="100" Max="99" Des="赫星千年·圣律" EffectDes="攻击3/32,防御4/45,特防4/45,速度2/28,体力9/95"/>
 	<MintMark ID="42549" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 4 3 4 2 9" MaxAttriValue="0 45 32 45 28 95" ExtraAttriValue="0 5 0 5 0 5" MintmarkClass="86" Level="100" Max="99" Des="赫星千年·时界" EffectDes="防御4/45,特攻3/32,特防4/45,速度2/28,体力9/95"/>
-	<MintMark ID="42550" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 3 0 3 4 8" MaxAttriValue="45 30 0 30 40 85" MintmarkClass="87" Level="100" Max="99" Des="赫星奇迹·比比鼠" EffectDes="攻击4/45,防御3/30,特防3/30,速度4/40,体力8/85"/>
-	<MintMark ID="42551" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 4 3 4 8" MaxAttriValue="0 30 45 30 40 85" MintmarkClass="87" Level="100" Max="99" Des="赫星奇迹·果冻鸭" EffectDes="防御3/30,特攻4/45,特防3/30,速度4/40,体力8/85"/>
-	<MintMark ID="42554" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 3 0 3 2 11" MaxAttriValue="42 30 0 30 25 113" MintmarkClass="87" Level="100" Max="99" Des="赫星奇迹·利利" EffectDes="攻击4/42,防御3/30,特防3/30,速度2/25,体力11/113"/>
-	<MintMark ID="42555" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 4 3 2 11" MaxAttriValue="0 30 42 30 25 113" MintmarkClass="87" Level="100" Max="99" Des="赫星奇迹·罗奇" EffectDes="防御3/30,特攻4/42,特防3/30,速度2/25,体力11/113"/>
-
-
-
-
+	<MintMark ID="42550" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 3 0 3 4 8" MaxAttriValue="45 30 0 30 40 85" MintmarkClass="87" Level="100" Max="99" Des="赫星奇迹·比比鼠" EffectDes="攻击4/45,防御3/30,特防3/30,速度4/40,体力8/85"/>
+	<MintMark ID="42551" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 4 3 4 8" MaxAttriValue="0 30 45 30 40 85" MintmarkClass="87" Level="100" Max="99" Des="赫星奇迹·果冻鸭" EffectDes="防御3/30,特攻4/45,特防3/30,速度4/40,体力8/85"/>
+	<MintMark ID="42552" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="6 2 0 2 3 9" MaxAttriValue="60 25 0 25 30 90" MintmarkClass="87" Level="100" Max="99" Des="赫星奇迹·吉斯" EffectDes="攻击6/60,防御2/25,特防2/25,速度3/30,体力9/90"/>
+	<MintMark ID="42553" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 6 2 3 9" MaxAttriValue="0 25 60 25 30 90" MintmarkClass="87" Level="100" Max="99" Des="赫星奇迹·卡塔" EffectDes="防御2/25,特攻6/60,特防2/25,速度3/30,体力9/90"/>
+	<MintMark ID="42554" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 3 0 3 2 11" MaxAttriValue="42 30 0 30 25 113" MintmarkClass="87" Level="100" Max="99" Des="赫星奇迹·利利" EffectDes="攻击4/42,防御3/30,特防3/30,速度2/25,体力11/113"/>
+	<MintMark ID="42555" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 4 3 2 11" MaxAttriValue="0 30 42 30 25 113" MintmarkClass="87" Level="100" Max="99" Des="赫星奇迹·罗奇" EffectDes="防御3/30,特攻4/42,特防3/30,速度2/25,体力11/113"/>
+	<MintMark ID="42556" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="2 4 0 4 2 9" MaxAttriValue="27 44 0 44 25 90" MintmarkClass="87" Level="100" Max="99" Des="赫星奇迹·西塔" EffectDes="攻击2/27,防御4/44,特防4/44,速度2/25,体力9/90"/>
+	<MintMark ID="42557" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 4 2 4 2 9" MaxAttriValue="0 44 27 44 25 90" MintmarkClass="87" Level="100" Max="99" Des="赫星奇迹·奇塔" EffectDes="防御4/44,特攻2/27,特防4/44,速度2/25,体力9/90"/>
+	<MintMark ID="42558" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 3 2 3 7" MaxAttriValue="0 24 36 24 32 75" MonsterID="4735" Level="100" Max="99" Des="紫幽专属全能刻印" EffectDes="防御2/24,特攻4/36,特防2/24,速度3/32,体力9/75"/>
+	<MintMark ID="42559" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 4 3 3 9" MaxAttriValue="0 30 40 30 35 95" MonsterID="4745" Level="100" Max="99" Des="阿尔忒弥斯专属全能刻印" EffectDes="防御3/30,特攻4/40,特防3/30,速度3/35,体力9/95"/>
+	<MintMark ID="42560" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 4 2 3 10" MaxAttriValue="0 27 41 27 30 105" MonsterID="4750" Level="100" Max="99" Des="云境归真·始祖灵兽专属全能刻印" EffectDes="防御2/27,特攻4/41,特防2/27,速度3/30,体力10/105"/>
+	<MintMark ID="42561" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 4 3 3 10" MaxAttriValue="0 35 41 35 30 109" MintmarkClass="61" Level="100" Max="99" Des="纯净泪滴" EffectDes="防御3/35,特攻4/41,特防3/35,速度3/30,体力10/109"/>
+	<MintMark ID="42562" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="3 2 0 2 3 7" MaxAttriValue="37 24 0 24 30 75" MonsterID="4754" Level="100" Max="99" Des="雷弧专属全能刻印" EffectDes="攻击3/37,防御2/24,特防2/24,速度3/30,体力7/75"/>
+    <MintMark ID="42563" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="3 3 0 3 2 12" MaxAttriValue="35 30 0 30 25 120" MintmarkClass="11" Level="100" Max="99" Des="巅峰之战·共庆" EffectDes="攻击3/35,防御3/30,特防3/30,速度2/25,体力12/120"/>
+	<MintMark ID="42564" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="5 2 0 2 4 9" MaxAttriValue="50 28 0 28 41 93" MintmarkClass="11" Level="100" Max="99" Des="巅峰之战·启航" EffectDes="攻击5/50,防御2/28,特防2/28,速度4/41,体力9/93"/>
+	<MintMark ID="42565" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 5 2 4 9" MaxAttriValue="0 28 50 28 41 93" MintmarkClass="11" Level="100" Max="99" Des="巅峰之战·同行" EffectDes="防御2/28,攻击5/50,特防2/28,速度4/41,体力9/93"/>
+	<MintMark ID="42566" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 4 2 3 11" MaxAttriValue="0 25 40 25 35 110" MonsterID="4762" Level="100" Max="99" Des="湮灭之主·咤克斯专属全能刻印" EffectDes="防御2/25,特攻4/40,特防2/25,速度3/35,体力11/110"/>
+	<MintMark ID="42567" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 4 2 4 12" MaxAttriValue="0 25 40 25 40 120" MonsterID="4762" Level="100" Max="99" Des="湮灭之主·咤克斯专属全能刻印α" EffectDes="防御2/25,特攻4/40,特防2/25,速度4/40,体力12/120"/>
+	<MintMark ID="42568" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 3 0 3 4 8" MaxAttriValue="43 32 0 32 40 88" MintmarkClass="88" Level="100" Max="99" Des="珍藏·晶化气泡" EffectDes="攻击4/43,防御3/32,特防3/32,速度4/40,体力8/88"/>
+	<MintMark ID="42569" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 4 3 4 8" MaxAttriValue="0 32 43 32 40 88" MintmarkClass="88" Level="100" Max="99" Des="珍藏·露尼亚矿石" EffectDes="防御3/32,特攻4/43,特防3/32,速度4/40,体力8/88"/>
+	<MintMark ID="42570" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="6 2 0 2 3 8" MaxAttriValue="61 28 0 28 37 81" MintmarkClass="88" Level="100" Max="99" Des="珍藏·露希欧坚刚" EffectDes="攻击6/61,防御2/28,特防2/28,速度3/37,体力8/81"/>
+	<MintMark ID="42571" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 6 2 3 8" MaxAttriValue="0 28 61 28 37 81" MintmarkClass="88" Level="100" Max="99" Des="珍藏·露希之核" EffectDes="防御2/28,特攻6/61,特防2/28,速度3/37,体力8/81"/>
+	<MintMark ID="42572" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="2 4 0 4 2 8" MaxAttriValue="26 49 0 49 25 86" MintmarkClass="88" Level="100" Max="99" Des="珍藏·欧古德矿石" EffectDes="攻击2/26,防御4/49,特防4/49,速度2/25,体力8/86"/>
+	<MintMark ID="42573" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 4 2 4 2 8" MaxAttriValue="0 49 26 49 25 86" MintmarkClass="88" Level="100" Max="99" Des="珍藏·水生海草" EffectDes="防御4/49,特攻2/26,特防4/49,速度2/25,体力8/86"/>
+	<MintMark ID="42574" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="3 3 0 3 2 11" MaxAttriValue="32 30 0 30 28 115" MintmarkClass="88" Level="100" Max="99" Des="珍藏·希罗里矿石" EffectDes="攻击3/32,防御3/30,特防3/30,速度2/28,体力11/115"/>
+	<MintMark ID="42575" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 3 3 2 11" MaxAttriValue="0 30 32 30 28 115" MintmarkClass="88" Level="100" Max="99" Des="珍藏·希欧珊瑚" EffectDes="防御3/30,特攻3/32,特防3/30,速度2/28,体力11/115"/>
+	<MintMark ID="42576" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="6 3 0 3 4 8" MaxAttriValue="60 32 0 32 43 88" MintmarkClass="15" Level="100" Max="99" Des="宿命雷魂" EffectDes="攻击+6/60,防御+3/32,特防+3/32,速度+4/43,体力+8/88"/>
+	<MintMark ID="42577" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="7 3 0 3 3 9" MaxAttriValue="70 30 0 30 30 95" MintmarkClass="15" Level="100" Max="99" Des="宿命战魂" EffectDes="攻击+7/70,防御+3/30,特防+3/30,速度+3/30,体力+9/95"/>
+	<MintMark ID="42578" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="5 2 0 2 3 7" MaxAttriValue="50 25 0 25 35 75" ExtraAttriValue="10 8 0 8 8 11" MintmarkClass="89" Level="100" Max="99" Des="记忆之证·雷伊" EffectDes="攻击5/50,防御2/25,特防2/25,速度3/35,体力7/75"/>
+	<MintMark ID="42579" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 5 2 3 7" MaxAttriValue="0 25 50 25 35 75" ExtraAttriValue="0 8 10 8 8 11" MintmarkClass="89" Level="100" Max="99" Des="记忆之证·回溯" EffectDes="防御2/25,特攻5/50,特防2/25,速度3/35,体力7/75"/>
+	<MintMark ID="42580" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="6 1 0 1 3 8" MaxAttriValue="60 19 0 19 30 82" ExtraAttriValue="10 9 0 9 8 9" MintmarkClass="89" Level="100" Max="99" Des="记忆之证·盖亚" EffectDes="攻击6/60,防御1/19,特防1/19,速度3/30,体力8/82"/>
+	<MintMark ID="42581" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 1 6 1 3 8" MaxAttriValue="0 19 60 19 30 82" ExtraAttriValue="0 9 10 9 8 9" MintmarkClass="89" Level="100" Max="99" Des="记忆之证·敌手" EffectDes="防御1/19,特攻6/60,特防1/19,速度3/30,体力8/82"/>
+	<MintMark ID="42582" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="3 2 0 2 2 12" MaxAttriValue="30 25 0 25 20 120" ExtraAttriValue="13 4 0 4 10 14" MintmarkClass="89" Level="100" Max="99" Des="记忆之证·勇士" EffectDes="攻击3/30,防御2/25,特防2/25,速度2/20,体力12/120"/>
+	<MintMark ID="42583" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 3 2 2 12" MaxAttriValue="0 25 30 25 20 120" ExtraAttriValue="0 4 13 4 10 14" MintmarkClass="89" Level="100" Max="99" Des="记忆之证·魔王" EffectDes="防御2/25,特攻3/30,特防2/25,速度2/20,体力12/120"/>
+	<MintMark ID="42584" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="2 4 0 4 2 8" MaxAttriValue="20 45 0 45 20 80" ExtraAttriValue="5 10 0 10 0 20" MintmarkClass="89" Level="100" Max="99" Des="记忆之证·矿藏" EffectDes="攻击2/20,防御4/45,特防4/45,速度2/20,体力8/80"/>
+	<MintMark ID="42585" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 4 2 4 2 8" MaxAttriValue="0 45 20 45 20 80" ExtraAttriValue="0 10 5 10 0 20" MintmarkClass="89" Level="100" Max="99" Des="记忆之证·琉梦" EffectDes="防御4/45,特攻2/20,特防4/45,速度2/20,体力8/80"/>
+	<MintMark ID="42586" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="6 2 0 2 3 8" MaxAttriValue="60 28 0 28 30 84" MintmarkClass="90" Level="100" Max="99" Des="自在由心·狌" EffectDes="攻击6/60,防御2/28,特防2/28,速度3/30,体力8/84"/>
+	<MintMark ID="42587" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 6 2 3 8" MaxAttriValue="0 28 60 28 30 84" MintmarkClass="90" Level="100" Max="99" Des="自在由心·鼬" EffectDes="防御2/28,特攻6/60,特防2/28,速度3/30,体力8/84"/>
+	<MintMark ID="42588" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 2 0 2 2 11" MaxAttriValue="40 25 0 25 25 115" MintmarkClass="90" Level="100" Max="99" Des="自在由心·豕" EffectDes="攻击4/40,防御2/25,特防2/25,速度2/25,体力11/115"/>
+	<MintMark ID="42589" Type="3" Rare="3" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 4 2 2 11" MaxAttriValue="0 25 40 25 25 115" MintmarkClass="90" Level="100" Max="99" Des="自在由心·鼀" EffectDes="防御2/25,特攻4/40,特防2/25,速度2/25,体力11/115"/>
+	<MintMark ID="42590" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 5 2 3 9" MaxAttriValue="0 25 52 25 38 90" MonsterID="4805" Level="100" Max="99" Des="黄眉怪专属全能刻印" EffectDes="防御2/25,特攻5/52,特防2/25,速度3/38,体力9/90"/>
+	<MintMark ID="42591" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="5 2 0 2 3 8" MaxAttriValue="52 27 0 27 39 85" MonsterID="4808" Level="100" Max="99" Des="讳迹·米修莉专属全能刻印" EffectDes="攻击5/52,防御2/27,特防2/27,速度3/39,体力8/85"/>
+	<MintMark ID="42592" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 2 0 2 3 8" MaxAttriValue="41 23 0 23 34 84" MonsterID="4815" Level="100" Max="99" Des="火箭骑士君专属全能刻印" EffectDes="攻击4/41,防御2/23,特防2/23,速度3/34,体力8/84"/>
+    <MintMark ID="42593" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="5 2 0 2 4 9" MaxAttriValue="56 27 0 27 40 90" MonsterID="4800" Level="100" Max="99" Des="无极圣武专属全能刻印" EffectDes="攻击5/56,防御2/27,特防2/27,速度4/40,体力9/90"/>
+	<MintMark ID="42594" Type="3" Rare="2" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 4 2 3 8" MaxAttriValue="0 25 45 25 30 85" Level="100" Max="99" Des="星火烛燎" EffectDes="防御2/25,特攻4/45,特防2/25,速度3/30,体力8/85" MintmarkClass="61"/>
+	<MintMark ID="42595" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="5 3 0 3 4 9" MaxAttriValue="54 34 0 34 43 95" MintmarkClass="91" Level="100" Max="99" Des="和平星-双鱼座" EffectDes="攻击5/54,防御3/34,特防3/34,速度4/43,体力9/95"/>
+	<MintMark ID="42596" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 5 3 4 9" MaxAttriValue="0 34 54 34 43 95" MintmarkClass="91" Level="100" Max="99" Des="和平星-白羊座" EffectDes="防御3/34,特攻5/54,特防3/34,速度4/43,体力9/95"/>
+	<MintMark ID="42597" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="7 3 0 3 3 9" MaxAttriValue="70 31 0 31 33 95" MintmarkClass="91" Level="100" Max="99" Des="和平星-金牛座" EffectDes="攻击7/70,防御3/31,特防3/31,速度3/33,体力9/95"/>
+	<MintMark ID="42598" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 7 3 3 9" MaxAttriValue="0 31 70 31 33 95" MintmarkClass="91" Level="100" Max="99" Des="和平星-双子座" EffectDes="防御3/31,特攻7/70,特防3/31,速度3/33,体力9/95"/>
+	<MintMark ID="42599" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 2 0 2 2 13" MaxAttriValue="45 29 0 29 26 131" MintmarkClass="91" Level="100" Max="99" Des="和平星-巨蟹座" EffectDes="攻击4/45,防御2/29,特防2/29,速度2/26,体力13/131"/>
+	<MintMark ID="42600" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 2 4 2 2 13" MaxAttriValue="0 29 45 29 26 131" MintmarkClass="91" Level="100" Max="99" Des="和平星-狮子座" EffectDes="防御2/29,特攻4/45,特防2/29,速度2/26,体力13/131"/>
+	<MintMark ID="42601" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="3 5 0 5 2 9" MaxAttriValue="32 55 0 55 23 95" MintmarkClass="91" Level="100" Max="99" Des="和平星-处女座" EffectDes="攻击3/32,防御5/55,特防5/55,速度2/23,体力9/95"/>
+	<MintMark ID="42602" Type="3" Rare="5" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 5 3 5 2 9" MaxAttriValue="0 55 32 55 23 95" MintmarkClass="91" Level="100" Max="99" Des="和平星-天秤座" EffectDes="防御5/55,特攻3/32,特防5/55,速度2/23,体力9/95"/>
+    <MintMark ID="42603" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 3 0 3 2 11" MaxAttriValue="40 30 0 30 25 115" Level="100" Max="99" Des="和平星-天蝎座β" EffectDes="攻击4/40,防御3/30,特防3/30,速度2/25,体力11/115" MintmarkClass="91"/>
+    <MintMark ID="42604" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 2 4 2 0 11" MaxAttriValue="40 25 40 25 0 110" Level="100" Max="99" Des="和平星-蛇夫座β" EffectDes="攻击4/40,防御2/25,特攻4/40,特防2/25,体力11/110" MintmarkClass="91"/>
+    <MintMark ID="42605" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 3 5 3 3 9" MaxAttriValue="0 30 50 30 35 95" Level="100" Max="99" Des="和平星-射手座β" EffectDes="防御3/30,特攻5/50,特防3/30,速度3/35,体力9/95" MintmarkClass="91"/>
+	<MintMark ID="42606" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="5 3 0 3 3 9" MaxAttriValue="50 30 0 30 35 95" Level="100" Max="99" Des="和平星-摩羯座β" EffectDes="攻击5/50,防御3/30,特防3/30,速度3/35,体力9/95" MintmarkClass="91"/>
+    <MintMark ID="42607" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="5 2 5 2 0 9" MaxAttriValue="50 25 50 25 0 90" Level="100" Max="99" Des="和平星-水瓶座β" EffectDes="攻击5/50,防御2/25,特攻5/50,特防2/25,体力9/90" MintmarkClass="91"/>
+	<MintMark ID="42608" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="5 3 0 3 3 9" MaxAttriValue="50 30 0 30 30 90" MonsterID="4829" Level="100" Max="99" Des="卡布达超级形态专属全能刻印" EffectDes="攻击5/50,防御3/30,特防3/30,速度3/30,体力9/90"/>
+	<MintMark ID="42609" Type="3" Rare="1" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="5 2 0 2 3 9" MaxAttriValue="52 25 0 25 38 90" MonsterID="4830" Level="100" Max="99" Des="鲨鱼辣椒超级形态专属全能刻印" EffectDes="攻击5/52,防御2/25,特防2/25,速度3/38,体力9/90"/>
+	<MintMark ID="42610" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="0 4 4 4 2 8" MaxAttriValue="0 40 40 40 20 80" Level="100" Max="99" Des="永噤之夜" EffectDes="防御4/40,特攻4/40,特防4/40,速度2/20,体力8/80" Rarity="3" MintmarkClass="65" ExtraAttriValue="0 5 5 5 0 5"/>
+    <MintMark ID="42611" Type="3" Rare="4" Quality="5" MintmarkLevel="5" Grade="5" BaseHoleNum="1" BaseAttriValue="4 3 0 3 3 12" MaxAttriValue="40 30 0 30 30 120" MintmarkClass="11" Level="100" Max="99" Des="航行6000天" EffectDes="攻击4/40,防御3/30,特防3/30,速度3/30,体力12/120"/>
 	
+
 	<!--刻印铸造碎片-->
 	<MintMark ID="50001" Type="4" SalePrice="10000" Quality="0" MintmarkLevel="0" BaseHoleNum="0" BaseAttriValue="0 0 0 0 0 0" MaxAttriValue="0 0 0 0 0 0" Level="100" MonsterID="" Max="99" Des="小碎片"/>
 	<MintMark ID="50002" Type="4" SalePrice="15000" Quality="0" MintmarkLevel="0" BaseHoleNum="0" BaseAttriValue="0 0 0 0 0 0" MaxAttriValue="0 0 0 0 0 0" Level="100" MonsterID="" Max="99" Des="中碎片"/>
@@ -3749,7 +3734,7 @@
 	<MintmarkClass ID="8" ClassName="阳系列" />
 	<MintmarkClass ID="9" ClassName="雷神崛起" />
 	<MintmarkClass ID="10" ClassName="庆系列" />
-	<MintmarkClass ID="11" ClassName="欢庆系列" />
+	<MintmarkClass ID="11" ClassName="节日欢庆系列" />
 	<MintmarkClass ID="12" ClassName="精灵王系列" />
 	<MintmarkClass ID="13" ClassName="五帝系列" />
 	<MintmarkClass ID="14" ClassName="征战系列" />
@@ -3826,6 +3811,10 @@
 	<MintmarkClass ID="85" ClassName="光与暗系列" />
 	<MintmarkClass ID="86" ClassName="赫星千年系列" />
 	<MintmarkClass ID="87" ClassName="赫星奇迹系列" />
+	<MintmarkClass ID="88" ClassName="露希欧珍藏系列" />
+	<MintmarkClass ID="89" ClassName="露希欧之梦系列" />
+	<MintmarkClass ID="90" ClassName="自在由心系列" />
+	<MintmarkClass ID="91" ClassName="和平星系列" />
 
 
 

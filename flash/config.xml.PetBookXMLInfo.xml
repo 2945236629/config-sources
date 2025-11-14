@@ -213,10 +213,10 @@ Desc:    刻印信息  tips的获得途径文字
 
 <Hotspot><!-- 本周热点 -->
 <item intro="全新精灵上线，快来看看吧！">
-      <place type= "0" ID="4833" ImageID= "4833" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
-	  <!-- <place type= "0" ID="4831" ImageID= "4831" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
-	  <!-- <place type= "0" ID="4832" ImageID= "4832" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
-	  <!-- <place type= "0" ID="4828" ImageID= "4828" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
+      <place type= "0" ID="4834" ImageID= "4834" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
+	  <place type= "0" ID="4835" ImageID= "4835" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
+	  <place type= "0" ID="4836" ImageID= "4836" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
+	  <place type= "0" ID="4837" ImageID= "4837" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/>
 	  <!-- <place type= "0" ID="4829" ImageID= "4829" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
 	  <!-- <place type= "0" ID="4806" ImageID= "4806" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
 	  <!-- <place type= "0" ID="4804" ImageID= "4804" Label= "0"  Redirect="module" Go="app/FinalActivityPanel"/> -->
@@ -255,8 +255,8 @@ Desc:    刻印信息  tips的获得途径文字
       <place type= "0" ID="4641" ImageID= "4641" Label= "0"  Redirect="map|module" Go="1679;app/ValleyExpeditionHatchMainPanel"/>-->
 
 
-      <place type= "1" ID="772" monID="4231" ImageID= "1400772" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
-      <place type= "1" ID="773" monID="3941" ImageID= "1400773" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
+      <place type= "1" ID="774" monID="5000" ImageID= "1400774" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
+      <place type= "1" ID="775" monID="4648" ImageID= "1400775" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/>
 	  <!-- <place type= "1" ID="768" monID="4829" ImageID= "1400768" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/> -->
 	  <!-- <place type= "1" ID="769" monID="4822" ImageID= "1400769" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/> -->
       <!-- <place type= "1" ID="749" monID="4805" ImageID= "1400749" Label= "0" Redirect="module" Go="app/FinalActivityPanel"/> -->
@@ -5063,7 +5063,7 @@ Desc:    刻印信息  tips的获得途径文字
 	<Monster ID="4763" DefName="魇魔" Type="暗影" Height="200" Weight="90" Features="咤克斯的眷属，受到了更强大的力量滋养，已经和曾经的样貌判若两物。" Redirect="module" Go="app/FinalActivityPanel" Target="153201/268"/>
 	<Monster ID="4764" DefName="雁翎" Type="飞行 神秘" Height="162" Weight="48" Features="执笔为剑，不负韶华。高考助力精灵雁翎携祝福来到赛尔号，愿大家如鸿雁凌云，金榜题名。" />
 	<Monster ID="4765" DefName="怒雷神裁·雷伊" Type="电" Height="178" Weight="74" Features="雷伊的千万自我重合为一，在时光之茧中获得了前所未有的极致突破。怒雷神裁·雷伊化作闪电，划破夜空，他是永恒的雷神，带给正义以希望。" Redirect="module" Go="app/FinalActivityPanel" Target="112202"/>
-	<Monster ID="4766" DefName="灭战神决·盖亚" Tyjumptargetpe="战斗" Height="185" Weight="82" Features="盖亚的千万自我重合为一，在时光之茧中获得了前所未有的极致突破。灭战神决·盖亚斗气雄浑，力拔山岳，他是永恒的战神，带给正义以希望。" Redirect="module" Go="app/FinalActivityPanel" Target="112203"/>
+	<Monster ID="4766" DefName="灭战神决·盖亚" Type="战斗" Height="185" Weight="82" Features="盖亚的千万自我重合为一，在时光之茧中获得了前所未有的极致突破。灭战神决·盖亚斗气雄浑，力拔山岳，他是永恒的战神，带给正义以希望。" Redirect="module" Go="app/FinalActivityPanel" Target="112203"/>
 	<Monster ID="4767" DefName="露尼亚" Type="地面 战斗" Height="49.3" Weight="24.7" Features="露尼亚是从琉梦的记忆之中诞生的矿石之灵。露尼亚天真活泼，渴望遇到新的伙伴。" Redirect="module" Go="app/FinalActivityPanel" Target="400006"/>
 	<Monster ID="4768" DefName="欧古德" Type="地面 超能" Height="53.5" Weight="26.4" Features="欧古德是从琉梦的记忆之中诞生的矿石之灵。新生的欧古德喜欢幻想，但也对这个世界充满了胆怯。" Redirect="module" Go="app/FinalActivityPanel" Target="400006"/>
 	<Monster ID="4769" DefName="希罗里" Type="地面 神秘" Height="63.7" Weight="29.3" Features="希罗里是从琉梦的记忆之中诞生的矿石之灵。希罗里有一双坚硬的大拳头，坏脾气的它心中充满了正义感。" Redirect="module" Go="app/FinalActivityPanel" Target="400006"/>
@@ -5131,5 +5131,9 @@ Desc:    刻印信息  tips的获得途径文字
 	<Monster ID="4831" DefName="蝎子莱莱" Type="地面 暗影" Height="173" Weight="65" Features="蝎子莱莱是B系列中的4号机，他平时饮酒为乐，对待身边的朋友特别真诚。" Redirect="module" Go="app/FinalActivityPanel" Target="113060"/>
 	<Monster ID="4832" DefName="杜兰杜兰" Type="光 暗影" Height="164" Weight="41" Features="2025包月精灵，赫星童话之《目不可及》，故事讲述的是一位有着奇怪罕见病“隐形病”的女高中生，如何成为“隐形怪盗”这一传奇般的都市传说的。" Redirect="module" Go="app/FinalActivityPanel" Target="120000"/>
 	<Monster ID="4833" DefName="蟑螂恶霸" Type="暗影 战斗" Height="156" Weight="78" Features="蟑螂恶霸是B系列中的8号机，他的行为粗暴，外表看起来很邪恶，但其实有着一颗温柔浪漫的心。" Redirect="module" Go="app/FinalActivityPanel" Target="113061"/>
+	<Monster ID="4834" DefName="重装·派鲁基达" Type="机械" Height="225" Weight="102" Features="由派特博士改款的重装·派鲁基达，造型拉风，实力强劲。是陪伴在赛尔身边的得力帮手。" Redirect="module" Go="app/FinalActivityPanel" Target="153201/338"/>
+	<Monster ID="4835" DefName="烟火派派" Type="火 机械" Height="124" Weight="36" Features="由派特博士改款的烟火派派，加装了针对庆典相关工作的功能与装备。" Redirect="module" Go="app/FinalActivityPanel" Target="114012"/>
+	<Monster ID="4836" DefName="观星派派" Type="水 机械" Height="128" Weight="35" Features="由派特博士改款的观星派派，加装了针对宇宙探索工作的功能与装备。" Redirect="module" Go="app/FinalActivityPanel" Target="114012"/>
+	<Monster ID="4837" DefName="保姆派派" Type="草 机械" Height="119" Weight="33" Features="由派特博士改款的保姆派派，加装了针对苏摩保育工作的功能与装备。" Redirect="module" Go="app/FinalActivityPanel" Target="114004"/>
 
 </root>

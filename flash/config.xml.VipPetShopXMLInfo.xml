@@ -122,9 +122,15 @@
 -->
 
 	<!--20251010第19期-->
-<Pet PetId="3365" Price="298" productID="261983" MiditemId="1727477" LimitLv="5" TimeId="1001" TimeSubId="19" IsExtra="1" NewSe="2589" MintmarkId="40927" Turn="0" desc="" JudgeType="1" ForeverKey="0" ForeverHalfPos="0" />
-<Pet PetId="3379" Price="198" productID="261984" MiditemId="1727478" LimitLv="5" TimeId="1001" TimeSubId="19" IsExtra="1" NewSe="2599" MintmarkId="40939" Turn="0" desc="" JudgeType="1" ForeverKey="0" ForeverHalfPos="0" />
-<Pet PetId="4009" Price="198" productID="261985" MiditemId="1727479" LimitLv="5" TimeId="1001" TimeSubId="19" IsExtra="1" NewSe="5535" MintmarkId="41770" Turn="0" desc="" JudgeType="1" ForeverKey="0" ForeverHalfPos="0" />
+<!-- <Pet PetId="3365" Price="298" productID="261983" MiditemId="1727477" LimitLv="5" TimeId="1001" TimeSubId="19" IsExtra="1" NewSe="2589" MintmarkId="40927" Turn="0" desc="" JudgeType="1" ForeverKey="0" ForeverHalfPos="0" /> -->
+<!-- <Pet PetId="3379" Price="198" productID="261984" MiditemId="1727478" LimitLv="5" TimeId="1001" TimeSubId="19" IsExtra="1" NewSe="2599" MintmarkId="40939" Turn="0" desc="" JudgeType="1" ForeverKey="0" ForeverHalfPos="0" /> -->
+<!-- <Pet PetId="4009" Price="198" productID="261985" MiditemId="1727479" LimitLv="5" TimeId="1001" TimeSubId="19" IsExtra="1" NewSe="5535" MintmarkId="41770" Turn="0" desc="" JudgeType="1" ForeverKey="0" ForeverHalfPos="0" /> -->
+
+	<!--20251114第20期-->
+<Pet PetId="3479" Price="198" productID="262019" MiditemId="1727540" LimitLv="5" TimeId="1001" TimeSubId="20" IsExtra="1" NewSe="2714" MintmarkId="41072" Turn="0" desc="" JudgeType="1" ForeverKey="0" ForeverHalfPos="0" />
+<Pet PetId="3352" Price="398" productID="262020" MiditemId="1727541" LimitLv="5" TimeId="1001" TimeSubId="20" IsExtra="1" NewSe="2577" MintmarkId="40899" Turn="0" desc="" JudgeType="1" ForeverKey="0" ForeverHalfPos="0" />
+<Pet PetId="3300" Price="198" productID="262021" MiditemId="1727542" LimitLv="5" TimeId="1001" TimeSubId="20" IsExtra="1" NewSe="2518" MintmarkId="40839" Turn="0" desc="" JudgeType="1" ForeverKey="0" ForeverHalfPos="0" />
+
 
 </root>
 

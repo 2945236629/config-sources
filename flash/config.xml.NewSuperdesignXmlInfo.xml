@@ -13097,6 +13097,53 @@
         </Stat>
     </Design>
 	
+	    <Design ID="220" TimeFlag="" Desc="20251114 S-重装·派鲁基达">
+        <Rules>
+            <Rule ID="1" MouldID="1" Args="" UserInfo="301960 301961 301962 301963 301964 301965 301966 301967 301968 301969 301970 301971 301972 301973 301974 301975 301976 301977 301978 301979 301980 301981 301982 301983" CheckTips="本关卡在挑战中，不可重复上阵（出战背包派出过的）精灵" FailTips="" RepeatTips="背包内以下精灵放入过出战背包，不可重复出战：\n{0}"/>
+            <Rule ID="2" MouldID="2" Args="6" UserInfo="" CheckTips="每场battle需要在6回合内击败BOSS，否则battle按失败结算" FailTips="很抱歉，战斗未在6回合内结束，结算为失败！"/>
+            <Rule ID="3" MouldID="3" Args="3022 4463 3221" UserInfo="" CheckTips="本关卡不可使用精灵：王之哈莫、斯克鲁恩、四九圣尊（特训）" FailTips=""/>
+            <Rule ID="4" MouldID="4" Args="100" UserInfo="" CheckTips="出战精灵需等于100级" FailTips=""/>
+            <Rule ID="5" MouldID="5" Args="3" UserInfo="301984" CheckTips="关卡挑战中的对战累计失败次数＞3次，则本轮关卡挑战自动放弃" FailTips="很抱歉，本关卡中对战累计失败次数已大于3次，挑战失败！"/>
+            <Rule ID="6" MouldID="6" Args="3" UserInfo="301985" CheckTips="一天之内连续胜利此难度关卡3次，即可解锁本关卡扫荡功能（需要连续胜利，不可中断）" FailTips=""/>
+            <Rule ID="7" MouldID="7" Args="" UserInfo="" CheckTips="通关地狱难度则发放成就" FailTips=""/>
+        </Rules>
+        <Achievement BranchID="172" RuleID="2" ReachRuleID="7"/>
+        <Reward ItemID="2400527" MonsterID="4834" MintMarkID="" MoveID="1" NewSeId="6326" GainValue="126138"/>
+        <Configure Exchange_pet="" Exchange_mintmark="" Exchange_moves="" Exchange_newse="" Times="3" ProgressValue="301986" TimeValue="301987" FailTimes="301984" ExchangeID="14634 14635 14636" ExchangeProductID="262022 262027 262023"/>
+        <EasyBattle Out="12" RuleID="" TaskStyle="1" BattleCnt="5" Desc="依次战胜Battle1-5即可通关">
+            <Task ID="1" BattleBoss="4695" BattleType="2" Battlelevel="1" BossID="1003244" Desc="【简单的敌人，先制+1】"/>
+            <Task ID="2" BattleBoss="4711" BattleType="2" Battlelevel="2" BossID="1003245" Desc="【普通的敌人，先制+1，每回合附加一定固定伤害】"/>
+            <Task ID="3" BattleBoss="4731" BattleType="1" Battlelevel="2" BossID="1003246" Desc="【普通的敌人，先制+2，每回合附加一定固定伤害，每回合必定打出致命一击】"/>
+            <Task ID="4" BattleBoss="4744" BattleType="2" Battlelevel="3" BossID="1003247" Desc="【普通的敌人，先制+3，每回合附加一定固定伤害，每回合消除对手回合类效果，每回合消除对手能力提升状态】"/>
+            <Task ID="5" BattleBoss="4834" BattleType="2" Battlelevel="3" BossID="1003248" Desc="【有点难的敌人，先制+3，每回合附加一定固定伤害，无法探知其他能力】"/>
+        </EasyBattle>
+        <NormalBattle Out="18" RuleID="2 1" TaskStyle="1" BattleCnt="5" Desc="依次战胜Battle1-5即可通关">
+            <Task ID="1" BattleBoss="4695" BattleType="2" Battlelevel="3" BossID="1003249" Desc="【有点难的敌人，先制+3，闪避率提升了许多，每回合提升自身全部能力值，每回合必定打出致命一击】"/>
+            <Task ID="2" BattleBoss="4711" BattleType="2" Battlelevel="4" BossID="1003250" Desc="【较难的敌人，先制+3，每回合附加一定固定伤害，每回合提升自身全部能力值，体力过低时恢复所有体力】"/>
+            <Task ID="3" BattleBoss="4731" BattleType="1" Battlelevel="4" BossID="1003251" Desc="【较难的敌人，先制+6，每回合消除对手回合类效果，无法探知其他能力】"/>
+            <Task ID="4" BattleBoss="4744" BattleType="2" Battlelevel="5" BossID="1003252" Desc="【十分困难的敌人，每回合附加一定固定伤害，每回合消除对手回合类效果，无法探知其他能力】"/>
+            <Task ID="5" BattleBoss="4834" BattleType="2" Battlelevel="5" BossID="1003253" Desc="【十分困难的敌人，对手无法使用属性技能，无法探知其他能力】"/>
+        </NormalBattle>
+        <HardBattle Out="36" RuleID="1 3 4 5" TaskStyle="1" BattleCnt="5" Desc="依次战胜Battle1-5即可通关">
+            <Task ID="1" BattleBoss="4695" BattleType="2" Battlelevel="4" BossID="1003254" Desc="【较难的敌人，必定先手，免疫瞬杀，对手无法使用属性技能，每回合附加一定固定伤害，无法探知其他能力】"/>
+            <Task ID="2" BattleBoss="4711" BattleType="2" Battlelevel="4" BossID="1003255" Desc="【较难的敌人，必定先手，免疫瞬杀，对手无法使用属性技能，每回合附加一定固定伤害，无法探知其他能力】"/>
+            <Task ID="3" BattleBoss="4731" BattleType="1" Battlelevel="5" BossID="1003256" Desc="【十分困难的敌人，对手无法使用属性技能，每回合附加一定固定伤害，无法探知其他能力】"/>
+            <Task ID="4" BattleBoss="4744" BattleType="2" Battlelevel="6" BossID="1003257" Desc="【极难的敌人，无法探知能力】"/>
+            <Task ID="5" BattleBoss="4834" BattleType="2" Battlelevel="6" BossID="1003258" Desc="【极难的敌人，无法探知能力】"/>
+        </HardBattle>
+        <Sweep ItemID="1400153_2500005_1727545 1400153_2500005_1727546 1400153_2500005_1727547" ProductID="0_0_262024 0_0_262025 0_0_262026" RuleID="6 6 6"/>
+        <Stat>
+            <Battle Start="2511130600" Finish="2511130603" Abandon="2511130606"/>
+            <Exchange Monster="" Mintmark="" NewSe="" Move=""/>
+            <Task>
+                <Easy Win="2511130610" Fail="2511130625"/>
+                <Normal Win="2511130615" Fail="2511130630"/>
+                <Hard Win="2511130620" Fail="2511130635"/>
+            </Task>
+            <Sweep Unlock="2511130640" Finish="2511130643"/>
+            <Achievement Get=""/>
+        </Stat>
+    </Design>
 	
 	
 </Root>
