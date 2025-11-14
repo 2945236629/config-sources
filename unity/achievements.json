@@ -2553,6 +2553,75 @@
                 "is_single": 0
               }
             ]
+          },
+          {
+            "branch": [
+              {
+                "text": "",
+                "desc": "循星之旅",
+                "rule": [
+                  {
+                    "abtext": "",
+                    "ach_name": "起航500天纪念",
+                    "desc": "参与循星之旅-累积航行500天获得",
+                    "threshold": "1",
+                    "title": "",
+                    "title_color": "",
+                    "ability_title": 0,
+                    "achievement_point": 5,
+                    "hide": 0,
+                    "id": 1,
+                    "proicon": 1449,
+                    "spe_name_bonus": 0
+                  },
+                  {
+                    "abtext": "",
+                    "ach_name": "起航1000天纪念",
+                    "desc": "参与循星之旅-累积航行1000天获得",
+                    "threshold": "2",
+                    "title": "",
+                    "title_color": "",
+                    "ability_title": 0,
+                    "achievement_point": 10,
+                    "hide": 0,
+                    "id": 2,
+                    "proicon": 1449,
+                    "spe_name_bonus": 0
+                  },
+                  {
+                    "abtext": "",
+                    "ach_name": "起航2000天纪念",
+                    "desc": "参与循星之旅-累积航行2000天获得",
+                    "threshold": "3",
+                    "title": "",
+                    "title_color": "",
+                    "ability_title": 0,
+                    "achievement_point": 20,
+                    "hide": 0,
+                    "id": 3,
+                    "proicon": 1449,
+                    "spe_name_bonus": 0
+                  },
+                  {
+                    "abtext": "",
+                    "ach_name": "起航3000天纪念",
+                    "desc": "参与循星之旅-累积航行3000天获得",
+                    "threshold": "4",
+                    "title": "起航3000天纪念",
+                    "title_color": "0xFFFFFF",
+                    "ability_title": 0,
+                    "achievement_point": 30,
+                    "hide": 0,
+                    "id": 4,
+                    "proicon": 1449,
+                    "spe_name_bonus": 560
+                  }
+                ],
+                "id": 173,
+                "is_show_pro": 0,
+                "is_single": 0
+              }
+            ]
           }
         ],
         "desc": "赛尔类",
@@ -8219,6 +8288,20 @@
                     "id": 1,
                     "proicon": 1446,
                     "spe_name_bonus": 557
+                  },
+                  {
+                    "abtext": "",
+                    "ach_name": "钢铁意志",
+                    "desc": "通关S-重装·派鲁基达【地狱难度】关卡获得",
+                    "threshold": "2",
+                    "title": "钢铁意志",
+                    "title_color": "0xFFFFFF",
+                    "ability_title": 0,
+                    "achievement_point": 10,
+                    "hide": 0,
+                    "id": 2,
+                    "proicon": 1448,
+                    "spe_name_bonus": 559
                   }
                 ],
                 "id": 172,
@@ -17614,6 +17697,34 @@
                     "id": 22,
                     "proicon": 1423,
                     "spe_name_bonus": 549
+                  },
+                  {
+                    "abtext": "",
+                    "ach_name": "星海引航员",
+                    "desc": "参与活动【星海归航】获取",
+                    "threshold": "23",
+                    "title": "星海引航员",
+                    "title_color": "0xFFFFFF",
+                    "ability_title": 0,
+                    "achievement_point": 10,
+                    "hide": 0,
+                    "id": 23,
+                    "proicon": 1450,
+                    "spe_name_bonus": 561
+                  },
+                  {
+                    "abtext": "",
+                    "ach_name": "六千昼夜",
+                    "desc": "参与活动【航行橱窗】获取",
+                    "threshold": "24",
+                    "title": "六千昼夜",
+                    "title_color": "0xFFFFFF",
+                    "ability_title": 0,
+                    "achievement_point": 10,
+                    "hide": 0,
+                    "id": 24,
+                    "proicon": 1451,
+                    "spe_name_bonus": 562
                   }
                 ],
                 "id": 166,
